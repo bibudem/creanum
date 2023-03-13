@@ -19,7 +19,7 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: apt-get install pngquant
+      - run: pip install pngquant
       - run: pip install mkdocs-video
       - run: pip install mkdocs-glightbox
       - run: pip install git+https://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@github.com/squidfunk/mkdocs-material-insiders.git
