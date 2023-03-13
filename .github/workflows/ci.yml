@@ -22,7 +22,7 @@ jobs:
       - run: pip install pngquant
       - run: pip install mkdocs-video
       - run: pip install mkdocs-glightbox
-      - run: pip install git+https://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@github.com/squidfunk/mkdocs-material-insiders.git
+      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --force
 env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }} 
