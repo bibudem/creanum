@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block announce %}
+<div style="color: white;">
+  <a href="https://bib.umontreal.ca/" style="color: #07e798;">
+    <strong>Inscrivez-vous</strong>
+  </a> à notre prochaine formation en impression 3D
+  
+</div>
+
+<!-- <div style="color: white;">
+    Looking for the 
+    <a href="http://docs-v1.prefect.io/" style="color: #07e798;">
+      <strong>Prefect 1 docs</strong>
+    </a> for Prefect 1 Core and Server? Find them at: 
+    <a href="http://docs-v1.prefect.io/" style="color: #07e798;">
+      <strong>http://docs-v1.prefect.io/</strong>
+    </a>
+  </div> -->
+{% endblock %}
+
+{% block footer %}
+  <footer class="md-footer">
+    <div class="md-footer-meta__inner md-grid">
+
+      <div class="md-copyright">
+
+        {% if config.extra.social %}
+          {% include "partials/social.html" %}
+        {% endif %}
+
+        <img alt="CC-BY-4.0" src="{{ 'assets/images/CCBY.png' |url }}" >
+        Sauf indications contraires, les contenus de ce wiki créé par les 
+        <a
+            href="https://www.bib.umontreal.ca"
+            target="_blank" rel="noopener"
+        >
+            Bibliothèques UdeM</a>
+        sont sous
+        <a
+            href="https://www.bib.umontreal.ca"
+            target="_blank" rel="noopener"
+        >
+            licence CC BY 4.0.</a>
+      <br>
+      </br>
+        <a
+            href="https://bib.umontreal.ca/conditions-bibliotheques"
+            target="_blank" rel="noopener"
+        >
+            Conditions d'utilisation</a>
+             - 
+        <a
+             href="https://secretariatgeneral.umontreal.ca/protection-et-acces-a-linformation/complement-dinformation-sur-la-confidentialite/"
+             target="_blank" rel="noopener"
+         >
+            Confidentialité</a>
+            -
+        <a
+            href="https://bibudem.github.io/wiki/accessibilite"
+            target="_blank" rel="noopener"
+        >
+            Accessibilité</a>
+      
+        
+      
+      
+      </div>
+
+      <div class="md-copyright">
+        <a 
+          href="https://www.umontreal.ca"
+          target="_blank" rel="noopener">
+          <img alt="Site officiel de l'Université de Montréal" src="{{ 'assets/images/logoudem.svg' | url }}" width=120px;>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+{% endblock %}

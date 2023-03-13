@@ -1,0 +1,40 @@
+INHERIT: mkdocs.yml
+
+plugins:
+  - search
+#  - optimize:
+#      enabled: !ENV [CI, false]
+#  - social:
+#      cards_font: Open Sans
+#      cards_color:
+#        fill: "#0057ac" 
+#        text: "#FFFFFF"
+  - table-reader
+  - blog:
+      blog_dir: projets
+      blog_toc: true
+      categories_toc: true
+      post_slugify_separator: "-"
+      archive: false
+      post_url_format: "{categories}/{slug}"
+      post_url_max_categories: 2
+      post_excerpt: required
+      authors_file: projets/.authors.yml
+      post_readtime: false
+      categories_allowed:
+        - Réalisation
+        - Impression 3D
+        - Arduino
+        - Raspberry Pi
+        - Baladodiffusions
+#  - git-revision-date-localized:
+#      enable_creation_date: true
+#      enabled: !ENV [CI, false]
+  - glightbox
+  - mkdocs-video :
+      mark: "video"
+      css_style:
+        width: "100%"
+        height: "22.172vw"
+      video_autoplay: false
+      

@@ -1,0 +1,188 @@
+site_name: Wiki CréaNum
+site_author: Les Bibliothèques UdeM
+site_url: https://bibudem.github.io/wiki/
+site_description: Documentation et projets en création numérique
+
+# Github
+repo_name: bibcn/wiki
+repo_url: https://github.com/bibudem/wiki
+
+theme:
+  language: fr
+  name: material
+  custom_dir: overrides
+  font:
+    text: Open Sans
+    code: JetBrains Mono
+    font: false
+  logo: assets/logo/logo-web.png
+  favicon: assets/logo/favicon.ico
+  icon:
+    edit: material/pencil 
+    view: material/eye
+  palette: 
+
+    # light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Passer en mode sombre
+
+    # dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Passer en mode clair
+  
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+#   - navigation.expand
+    - navigation.path
+    - navigation.indexes  
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - announce.dismiss
+    - navigation.footer
+    - content.code.copy
+    - content.code.select
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.tooltips
+
+
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.keys
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - toc:
+      permalink: ⚓︎
+      permalink_title: Lien permanent vers cette section
+      toc_depth: 2
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+extra_css:
+  - stylesheets/styleudem.css
+  
+
+extra:
+  generator: false
+  analytics: 
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/wikicn
+      name: CréaNum sur Github
+
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/bibudem
+      name: Les Bibliothèques UdeM sur Twitter
+
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/bibudem
+      name: Les Bibliothèques UdeM sur Facebook
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<creanum@bib.umontreal.ca>
+      name: Courriel
+
+
+
+nav:
+  - Accueil: index.md
+  - Documentation: 
+    - documentation/index.md
+    - Impression 3D: 
+      - Introduction:
+        - Guide de l'impression 3D: documentation/impression3d/introduction.md
+        - Où trouver des modèles: documentation/impression3d/modeles.md
+        - Logiciels de modélisation : documentation/impression3d/logiciels.md
+        - Réparer la première couche d'un modèle: documentation/impression3d/reparer.md
+        - Créer un modèle 3D à partir d'une image: documentation/impression3d/creer-modele-image.md
+        - FAQ: documentation/impression3d/faq.md
+      - Prusa i3 Mk3s+: documentation/impression3d/prusa.md
+#        - Présentation de l'imprimante: documentation/impression3d/prusa/presentation.md
+#        - Configuration du logiciel PrusaSlicer: documentation/impression3d/prusa/prusaslicer.md
+#        - Changement de filament: documentation/impression3d/prusa/filament.md
+#        - Première impression: documentation/impression3d/prusa/impression.md
+#        - Changer la buse: documentation/impression3d/prusa/buse.md
+      - Ultimaker 2/S3:
+        - Présentation des imprimantes: documentation/impression3d/um/presentation.md
+        - Configuration du logiciel PrusaSlicer: documentation/impression3d/um/cura.md
+        - Changement de filament: documentation/impression3d/um/filament.md
+        - Première impression: documentation/impression3d/um/impression.md
+      - Zortrax Inkspire:
+        - Présentation de L'imprimante: documentation/impression3d/zi/presentation.md
+        - Utilisation de la résine synthétique: documentation/impression3d/zi/resine.md
+        - Configuration du logiciel Zortrax Inkspire: documentation/impression3d/zi/slicer.md
+        - Première impression: documentation/impression3d/zi/impression.md
+        - Nettoyeur à ultrasons: documentation/impression3d/zi/ultrasons.md
+    - Électroniques:
+      - Arduino:
+        - Guide de démarrage: documentation/electronique/arduino/guide.md
+        - Anatomie: documentation/electronique/arduino/anatomie.md
+        - Connecter un shield Wemos: documentation/electronique/arduino/shield.md
+      - Raspberry Pi:
+        - Première configuration: documentation/electronique/rp/config.md
+        - Commande utile: documentation/electronique/rp/commande.md
+        - Connexion au réseau: documentation/electronique/rp/reseau.md
+      - Internet des Objets:
+        - Arduino IDE pour l'ESP8266: documentation/electronique/iot/arduino.md
+        - Connecter un ESP à Blynk: documentation/electronique/iot/blynk.md
+        - Les modes de veille du ESP 8266: documentation/electronique/iot/veille.md
+    - Réalité virtuelle:
+      - Mise en garde: documentation/vr/mises-en-garde.md
+      - Casque Oculus GO:
+        - Guide d'utilisation: documentation/vr/oculus-go.md
+        - Catalogue d'expériences immersives: documentation/vr/catalogue.md
+        - FAQ: documentation/vr/faq.md
+    - Production Audio/Vidéo: 
+      - Guide Baladodiffusion: documentation/production-audio-video/guide-balado.md
+  - Projets: 
+    - projets/index.md
+  - Logiciels: logiciels/index.md
+  - Équipements: equipements/index.md
+  - Communauté: communaute.md
+  - À propos:
+    - Objectifs et philosophie: a-propos/objectifs.md
+    - L'équipe CréaNum: a-propos/equipe.md
+    - Nous joindre: a-propos/nous-joindre.md
+
