@@ -2,7 +2,7 @@ INHERIT: mkdocs.yml
 
 plugins:
   - search
-#  - optimize:
+  - optimize
 #      enabled: !ENV [CI, false]
 #  - social:
 #      cards_font: Open Sans
