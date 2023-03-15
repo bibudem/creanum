@@ -27,6 +27,6 @@ jobs:
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-table-reader-plugin
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy --force --config-file mkdocs.insiders.yml
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
