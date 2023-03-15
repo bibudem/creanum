@@ -29,6 +29,11 @@ Installer les dépendances avec pip :
 pip install mkdocs-video mkdocs-glightbox mkdocs-table-reader-plugin
 ```
 
+et enfin Material for Mkdocs :
+``` sh
+pip install mkdocs-material
+```
+
 Si vous voulez lancer un aperçu en local, il faut désactiver certains plugins de la version *Insiders* dans le fichier mkdocs.insiders.yml :
 ``` yaml
 # - blog
