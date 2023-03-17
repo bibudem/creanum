@@ -52,7 +52,6 @@ Nous serions ravis d’écouter votre création et de la mettre en avant dans la
 
 Vous pouvez prendre rendez-vous avec un membre de notre équipe pour une consultation individuelle en ligne ou sur place. 
 
-
 [Consultation Bibliothèque des sciences](https://outlook.office365.com/owa/calendar/Bibliothquedessciences@Udemontreal.onmicrosoft.com/bookings/s/3hWeLYTrk0KYyl-e4bQcxw2){ .md-button .md-button--primary }
 
 [Consultation Bibliothèque mathématiques et informatique](https://outlook.office365.com/owa/calendar/Bibliothquedemathmatiquesetinformatique@Udemontreal.onmicrosoft.com/bookings/){ .md-button .md-button--primary }

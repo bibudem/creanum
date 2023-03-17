@@ -21,14 +21,13 @@ theme:
     edit: material/pencil 
     view: material/eye
     repo: fontawesome/brands/github
+  
   palette: 
-
     # light mode
     - scheme: default
       toggle:
         icon: material/lightbulb
         name: Passer en mode sombre
-
     # dark mode
     - scheme: slate
       toggle:
@@ -41,7 +40,7 @@ theme:
     - navigation.tabs
 #   - navigation.tabs.sticky
     - navigation.sections
-#   - navigation.expand
+    - navigation.expand
     - navigation.prune
     - navigation.path
     - navigation.indexes  
@@ -143,14 +142,8 @@ nav:
       - Ultimaker 2/S3: documentation/impression3d/ultimaker.md
       - Zortrax Inkspire: documentation/impression3d/zortrax.md
     - Électroniques:
-      - Arduino:
-        - Guide de démarrage: documentation/electronique/arduino/guide.md
-        - Anatomie: documentation/electronique/arduino/anatomie.md
-        - Connecter un shield Wemos: documentation/electronique/arduino/shield.md
-      - Raspberry Pi:
-        - Première configuration: documentation/electronique/rp/config.md
-        - Commande utile: documentation/electronique/rp/commande.md
-        - Connexion au réseau: documentation/electronique/rp/reseau.md
+      - Arduino: documentation/electronique/arduino.md
+      - Raspberry Pi: documentation/electronique/raspberrypi.md
       - Internet des Objets:
         - Arduino IDE pour l'ESP8266: documentation/electronique/iot/arduino.md
         - Connecter un ESP à Blynk: documentation/electronique/iot/blynk.md
@@ -164,7 +157,15 @@ nav:
     - Production Audio/Vidéo:
       - Audio: 
         - Guide Baladodiffusion: documentation/production-audio-video/guide-balado.md
-        - RodeCaster Pro : documentation/production-audio-video/rodecasterpro.md
+        - RodeCaster Pro : documentation/production-audio-video/rodecasterpro.md  
+      - Vidéo:
+        - Guide de l'enregisrement vidéo: documentation/production-audio-video/guide-video.md
+        - OBS : documentation/production-audio-video/obs.md
+      - Édition:
+        - ffmpeg : documentation/production-audio-video/ffmpeg.md
+        - Adobe Premiere Pro : documentation/production-audio-video/premierepro.md
+        - Audacity : documentation/production-audio-video/audacity.md
+        - Adobe Audition : documentation/production-audio-video/audacity.md
   - Projets: 
     - projets/index.md
   - Logiciels: logiciels/index.md

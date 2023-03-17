@@ -1,1 +1,7 @@
+---
+hide :
+    -toc
+    -footer
+---
+
 # Documentation

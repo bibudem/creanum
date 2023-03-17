@@ -33,7 +33,7 @@ a:hover, a:focus {
 /* Couleurs du mode sombre */
 [data-md-color-scheme=slate] {
   --md-typeset-a-color: #ffca40;
-  --md-accent-fg-color: #ffca40;
+  --md-accent-fg-color: #ffffff;
   --md-default-fg-color--light: #ffffff;
 }
 
