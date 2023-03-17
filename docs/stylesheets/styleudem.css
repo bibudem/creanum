@@ -26,7 +26,6 @@ a:hover, a:focus {
   opacity: .9;
 }
 
-
 .md-header__title {
   line-height: 3.25em;
 }
@@ -42,4 +41,8 @@ a:hover, a:focus {
 .md-typeset .md-button:hover {
   background-color: #0b113a;
   border-color : #0b113a;
+}
+
+.md-social {
+  margin: 0.7rem;
 }
