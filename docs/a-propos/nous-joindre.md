@@ -2,6 +2,7 @@
 hide: 
   - toc
   - footer
+  - feedback
 icon: octicons/mail-24
 ---
 
