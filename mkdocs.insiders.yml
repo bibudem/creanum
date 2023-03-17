@@ -32,9 +32,10 @@ plugins:
         - Raspberry Pi
         - Baladodiffusions
 
-#  - git-revision-date-localized:
-#      enable_creation_date: true
-#      enabled: !ENV [CI, false]
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: !ENV [CI, false]
+      type: date
 
   - glightbox
   - mkdocs-video :

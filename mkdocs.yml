@@ -20,6 +20,7 @@ theme:
   icon:
     edit: material/pencil 
     view: material/eye
+    repo: fontawesome/brands/github
   palette: 
 
     # light mode
@@ -38,9 +39,10 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
+#   - navigation.tabs.sticky
     - navigation.sections
 #   - navigation.expand
+    - navigation.prune
     - navigation.path
     - navigation.indexes  
     - toc.follow
@@ -52,7 +54,6 @@ theme:
     - content.code.copy
     - content.code.select
     - content.action.edit
-    - content.action.view
     - content.code.annotate
     - content.tooltips
 
@@ -83,10 +84,10 @@ markdown_extensions:
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - javascripts/tablesort.js
+  - assets/javascripts/tablesort.js
 
 extra_css:
-  - stylesheets/styleudem.css
+  - assets/stylesheets/styleudem.css
   
 
 extra:
@@ -133,28 +134,14 @@ nav:
     - Impression 3D: 
       - Introduction:
         - Guide de l'impression 3D: documentation/impression3d/introduction.md
-        - Où trouver des modèles: documentation/impression3d/modeles.md
+        - Trouver des modèles: documentation/impression3d/modeles.md
         - Logiciels de modélisation : documentation/impression3d/logiciels.md
         - Réparer la première couche d'un modèle: documentation/impression3d/reparer.md
         - Créer un modèle 3D à partir d'une image: documentation/impression3d/creer-modele-image.md
         - FAQ: documentation/impression3d/faq.md
       - Prusa i3 Mk3s+: documentation/impression3d/prusa.md
-#        - Présentation de l'imprimante: documentation/impression3d/prusa/presentation.md
-#        - Configuration du logiciel PrusaSlicer: documentation/impression3d/prusa/prusaslicer.md
-#        - Changement de filament: documentation/impression3d/prusa/filament.md
-#        - Première impression: documentation/impression3d/prusa/impression.md
-#        - Changer la buse: documentation/impression3d/prusa/buse.md
-      - Ultimaker 2/S3:
-        - Présentation des imprimantes: documentation/impression3d/um/presentation.md
-        - Configuration du logiciel PrusaSlicer: documentation/impression3d/um/cura.md
-        - Changement de filament: documentation/impression3d/um/filament.md
-        - Première impression: documentation/impression3d/um/impression.md
-      - Zortrax Inkspire:
-        - Présentation de L'imprimante: documentation/impression3d/zi/presentation.md
-        - Utilisation de la résine synthétique: documentation/impression3d/zi/resine.md
-        - Configuration du logiciel Zortrax Inkspire: documentation/impression3d/zi/slicer.md
-        - Première impression: documentation/impression3d/zi/impression.md
-        - Nettoyeur à ultrasons: documentation/impression3d/zi/ultrasons.md
+      - Ultimaker 2/S3: documentation/impression3d/ultimaker.md
+      - Zortrax Inkspire: documentation/impression3d/zortrax.md
     - Électroniques:
       - Arduino:
         - Guide de démarrage: documentation/electronique/arduino/guide.md
@@ -174,8 +161,10 @@ nav:
         - Guide d'utilisation: documentation/vr/oculus-go.md
         - Catalogue d'expériences immersives: documentation/vr/catalogue.md
         - FAQ: documentation/vr/faq.md
-    - Production Audio/Vidéo: 
-      - Guide Baladodiffusion: documentation/production-audio-video/guide-balado.md
+    - Production Audio/Vidéo:
+      - Audio: 
+        - Guide Baladodiffusion: documentation/production-audio-video/guide-balado.md
+        - RodeCaster Pro : documentation/production-audio-video/rodecasterpro.md
   - Projets: 
     - projets/index.md
   - Logiciels: logiciels/index.md

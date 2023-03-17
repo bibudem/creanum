@@ -1,8 +1,9 @@
 ---
 hide:
   - toc
+  - footer
+icon: material/progress-star
 ---
-
 
 <style>
   

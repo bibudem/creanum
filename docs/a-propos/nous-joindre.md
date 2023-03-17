@@ -1,5 +1,7 @@
 ---
-hide: toc
+hide: 
+  - toc
+  - footer
 icon: octicons/mail-24
 ---
 
