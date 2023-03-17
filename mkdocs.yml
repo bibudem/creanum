@@ -4,7 +4,7 @@ site_url: https://bibudem.github.io/wiki/
 site_description: Documentation et projets en création numérique
 
 # Github
-repo_name: bibcn/wiki
+repo_name: bibudem/wiki
 repo_url: https://github.com/bibudem/wiki
 
 theme:
@@ -77,7 +77,7 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
   - toc:
-      permalink: ⚓︎
+      permalink: true
       permalink_title: Lien permanent vers cette section
       toc_depth: 2
 
