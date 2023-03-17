@@ -4,4 +4,4 @@ hide :
     -footer
 ---
 
-# Documentation
+# Index

@@ -1,32 +1,32 @@
 # Guide d'utilisation du RodeCaster Pro
 
 !!! info
-    Ce guide vous permet une première prise en main de la console d’enregistrement RodeCaster ainsi que ses accessoires pour un enregistrement sonore. Vous avez des questions? N’hésitez pas à contacter un [membre de notre équipe](../../a-propos/equipe.md).
+    Ce guide vous permet une première prise en main de la console d’enregistrement RodeCaster ainsi que ses accessoires pour un enregistrement sonore. Vous avez des questions? N’hésitez pas à contacter un [membre de notre équipe](../a-propos/equipe.md).
 
 ## Réglages des niveaux
 
 - Allumer la table RodeCaster Pro avec le bouton rouge qui se trouve derrière.
     
-![Bouton d'allumage de la table RodeCaster Pro](../../assets/images/rodecaster1.webp){ width=500 }
+![Bouton d'allumage de la table RodeCaster Pro](../assets/images/rodecaster1.webp){ width=500 }
 
 - Augmenter le volume d’enregistrement des micros que vous allez utiliser à moitié (identifié avec des numéros : MIC #1, MIC #2, etc.)
     
-![Boutons des volumes de la table RodeCaster Pro](../../assets/images/rodecaster2.webp){ width=500 }
+![Boutons des volumes de la table RodeCaster Pro](../assets/images/rodecaster2.webp){ width=500 }
 
 - Augmenter le volume des casques que vous allez utiliser (Casque #1, Casque #2, etc.).
     
-![Boutons des volumes des casques de la table RodeCaster Pro](../../assets/images/rodecaster3.webp){ width=500 }
+![Boutons des volumes des casques de la table RodeCaster Pro](../assets/images/rodecaster3.webp){ width=500 }
 
 - Parler devant le micro pour voir le niveau sonore affiché à l’écran. Ajuster légèrement le volume d’enregistrement jusqu’avoir des pics autour de -15dbs.
     
-![L'écran de la table RodeCaster Pro avec le niveau requis](../../assets/images/rodecaster4.webp){ width=500 }
+![L'écran de la table RodeCaster Pro avec le niveau requis](../assets/images/rodecaster4.webp){ width=500 }
 
 !!! tips
     Pas besoin d’augmenter le volume d’enregistrement au maximum, cela augmente la sensibilité du micro qui captera les bruits ambiants, ce qui est à éviter. Si vous sentez que le volume est bas, parlez plus fort ou ajustez le volume de votre casque.
 
 - Le micro doit être à hauteur de la bouche et à une distance de moins de 10 cm (voir la photo ci-bas). Idéalement, il serait préférable de mettre le micro à côté de votre bouche, en angle, afin d’éviter d’avoir des *pops (bruits parasites)*.
     
-![Un usager devant un micro](../../assets/images/rodecaster5.webp){ width=500 }
+![Un usager devant un micro](../assets/images/rodecaster5.webp){ width=500 }
 
 - Régler ensuite le niveau des casques.
 
@@ -34,10 +34,10 @@
 
 - En haut de l’écran, à droite, est indiqué le nombre d’heure d’enregistrement que vous pouvez encore faire. Si l’espace n’est pas suffisant, vous pouvez formater la carte SD en appuyant sur l’icône de la carte SD et glissez pour formater.
         
-![L'écran du RodeCaster Pro](../../assets/images/rodecaster6.webp){ width=500 }
+![L'écran du RodeCaster Pro](../assets/images/rodecaster6.webp){ width=500 }
 
         
-![L'écran du RodeCaster Pro](../../assets/images/rodecaster7.webp){ width=500 }
+![L'écran du RodeCaster Pro](../assets/images/rodecaster7.webp){ width=500 }
         
 ## Environnement sonore
 
@@ -65,7 +65,7 @@ Maintenant que vous avez terminé votre enregistrement, il est temps de faire le
 - S’assurer que la table RODECaster Pro est allumée.
 - Au lancement du logiciel, allez vers l’onglet **Podcasts** et activez **Mode de transfert des podcasts**.
 
-![Capture d'écran du logiciel RodeCaster Pro](../../assets/images/rodecaster8.webp){ width=300 }
+![Capture d'écran du logiciel RodeCaster Pro](../assets/images/rodecaster8.webp){ width=300 }
 
 - Cliquez sur le dernier enregistrement en haut de la liste. Une nouvelle fenêtre s’affichera à côté.
 - Dans **Sélectionnez votre plateforme**, choisir **Custom***.*
@@ -88,8 +88,8 @@ En cas de doute sur le branchement, voici les schémas des branchements selon le
     
 ### Bibliothèque des sciences du Campus MIL
     
-![Schéma de l'installation sonore à la Bibliothèque des sciences](../../assets/images/installation-balado-sciences.webp)
+![Schéma de l'installation sonore à la Bibliothèque des sciences](../assets/images/installation-balado-sciences.webp)
 
 ### Bibliothèque de mathématiques et informatique
 
-![Schéma de l'installation sonore à la Bibliothèque mathématiques et informatique](../../assets/images/installation-balado-mi.webp)
+![Schéma de l'installation sonore à la Bibliothèque mathématiques et informatique](../assets/images/installation-balado-mi.webp)

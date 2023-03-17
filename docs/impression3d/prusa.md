@@ -8,7 +8,7 @@
 
 ## Présentation de l'imprimante
 
-![Prusa i3 Mk3s+ à la Bibliothèque des sciences](../../assets/images/prusa-photo.webp)
+![Prusa i3 Mk3s+ à la Bibliothèque des sciences](../assets/images/prusa-photo.webp)
 
 | Prusa i3 Mk3s+||
 |-----|-----|
@@ -48,11 +48,11 @@ Le *feeder* se trouve directement sur le dessus du bloc d’extrusion.
 
 1. Dans le menu de la Prusa, sélectionnez **Unload filament**.
     
-![Menu de la Prusa](../../assets/images/prusa-filament-1.webp)
+![Menu de la Prusa](../assets/images/prusa-filament-1.webp)
     
 2. Sélectionnez **PLA 215/60**. La buse va se chauffer afin que le filament se retire facilement.
     
-![Menu de la Prusa](../../assets/images/prusa-filament-2.webp)
+![Menu de la Prusa](../assets/images/prusa-filament-2.webp)
     
 3. Au signal sonore, appuyez sur le bouton du menu, puis **tirez délicatement** le filament vers le haut.
 4. Coupez le bout du filament avec une pince coupante en angle, mettre dans le bout dans un des trous de la bobine et ranger la bobine dans un sac hermétique. Suivez les consignes pour l’entreposage des filaments.
@@ -63,12 +63,12 @@ Le *feeder* se trouve directement sur le dessus du bloc d’extrusion.
 2. Installez la nouvelle bobine sur le support tout en veillant à ce que le bout passe d’en haut.
 3. La fonction **Autoload filament** est activée par défaut, l’imprimante détectera automatiquement s’il y a présence d’un filament. Mettez le filament dans le trou sans forcer, vous allez sentir le filament tirer vers le bas doucement. L’écran indiquera **Loading filament** (chargement du filament).
     
-![Menu de la Prusa](../../assets/images/prusa-filament-3.webp)
+![Menu de la Prusa](../assets/images/prusa-filament-3.webp)
     
 4. Au bout de quelques secondes, vous devriez voir apparaitre la couleur précédente sortir de l’extrudeur, suivie de la nouvelle couleur. L’imprimante vous demandera si le filament est extrudé et avec la bonne couleur (*Filament extruding & with correct color?*). Confirmez en sélectionnant **Yes**, sinon, sélectionnez **No**, l’imprimante continuera à extruder jusqu’à l’apparition du filament.
     
-![Menu de la Prusa](../../assets/images/prusa-filament-4.webp)
-![Menu de la Prusa](../../assets/images/prusa-filament-5.webp)
+![Menu de la Prusa](../assets/images/prusa-filament-4.webp)
+![Menu de la Prusa](../assets/images/prusa-filament-5.webp)
 
 !!! Warning "Attention"
     En aucun cas, vous ne devriez forcer, au risque d’endommager l’imprimante. Dans le doute, demandez de l’aide.
@@ -93,17 +93,17 @@ Compatible avec : Windows, Mac OS, Linux.
 - À l’étape Prusa FFF, décochez **0.4 mm buse** au dessous de **Original Prusa Mini & Mini+** et ****cochez **0.4 mm buse** au dessous de **Original Prusa i3 MK3s & MK3s+.**
 - Cliquez sur **Fin**.
 
-![Assistant configuration PrusaSlicer](../../assets/images/prusa-installation.webp)
+![Assistant configuration PrusaSlicer](../assets/images/prusa-installation.webp)
 
 ## Première impression
 
 À l’ouverture du logiciel de découpe PrusaSlicer, il faut s’assurer qu’on a la bonne configuration. Il doit y avoir une inscription sur le plateau mentionnant le modèle de l’appareil (**ORIGINAL PRUSA i3 MK3**). Si ce n’est pas le cas, changez le modèle de l’imprimante dans **Imprimante** (ou **Printer***)* à droite de l’écran (au dessous de **Filament**)
 
-![Interface du logiciel PrusaSlicer](../../assets/images/prusa-impression-1.webp)
+![Interface du logiciel PrusaSlicer](../assets/images/prusa-impression-1.webp)
 
 ### Ajouter un modèle 3D
 
-![Interface du logiciel PrusaSlicer](../../assets/images/prusa-impression-2.webp)
+![Interface du logiciel PrusaSlicer](../assets/images/prusa-impression-2.webp)
 
 Pour ajouter un modèle .STL, cliquez sur le bouton **Add** (cube avec le bouton + en haut), ou allez dans **File > Import > Import STL/OBJ/AMF/3MF***...* ou encore avec le raccourci clavier ++ctrl+i++ (ou ++"cmd"+i++ pour MacOS).
 
@@ -115,17 +115,17 @@ Clic gauche = rotation du plateau
 
 Clic droit = translation de la caméra
 
-![video](../../assets/videos/prusa-navigation.mp4)
+![video](../assets/videos/prusa-navigation.mp4)
 
 ### Échelle et taille
 
-![video](../../assets/videos/prusa-dimension.mp4)
+![video](../assets/videos/prusa-dimension.mp4)
 
 Redimensionnez la pièce en utilisant la fonction **Redimensionner** (menu de droite). Vous pouvez aussi changer les valeurs de l’échelle et de la taille à droite de l’écran. 
 
 ### Réglages
 
-![Interface du logiciel PrusaSlicer](../../assets/images/prusa-impression-3.webp)
+![Interface du logiciel PrusaSlicer](../assets/images/prusa-impression-3.webp)
 
 - **Réglages d’impression** : Sélectionnez la hauteur de la couche. 0.10mm pour une impression de précision, 0,20mm pour une impression normale et 0,30mm pour des tests ou des pièces qui n’ont pas besoin d’être de qualité.
 - **Filament** : Sélectionnez **Generic PLA***.* Cette configuration contient les valeurs de température de l’extrudeur et du plateau (par défaut : 215c pour l’extrudeur, 60c pour le plateau).
@@ -138,13 +138,13 @@ Redimensionnez la pièce en utilisant la fonction **Redimensionner** (menu de dr
 
 Cliquez sur **Découper maintenant** (en anglais : **Slice now**, **CTRL-R** sur Windows et Linux, **CMD-R** sur MacOS). 
 
-![Interface du logiciel PrusaSlicer](../../assets/images/prusa-impression-4.webp)
+![Interface du logiciel PrusaSlicer](../assets/images/prusa-impression-4.webp)
 
 Le logiciel passe en mode aperçu. Vous pouvez basculer entre ce mode et celui de Vue d’éditeur 3D en appuyant sur la touche **Tab**.
 
 Vous pouvez visualiser couche par couche votre impression ainsi que le déplacement de la tête d’impression.
 
-![video](../../assets/videos/prusa-couche.mp4)
+![video](../assets/videos/prusa-couche.mp4)
 
 Si jamais vous changez un réglage, la pièce disparait de l’écran. Vous devez soit revenir à la vue d’édition 3D ou découper la pièce à nouveau. 
 

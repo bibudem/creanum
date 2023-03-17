@@ -12,7 +12,7 @@ glightbox: false
 
 ### *Introduction to Virtual Reality*
 
-![Introduction à la réalité virtuelle](../../assets/images/vr00.webp)
+![Introduction à la réalité virtuelle](../assets/images/vr00.webp)
 
 
 
@@ -36,7 +36,7 @@ Découvrez un aperçu des différentes expériences réalisées par le studio mo
 
 ### *Claro*
 
-![Claro](../../assets/images/vr01.webp)
+![Claro](../assets/images/vr01.webp)
 
 !!! question ""
     __Catégorie__ : Jeu
@@ -56,7 +56,7 @@ Ce jeu de casse-tête minimaliste à l’ambiance zen vous demande de déplacer 
 
 ### *Floor plan*
 
-![Floor plan](../../assets/images/vr02.webp)
+![Floor plan](../assets/images/vr02.webp)
 
 !!! question ""
     __Catégorie__ : Jeu
@@ -76,7 +76,7 @@ Ce jeu de casse-tête minimaliste à l’ambiance zen vous demande de déplacer 
 
 ### *Bait*
 
-![Bait](../../assets/images/vr03.webp)
+![Bait](../assets/images/vr03.webp)
 
 !!! question ""
     __Catégorie__ : Jeu
@@ -96,7 +96,7 @@ Dans ce jeu de simulation de pêche, vous aurez l’occasion de vous familiarise
 
 ### *Land's End*
 
-![Land's End](../../assets/images/vr04.webp)
+![Land's End](../assets/images/vr04.webp)
 
 !!! question ""
     __Catégorie__ : Jeu
@@ -116,7 +116,7 @@ Dans ce jeu de simulation de pêche, vous aurez l’occasion de vous familiarise
 
 ### *Breaking boundaries in science*
 
-![Breaking boundaries in science](../../assets/images/vr05.webp)
+![Breaking boundaries in science](../assets/images/vr05.webp)
 
 !!! question ""
     __Catégorie__ : Jeu
@@ -138,7 +138,7 @@ Dans ce jeu de simulation de pêche, vous aurez l’occasion de vous familiarise
 
 ### Cirque du Soleil
 
-![Cirque du Solei](../../assets/images/vr06.webp)
+![Cirque du Solei](../assets/images/vr06.webp)
 
 !!! question ""
     __Catégorie__ : Documentaire
@@ -161,7 +161,7 @@ Il s’agit d’une sélection de 5 films en réalité virtuelle d’environ 10 
 
 ### *Nomads*
 
-![Nomads](../../assets/images/vr07.webp)
+![Nomads](../assets/images/vr07.webp)
 
 !!! question ""
     __Catégorie__ : Documentaire
@@ -182,7 +182,7 @@ Découvrez le mode de vie des éleveurs de yaks dans les steppes mongoles, des M
 
 ### *Space Explorers*
 
-![Space Explorers](../../assets/images/vr08.webp)
+![Space Explorers](../assets/images/vr08.webp)
 
 !!! question ""
     __Catégorie__ : Documentaire
@@ -202,7 +202,7 @@ Découvrez le mode de vie des éleveurs de yaks dans les steppes mongoles, des M
 
 ### *Notes on blindness*
 
-![Notes on blindness](../../assets/images/vr09.webp)
+![Notes on blindness](../assets/images/vr09.webp)
 
 !!! question ""
     __Catégorie__ : Documentaire
@@ -226,7 +226,7 @@ Expérience basée sur le long métrage documentaire Notes on Blindness, réalis
 
 ### *Anne Frank house*
 
-![Anne Frank house](../../assets/images/vr10.webp)
+![Anne Frank house](../assets/images/vr10.webp)
 
 !!! question ""
     __Catégorie__ : Documentaire
@@ -248,7 +248,7 @@ Deux modes d’exploration sont offerts : le premier met en perspective cette é
 
 ### *Strangers with Patrick Watson*
 
-![Strangers with Patrick Watson](../../assets/images/vr11.webp)
+![Strangers with Patrick Watson](../assets/images/vr11.webp)
 
 !!! question ""
     __Catégorie__ : Documentaire
@@ -270,7 +270,7 @@ Entrez dans le studio montréalais de Patrick Watson, auteur-compositeur canadie
 
 ### *The Rose and I*
 
-![he Rose and I](../../assets/images/vr12.webp)
+![he Rose and I](../assets/images/vr12.webp)
 
 !!! question ""
     __Catégorie__ : Animation
@@ -292,7 +292,7 @@ application donne l’impression de faire partie du décor.
 
 ### *Jurassic World Blue*
 
-![Jurassic World Blue](../../assets/images/vr13.webp)
+![Jurassic World Blue](../assets/images/vr13.webp)
 
 !!! question ""
     __Catégorie__ : Animation
@@ -312,7 +312,7 @@ Il s’agit d’une animation « sur rail » dont l’action se déroule princip
 
 ### *Dear Angelica*
 
-![Dear Angelica](../../assets/images/vr14.webp)
+![Dear Angelica](../assets/images/vr14.webp)
 
 !!! question ""
     __Catégorie__ : Animation
@@ -332,7 +332,7 @@ Des studios Oculus Story, *Dear Angelica* est un voyage onirique qui nous fait d
 
 ### *Singularity*
 
-![Singularity](../../assets/images/vr15.webp)
+![Singularity](../assets/images/vr15.webp)
 
 !!! question ""
     __Catégorie__ : Animation
@@ -347,7 +347,7 @@ Des studios Oculus Story, *Dear Angelica* est un voyage onirique qui nous fait d
 
 ### *Sonar*
 
-![Sonar](../../assets/images/vr16.webp)
+![Sonar](../assets/images/vr16.webp)
 
 !!! question ""
     __Catégorie__ : Animation
@@ -364,7 +364,7 @@ Des studios Oculus Story, *Dear Angelica* est un voyage onirique qui nous fait d
 
 ### *Gymnasia*
 
-![Gymnasia](../../assets/images/vr17.webp)
+![Gymnasia](../assets/images/vr17.webp)
 
 !!! question ""
     __Catégorie__ : Animation
@@ -384,7 +384,7 @@ Des studios Oculus Story, *Dear Angelica* est un voyage onirique qui nous fait d
 
 ### *Guided meditation*
 
-![Guided meditation](../../assets/images/vr18.webp)
+![Guided meditation](../assets/images/vr18.webp)
 
 !!! question ""
     __Catégorie__ : Détente
@@ -404,7 +404,7 @@ Méditation guidée en français dans le décor de votre choix. Choix de séance
 
 ### *Liminal*
 
-![Liminal](../../assets/images/vr19.webp)
+![Liminal](../assets/images/vr19.webp)
 
 !!! question ""
     __Catégorie__ : Détente

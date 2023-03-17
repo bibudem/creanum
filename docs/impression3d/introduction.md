@@ -56,7 +56,7 @@ Le bon stockage des bobines de filament est important, puisqu’à l’air libre
 Lorsqu’une bobine de filament a absorbé trop d’humidité on peut utiliser le séchoir à filament selon les spécifications recommandé par type de filament.
 
 <figure markdown>
-  ![Temps de séchage recommandé](../../assets/images/temperature-impression3d.webp){ width="600" }
+  ![Temps de séchage recommandé](../assets/images/temperature-impression3d.webp){ width="600" }
   <figcaption>temps de séchage recommandé.  </figcaption>
   [Source](https://www.printdry.com/wp-content/uploads/2020/09/PrintDry_Filament-Dryer_manual_1908_1.pdf)
 </figure>
@@ -75,7 +75,7 @@ Lorsqu’une bobine de filament a absorbé trop d’humidité on peut utiliser l
 ## **Les grandes étapes**
 
 <figure markdown>
-  ![Les grandes étapes de l'impression 3D](../../assets/images/etape-impression-3d.webp){ width="600" }
+  ![Les grandes étapes de l'impression 3D](../assets/images/etape-impression-3d.webp){ width="600" }
   <figcaption>Les grandes étapes de l'impression 3D (cliquez sur l'image pour agrandir)</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Voici une page expliquant quelques principes de modélisation importants pour l�
 Le logiciel de découpe, ou *Slicer*, permet de découper en plusieurs couches un fichier 3D en **.STL** ou **.OBJ** selon des paramètres choisi, comme la hauteur de la couche, le remplissage, les supports, etc. Une fois le modèle découpé, il est possible de visualiser couche par couche les mouvements de l’extrudeur afin de vérifier que l’impression se déroulera sans problème, par exemple en vérifiant qu’il n’y a pas de dépôt de plastique dans le vide. Le logiciel exporte par la suite un fichier **.GCODE** contenant une suite d'instruction à l'imprimante afin de matérialiser le modèle. Ce fichier doit être enregistrer sur le périphérique de stockage qui sera branché à l’imprimante 3D (carte SD pour la Prusa et clé USB pour l’Ultimaker)..
 
 <figure markdown>
-  ![Étape de découpe dans le logiciel](../../assets/images/etape-slicer-impression-3d.webp){ width="600" }
+  ![Étape de découpe dans le logiciel](../assets/images/etape-slicer-impression-3d.webp){ width="600" }
   <figcaption>Modèle 3D .stl ou .obj - Découpage du modèle - Fichier .gcode - Impression de l’objet (cliquez sur l'image pour agrandir)</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ Pour configurer les logiciels de découpe :
 #### **Épaisseur**
 
 <figure markdown>
-  ![Une vue macro de trois impressions 3D](../../assets/images/epaisseur-impression-3d.webp){ width="600" }
+  ![Une vue macro de trois impressions 3D](../assets/images/epaisseur-impression-3d.webp){ width="600" }
   <figcaption>de gauche à droite : 0.05mm, 0.20mm et 0.30mm. </figcaption> [Source](https://www.hubs.com/knowledge-base/impact-layer-height-3d-print/)
 </figure>
 
@@ -126,7 +126,7 @@ Pour configurer les logiciels de découpe :
 L’épaisseur d’une couche est habituellement de 0,2 mm. Il est possible de descendre jusqu’à 0,1 mm si l’objet est très détaillé ou s’il subira des forces parallèles aux couches. Si tel est le cas, il est recommandé de revoir le sens d’impression pour que les forces soient exercées perpendiculairement aux couches d’impressions. Notez que la durée d’impression sera deux fois plus longue à 0,1 mm qu’à 0,2 mm.
 
 <figure markdown>
-  ![Hauteur de la couche](../../assets/images/hauteur-couche.webp){ width="600" }
+  ![Hauteur de la couche](../assets/images/hauteur-couche.webp){ width="600" }
   <figcaption>Hauteur de la couche</figcaption>
 </figure>
 
@@ -135,7 +135,7 @@ L’épaisseur d’une couche est habituellement de 0,2 mm. Il est possible de d
 Le remplissage agit sur la solidité et, dans une moindre mesure, sur la vitesse d’impression et la souplesse d’un objet. En effet, le PLA n’est pas suffisamment flexible pour supporter la déformation. Le remplissage s’exprime en pourcentage. Une valeur typique se situe entre 5% et 20%. Il est possible d’imprimer sans remplissage (0%), ou entièrement plein (100%) selon les cas. Il existe aussi différents motifs de remplissage. Ils ont chacun leurs avantages.
 
 <figure markdown>
-  ![Différents remplissage d'une impression 3D](../../assets/images/remplissage.webp){ width="600" }
+  ![Différents remplissage d'une impression 3D](../assets/images/remplissage.webp){ width="600" }
   <figcaption>À gauche un remplissage à 40% avec le motif Grille (Grid) et à droite un remplissage à 20% avec le motif Nid d’abeille (Honeycomb)</figcaption>
 </figure>
 
@@ -153,7 +153,7 @@ Le remplissage agit sur la solidité et, dans une moindre mesure, sur la vitesse
 Le support est utilisé pour imprimer les porte-à-faux. L’impression doit obligatoirement avoir une surface de contact pour se déposer. Pour la première couche il s’agit du plateau, pour les couches suivantes il s’agit de la couche précédente. Si le matériau se dépose dans le vide, il faut créer un support. Le support peut également être utilisé pour augmenter la surface de contact de l’objet sur le plateau et éviter un décollement.
 
 <figure markdown>
-  ![Des pièces imprimées en 3D avec et sans support](../../assets/images/support.webp){ width="600" }
+  ![Des pièces imprimées en 3D avec et sans support](../assets/images/support.webp){ width="600" }
   <figcaption>À gauche, une pièce sans support. À droite, une pièce avec du support (en jaune)</figcaption>
 </figure>
 
@@ -171,7 +171,7 @@ Le support est utilisé pour imprimer les porte-à-faux. L’impression doit obl
 Si le plastique n’adhère pas au plateau, l’impression va échouer et en plus de gaspiller du matériau, cela risque d’abîmer l’imprimante. Pour que le filament reste fixé au plateau durant l’impression, une bordure de quelques millimètres de largeur, le *brim*, permet de maximiser la surface de contact, et donc améliore l’adhérence de la matière sur le plateau. Il s’agit d’une couche qui est facilement détachable une fois l’impression terminée. 
 
 <figure markdown>
-  ![Pièce dans le logiciel de découpe avec un brim](../../assets/images/brim-impression3d.webp){ width="600" }
+  ![Pièce dans le logiciel de découpe avec un brim](../assets/images/brim-impression3d.webp){ width="600" }
   <figcaption>En vert, le *brim* et en jaune, la pièce à imprimer.</figcaption>
 </figure>
 

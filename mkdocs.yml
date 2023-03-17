@@ -95,7 +95,7 @@ extra:
     provider: google
     property: G-45S4QV2SKS
     feedback:
-      title: Cette page vous a été utile?
+      title: L'information sur cette page vous a-t-elle été utile? 
       ratings:
         - icon: material/emoticon-happy-outline
           name: Cette page a été utile
@@ -134,47 +134,52 @@ nav:
     - documentation/index.md
     - Impression 3D: 
       - Introduction:
-        - Guide de l'impression 3D: documentation/impression3d/introduction.md
-        - Trouver des modèles: documentation/impression3d/modeles.md
-        - Logiciels de modélisation : documentation/impression3d/logiciels.md
-        - Réparer la première couche d'un modèle: documentation/impression3d/reparer.md
-        - Créer un modèle 3D à partir d'une image: documentation/impression3d/creer-modele-image.md
-        - FAQ: documentation/impression3d/faq.md
-      - Prusa i3 Mk3s+: documentation/impression3d/prusa.md
-      - Ultimaker 2/S3: documentation/impression3d/ultimaker.md
-      - Zortrax Inkspire: documentation/impression3d/zortrax.md
+        - Guide de l'impression 3D: impression3d/introduction.md
+        - Trouver des modèles: impression3d/modeles.md
+        - Logiciels de modélisation : impression3d/logiciels.md
+        - Réparer la première couche d'un modèle: impression3d/reparer.md
+        - Créer un modèle 3D à partir d'une image: impression3d/creer-modele-image.md
+        - FAQ: impression3d/faq.md
+      - Prusa i3 Mk3s+: impression3d/prusa.md
+      - Ultimaker 2/S3: impression3d/ultimaker.md
+      - Zortrax Inkspire: impression3d/zortrax.md
     - Électroniques:
-      - Arduino: documentation/electronique/arduino.md
-      - Raspberry Pi: documentation/electronique/raspberrypi.md
+      - Arduino: electronique/arduino.md
+      - Raspberry Pi: electronique/raspberrypi.md
       - Internet des Objets:
-        - Arduino IDE pour l'ESP8266: documentation/electronique/iot/arduino.md
-        - Connecter un ESP à Blynk: documentation/electronique/iot/blynk.md
-        - Les modes de veille du ESP 8266: documentation/electronique/iot/veille.md
+        - Arduino IDE pour l'ESP8266: electronique/iot/arduino.md
+        - Connecter un ESP à Blynk: electronique/iot/blynk.md
+        - Les modes de veille du ESP 8266: electronique/iot/veille.md
     - Réalité virtuelle:
-      - Mise en garde: documentation/vr/mises-en-garde.md
+      - Mise en garde: vr/mises-en-garde.md
       - Casque Oculus GO:
-        - Guide d'utilisation: documentation/vr/oculus-go.md
-        - Catalogue d'expériences immersives: documentation/vr/catalogue.md
-        - FAQ: documentation/vr/faq.md
+        - Guide d'utilisation: vr/oculus-go.md
+        - Catalogue d'expériences immersives: vr/catalogue.md
+        - FAQ: vr/faq.md
     - Production Audio/Vidéo:
       - Audio: 
-        - Guide Baladodiffusion: documentation/production-audio-video/guide-balado.md
-        - RodeCaster Pro : documentation/production-audio-video/rodecasterpro.md  
+        - Guide Baladodiffusion: production-audio-video/guide-balado.md
+        - RodeCaster Pro : production-audio-video/rodecasterpro.md  
       - Vidéo:
-        - Guide de l'enregisrement vidéo: documentation/production-audio-video/guide-video.md
-        - OBS : documentation/production-audio-video/obs.md
+        - Guide de l'enregisrement vidéo: production-audio-video/guide-video.md
+        - OBS : production-audio-video/obs.md
       - Édition:
-        - ffmpeg : documentation/production-audio-video/ffmpeg.md
-        - Adobe Premiere Pro : documentation/production-audio-video/premierepro.md
-        - Audacity : documentation/production-audio-video/audacity.md
-        - Adobe Audition : documentation/production-audio-video/audacity.md
+        - ffmpeg : production-audio-video/ffmpeg.md
+        - Adobe Premiere Pro : production-audio-video/premierepro.md
+        - Audacity : production-audio-video/audacity.md
+        - Adobe Audition : production-audio-video/audacity.md
   - Projets: 
     - projets/index.md
   - Logiciels: logiciels/index.md
   - Équipements: equipements/index.md
-  - Communauté: communaute.md
+  - Communauté: 
+    - Comment contribuer : communaute/contribuer.md
   - À propos:
     - Objectifs et philosophie: a-propos/objectifs.md
     - L'équipe CréaNum: a-propos/equipe.md
     - Nous joindre: a-propos/nous-joindre.md
+    - En savoir plus:
+      - Accessibilité : a-propos/accessibilite.md
+      - Condition d'utilisation : ddd
+      - Confidentialité : ddd
 
