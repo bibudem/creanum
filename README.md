@@ -46,4 +46,6 @@ mkdocs serve --config-file mkdocs.insiders.yml
 
 ### Note
 À chaque *Push*, le site se génère automatiquement grâçe au *workflow* qui se trouve dans le dossier .github/workflows/ci.yml
-et devient accessible sur Github Pages : [bibudem.github.io/wiki](https://bibudem.github.io/wiki). Le GH_TOKEN est configuré pour générer le site avec la verison *Insiders* automatiquement.
+et devient accessible sur Github Pages : [bibudem.github.io/wiki](https://bibudem.github.io/wiki). Le GH_TOKEN est configuré pour générer le site avec la version *Insiders* automatiquement.
+
+
