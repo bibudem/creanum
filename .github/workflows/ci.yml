@@ -11,8 +11,8 @@ jobs:
     if: github.event.repository.fork == false
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+#        with:
+#          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -24,7 +24,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('.cache/**') }}
           path: .cache
 
-      - run: pip install pngquant mkdocs-video mkdocs-glightbox mkdocs-table-reader-plugin mkdocs-git-revision-date-localized-plugin
+      - run: pip install pngquant mkdocs-video mkdocs-glightbox mkdocs-table-reader-plugin # mkdocs-git-revision-date-localized-plugin
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --force --config-file mkdocs.insiders.yml
 env:

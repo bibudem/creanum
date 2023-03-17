@@ -32,10 +32,6 @@ plugins:
         - Raspberry Pi
         - Baladodiffusions
 
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
-
   - glightbox
   - mkdocs-video :
       mark: "video"
