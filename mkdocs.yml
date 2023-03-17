@@ -172,8 +172,7 @@ nav:
     - projets/index.md
   - Logiciels: logiciels/index.md
   - Équipements: equipements/index.md
-  - Communauté: 
-    - Comment contribuer : communaute/index.md
+  - Communauté: communaute/index.md
   - À propos:
     - Objectifs et philosophie: a-propos/objectifs.md
     - L'équipe CréaNum: a-propos/equipe.md
