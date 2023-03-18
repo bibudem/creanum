@@ -172,7 +172,7 @@ Si vous voulez changer de filament, [suivez la procédure de changement de filam
 
 ## Modifier la buse
 
-![Outil spécial pour modifier la buse.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2bb94673-2703-4455-9b95-4f86d96af0b9/IMG_20220423_104226.jpg)
+![Outil spécial pour modifier la buse.](../assets/images/prusa-buse-1.webp)
 
 1. Monter l’axe Z le plus haut possible. Attention à ne pas aller trop vite pour ne pas briser les moteurs!
 2. Retirer le filament et la bobine du porte bobine.
@@ -181,17 +181,68 @@ Si vous voulez changer de filament, [suivez la procédure de changement de filam
 5. Retirer la buse de l’outil avec un pince (la buse est très chaude!) et poser la sur une surface qui ne craint pas la chaleur.
 6. Visser la nouvelle buse pendant que le bloc est encore chaud (280° C). Assurez vous qu’il y ait environ 0,5 mm entre la buse et le bloc de chauffe, comme sur l’image suivante. Visser suffisamment la buse, mais sans exercer une force excessive.
 
-![526a59ae1e9dcd1b_painted.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e27cfb8-fa3c-4626-b56f-ec1dc90cf403/526a59ae1e9dcd1b_painted.png)
+![Visuel](../assets/images/prusa-buse-2.webp)
 
 1. Attendre que ça refroidisse à environ 180° C.
 2. Charger un filament.
-3. Calibrer la première couche (*First layer calibration*). 
+4. Dans PrusaSlicer, relancer le Configuration Wizard, et cocher la nouvelle buse utilisée afin que les paramètres soient par défaut.
+5. Calibrer la première couche (*First layer calibration*). 
 
-[Calibration de la première couche (i3) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/calibration-de-la-premiere-couche-i3_112364)
+!!! info "Ressources en ligne"
+    [Calibration de la première couche (i3) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/calibration-de-la-premiere-couche-i3_112364)
 
-1. Dans PrusaSlicer, relancer le Configuration Wizard, et cocher la nouvelle buse utilisée afin que les paramètres soient par défaut.
+    [Changing or replacing the nozzle](https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069)
 
-<aside>
-💡 [https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069](https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069)
 
-</aside>
+## Paramètres avancés PrusaSlicer
+
+Dans cette section, vous trouverez la marche à suivre pour paramétrer différents réglages d’impressions (hauteur de couche, remplissage, etc.) sur un objet dans le logiciel PrusaSlicer.
+
+### Première façon de procéder
+
+- Se mettre en vue **Avancé** ou **Expert**.
+- Cliquer sur l’icône **Édition** de l’objet à paramétrer.
+
+![1etape.PNG](../assets/images/prusa-avance-1.webp)
+
+Parmi la liste des paramètres d’édition accessible.
+
+- Cliquer sur **Modificateur de plage de hauteur**.
+
+![1etape.PNG](../assets/images/prusa-avance-2.webp)
+
+- Choisir la hauteur (en mm) entre lesquelles les modifications doivent s’appliquer.
+
+Vous pouvez ici choisir une hauteur de couche qui s’appliquera uniquement dans la zone. Notez que le maximum est 0.25mm. Ceci permet d’avoir 2 hauteurs de couche différentes sur un même objet.
+
+![1etape.PNG](../assets/images/prusa-avance-3.webp)
+
+- Cliquer sur l’icône à côté de **Zone**, et choisir le type de réglage à modifier.
+
+Exemple avec le remplissage (100% de 0 à 3,2mm, puis 15% pour le reste).
+
+![1etape.PNG](../assets/images/prusa-avance-4.webp)
+
+Le but du remplissage à 100% est de solidifier la partie de la poignée sur laquelle la vis va appuyer.
+
+![1etape.PNG](../assets/images/prusa-avance-5.webp)
+![1etape.PNG](../assets/images/prusa-avance-6.webp)
+![1etape.PNG](../assets/images/prusa-avance-7.webp)
+
+### Deuxième façon de procéder
+
+Parmi la liste des paramètres d’édition accessible :
+
+- Cliquer sur **Ajouter un modificateur** puis choisissez la forme adapté à votre situation.
+
+![1etape.PNG](../assets/images/prusa-avance-8.webp)
+
+- Ajuster la forme selon où vous souhaitez modifier les réglages.
+
+![1etape.PNG](../assets/images/prusa-avance-9.webp)
+
+- Cliquer sur l’icône à côté de **Générique-*Nom de forme***, et choisir le type de réglage à modifier.
+
+Exemple avec le remplissage à 100% dans les boites :
+
+![1etape.PNG](../assets/images/prusa-avance-10.webp)

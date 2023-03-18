@@ -228,6 +228,10 @@ Il existe plusieurs méthodes pour peaufiner votre impression. En voici quelques
 
     [3.3. Cleaning the PEI spring steel print sheet for proper adhesion](https://projects.ttlexceeded.com/3dprinting_mk3_bed_cleaning.html#bed-cleaning-procedure)
 
-## Livres disponibles aux bibliothèques en lien avec le sujet
+!!!info "Livres disponibles aux bibliothèques en lien avec le sujet"
+    ![The 3d printing handbook](../assets/images/livre-impression3d-1.webp){ align=left width=200}
+    [Redwood, B., Schöffer Filemon, & Garret, B. (2017). The 3d printing handbook : technologies, design and applications. 3D Hubs B.V.](https://umontreal.on.worldcat.org/v2/oclc/1019921213)
 
-[Redwood, B., Schöffer Filemon, & Garret, B. (2017). The 3d printing handbook : technologies, design and applications. 3D Hubs B.V.](https://umontreal.on.worldcat.org/v2/oclc/1019921213)
+
+
+
