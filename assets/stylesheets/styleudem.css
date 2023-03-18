@@ -1,0 +1,48 @@
+:root {
+    --md-primary-fg-color:        #0057ac;
+    --md-accent-fg-color:         #0057ac;
+  }
+
+  .md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2.5rem;
+    width: auto;
+}
+
+.md-copyright {
+    color:white;
+}
+
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+.md-social {
+  margin: -0.3rem;
+  padding: 0.2rem 0 0.6rem;
+}
+
+.md-tabs__link {
+  opacity: .9;
+}
+
+.md-header__title {
+  line-height: 3.25em;
+}
+
+/* Couleurs du mode sombre */
+[data-md-color-scheme=slate] {
+  --md-typeset-a-color: #ffca40;
+  --md-accent-fg-color: #ffffff;
+  --md-default-fg-color--light: #ffffff;
+}
+
+/* Style du bouton */
+.md-typeset .md-button:hover {
+  background-color: #0b113a;
+  border-color : #0b113a;
+}
+
+.md-social {
+  margin: 0.7rem;
+}
