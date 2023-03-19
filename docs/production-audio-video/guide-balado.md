@@ -16,11 +16,11 @@ Pour accéder au studio, vous devez récupérer la clé au comptoir de service d
 
 ## :material-television-guide: Guide d’utilisation de la table de mixage
 
-[Lire le guide d’utilisation de la table de mixage](https://www.notion.so/Guide-d-utilisation-aad5b80c5a2c42e69f0445d62a46b06a), qui explique pas à pas le fonctionnement de la table, donne des conseils pour enregistrer une voix de qualité et des astuces qui vont servir plus tard au montage.
+[Lire le guide d’utilisation de la table de mixage](rodecasterpro.md), qui explique pas à pas le fonctionnement de la table, donne des conseils pour enregistrer une voix de qualité et des astuces qui vont servir plus tard au montage.
 
-Vous avez un.e invité.e qui ne peut pas se déplacer sur place? Sachez que vous pouvez [recevoir l’invité.e via un logiciel de visioconférence directement branché sur la table de mixage](https://www.notion.so/Connecter-un-logiciel-de-vid-oconf-rence-6bb647c05fda40c8ba63a7642e86c002).
+Vous avez un.e invité.e qui ne peut pas se déplacer sur place? Sachez que vous pouvez [recevoir l’invité.e via un logiciel de visioconférence directement branché sur la table de mixage](rodecasterpro.md).
 
-Enfin, [voici la procédure pour transférer les fichiers vers votre ordinateur](https://www.notion.so/Exportation-des-fichiers-53494c202ce047e995502f5b95ef9b6e).
+Enfin, [voici la procédure pour transférer les fichiers vers votre ordinateur](rodecasterpro.md#transfert-des-fichiers).
 
 ## :material-microphone: Équipements en prêt
 

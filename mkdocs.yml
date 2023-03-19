@@ -55,6 +55,7 @@ theme:
     - content.action.edit
     - content.code.annotate
     - content.tooltips
+    - content.tabs.link
 
 
 
@@ -74,12 +75,25 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
+      base_path:
+      - docs/logiciels
+      - .
+      auto_append: 
+      - includes/abbreviations.md
+      check_paths: true
+      # base_path: []
+      
+  
+      
   - toc:
       permalink: true
       permalink_title: Lien permanent vers cette section
       toc_depth: 2
+  - pymdownx.tabbed:
+      alternate_style: true 
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js

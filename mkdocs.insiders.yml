@@ -39,4 +39,9 @@ plugins:
         width: "100%"
         height: "22.172vw"
       video_autoplay: false
+
+  - git-revision-date-localized:
+      locale: fr
+      type: timeago
+      fallback_to_build_date: true
       
