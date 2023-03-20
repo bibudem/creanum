@@ -11,7 +11,7 @@
 <link href="../../../assets/logo/favicon.ico" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.3+insiders-4.32.3" name="generator"/>
 <title>Plante intelligente - Wiki CréaNum</title>
-<link href="../../../assets/stylesheets/main.d132363d.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/main.f49c7df4.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.6932e648.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -51,10 +51,10 @@
 <div style="color: white;">
   Le wiki est en bêta-test.
   <a href="https://bib.umontreal.ca/" style="color: #ffca40;">
+<strong>Cliquez ici pour donner votre avis. </strong>
 <span class="twemoji">
 <svg viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg>
 </span>
-<strong>Cliquez ici pour donner votre avis. </strong>
 </a>
 </div>
 </div>
@@ -195,13 +195,13 @@
 </li>
 <li class="md-tabs__item">
 <a class="md-tabs__link" href="../../../communaute/">
-        
+          
   
     
   
   Communauté
 
-      </a>
+        </a>
 </li>
 <li class="md-tabs__item">
 <a class="md-tabs__link" href="../../../a-propos/objectifs/">
@@ -354,7 +354,7 @@
   </span>
 </a>
 </li>
-<li class="md-nav__item">
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
 <a class="md-nav__link" href="../../../communaute/">
 <span class="md-ellipsis">
     
@@ -364,6 +364,7 @@
 
     
   </span>
+<span class="md-nav__icon md-icon"></span>
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
@@ -539,7 +540,7 @@
 <h3 id="etape-3-les-valeurs-du-capteur"><strong>Étape 3 : Les valeurs du capteur</strong><a class="headerlink" href="#etape-3-les-valeurs-du-capteur" title="Lien permanent vers cette section">¶</a></h3>
 <p>On va faire réagir la <strong>DEL 13</strong> en donnant une condition et une valeur à Arduino: La <strong>DEL 13</strong> doit s’allumer si la valeur descend au-dessous de <strong>500</strong>.</p>
 <p>La <strong>DEL 13</strong> est déjà intégrée à la carte Arduino. Elle est encerclée en vert dans le schéma ci-contre.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://i.imgur.com/pA1PLAF.png"><img alt="https://i.imgur.com/pA1PLAF.png" src="https://i.imgur.com/pA1PLAF.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://i.imgur.com/pA1PLAF.png"><img alt="https://i.imgur.com/pA1PLAF.png" src="https://i.imgur.com/pA1PLAF.png"/></a></p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kr">int</span><span class="w"> </span><span class="n">valeurCapteur</span><span class="p">;</span>
 <a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="kr">int</span><span class="w"> </span><span class="n">limite</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">500</span><span class="p">;</span><span class="w"> </span><span class="c1">// valeur sous laquelle la LED s’allumera</span>
 <a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>
@@ -571,7 +572,7 @@
 </blockquote>
 <h3 id="etape-4-branchement-des-dels"><strong>Étape 4 : Branchement des DELs</strong><a class="headerlink" href="#etape-4-branchement-des-dels" title="Lien permanent vers cette section">¶</a></h3>
 <p>Connectons les DELs pour avoir une indication en rouge lorsque la plante a soif et en vert lorsqu’elle est suffisamment hydratée. Voici le nouveau schéma :</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://i.imgur.com/pM1ewmv.png"><img alt="https://i.imgur.com/pM1ewmv.png" src="https://i.imgur.com/pM1ewmv.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://i.imgur.com/pM1ewmv.png"><img alt="https://i.imgur.com/pM1ewmv.png" src="https://i.imgur.com/pM1ewmv.png"/></a></p>
 <h3 id="etape-5-televerser-le-code"><strong>Étape 5 : Téléverser le code</strong><a class="headerlink" href="#etape-5-televerser-le-code" title="Lien permanent vers cette section">¶</a></h3>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="kr">int</span><span class="w"> </span><span class="n">pinSenseur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">A0</span><span class="p">;</span>
 <a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="kr">int</span><span class="w"> </span><span class="n">valeurSenseur</span><span class="p">;</span>
@@ -600,8 +601,8 @@
 <a href="#__codelineno-3-25" id="__codelineno-3-25" name="__codelineno-3-25"></a><span class="p">}</span>
 </code></pre></div>
 <h2 id="photos-du-projet"><strong>Photos du projet</strong><a class="headerlink" href="#photos-du-projet" title="Lien permanent vers cette section">¶</a></h2>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg"><img alt="SC_AFN (4).jpg" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg"/></a></p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg"><img alt="SC_AFN (5).jpg" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg"><img alt="SC_AFN (4).jpg" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg"><img alt="SC_AFN (5).jpg" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg"/></a></p>
 <h2 id="pour-aller-plus-loin"><strong>Pour aller plus loin</strong><a class="headerlink" href="#pour-aller-plus-loin" title="Lien permanent vers cette section">¶</a></h2>
 <p>Le projet peut être amélioré de plusieurs façons :</p>
 <ul>
@@ -711,7 +712,7 @@
 <div class="md-dialog__inner md-typeset"></div>
 </div>
 <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.path", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.action.edit", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
-<script src="../../../assets/javascripts/bundle.7de9f34d.min.js"></script>
+<script src="../../../assets/javascripts/bundle.80f82a11.min.js"></script>
 <script src="../../../js/timeago.min.js"></script>
 <script src="../../../js/timeago_mkdocs_material.js"></script>
 <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
