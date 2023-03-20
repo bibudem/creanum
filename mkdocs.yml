@@ -4,6 +4,7 @@ site_url: https://bibudem.github.io/wiki/
 site_description: Documentation et projets en création numérique
 
 # Github
+
 repo_name: bibudem/wiki
 repo_url: https://github.com/bibudem/wiki
 
@@ -57,7 +58,7 @@ theme:
     - content.tooltips
     - content.tabs.link
 
-
+# Paramètres de markdown extensions, pour en savoir plus : https://facelessuser.github.io/pymdown-extensions/
 
 markdown_extensions:
   - abbr
@@ -81,10 +82,9 @@ markdown_extensions:
       auto_append: 
       - includes/abbreviations.md
       check_paths: true
-      # base_path: []
-      
-  
-      
+
+# Paramètres de la table des matières
+
   - toc:
       permalink: true
       permalink_title: Lien permanent vers cette section
@@ -102,6 +102,7 @@ extra_javascript:
 extra_css:
   - assets/stylesheets/styleudem.css
   
+# Analytics
 
 extra:
   generator: false
@@ -123,6 +124,8 @@ extra:
             Merci pour votre rétroaction! Aidez-nous à améliorer la page en utilisant ce
             <a href="..." target="_blank" rel="noopener">formulaire</a>.
 
+# Réseaux sociaux
+
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/wikicn
@@ -141,6 +144,7 @@ extra:
       name: Courriel
 
 
+# Navigation
 
 nav:
   - Accueil: index.md
@@ -186,13 +190,15 @@ nav:
     - projets/index.md
   - Logiciels: logiciels/index.md
   - Équipements: equipements/index.md
-  - Communauté: communaute/index.md
+  - Communauté: 
+    - communaute/index.md
+    - Guide des bonnes pratiques : communaute/guide-contribution.md
+    - Formations offertes : communaute/formations.md
   - À propos:
     - Objectifs et philosophie: a-propos/objectifs.md
     - L'équipe CréaNum: a-propos/equipe.md
     - Nous joindre: a-propos/nous-joindre.md
     - En savoir plus:
       - Accessibilité : a-propos/accessibilite.md
-      - Condition d'utilisation : ddd
-      - Confidentialité : ddd
-
+      - Condition d'utilisation : [https://bib.umontreal.ca/conditions-bibliotheques]
+      - Confidentialité : [https://secretariatgeneral.umontreal.ca/protection-et-acces-a-linformation/complement-dinformation-sur-la-confidentialite/]

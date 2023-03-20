@@ -13,8 +13,8 @@ hide:
 
 # Logiciels
 
-=== "Audio" 
-    ??? Abstract "Adobe Audition" 
+=== "Audio"
+    ??? Abstract "Adobe Audition"
         --8<-- "liste.md:audition"
     ??? Abstract "Reaper"
         --8<-- "liste.md:reaper"
@@ -27,6 +27,8 @@ hide:
     ??? Abstract "Adobe Premiere Pro"
     ??? Abstract "Adobe Rush"
     ??? Abstract "Adobe After Effects"
+    ??? Abstract "ffmpeg"
+        --8<-- "liste.md:ffmpeg"
 
 === "Modélisation 3D"
 

@@ -2,15 +2,7 @@ INHERIT: mkdocs.yml
 
 plugins:
   - search
-# - optimize
-
-#      enabled: !ENV [CI, false]
-#  - social:
-#      cards_font: Open Sans
-#      cards_color:
-#        fill: "#0057ac" 
-#        text: "#FFFFFF"
-  - table-reader
+  - table-reader #pour lire les tableaux en csv
 
 # Configuration du blog
 
@@ -32,7 +24,12 @@ plugins:
         - Raspberry Pi
         - Baladodiffusions
 
+# Plugin zoom image
+
   - glightbox
+
+# Plugin video
+
   - mkdocs-video :
       mark: "video"
       css_style:
@@ -40,8 +37,9 @@ plugins:
         height: "22.172vw"
       video_autoplay: false
 
+# Paramètres de la date de modification 
+
   - git-revision-date-localized:
       locale: fr
       type: timeago
       fallback_to_build_date: true
-      

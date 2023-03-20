@@ -3,3 +3,5 @@ build
 site
 .conda
 .vscode/settings.json
+.vhs
+

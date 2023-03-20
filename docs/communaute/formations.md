@@ -1,0 +1,1 @@
+<div id="api_upc_cid7690_iid4151"></div><script src="https://calendrier.bib.umontreal.ca/api_events.php?m=upc&cid=7690&audience=&c=&d=34766&l=20&target=_blank&simple=ul_date&context=object&format=js"> </script>

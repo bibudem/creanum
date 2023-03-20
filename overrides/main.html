@@ -1,19 +1,18 @@
 {% extends "base.html" %}
-
+<!-- Annonce en haut de la page -->
 {% block announce %}
 <div style="color: white;">
   Le wiki est en bêta-test.
   <a href="https://bib.umontreal.ca/" style="color: #ffca40;">
+    <strong>Cliquez ici pour donner votre avis. </strong>
     <span class="twemoji">
       {% include ".icons/octicons/link-external-16.svg" %} 
     </span>
-    <strong>Cliquez ici pour donner votre avis. </strong>
-    
-  </a> 
+  </a>
 </div>
 
 {% endblock %}
-
+<!-- Fin de l'annonce -->
 {% block footer %}
 
 <footer class="md-footer">

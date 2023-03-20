@@ -29,7 +29,7 @@ Le plateau d’impression est une feuille magnétique texturée. La première co
 Le *feeder* se trouve directement sur le dessus du bloc d’extrusion.
 
 !!! info Ressources en ligne
-    [Original Prusa i3 MK3S+ | Original Prusa 3D printers directly from Josef Prusa](https://www.prusa3d.com/fr/categorie/original-prusa-i3-mk3s/)
+    [Original Prusa i3 MK3S+ | Original Prusa 3D printers directly from Josef Prusa](https://www.prusa3d.com/fr/categorie/original-prusa-i3-mk3s/){:target="_blank"}
 
 ### Localisation
 
@@ -74,7 +74,7 @@ Le *feeder* se trouve directement sur le dessus du bloc d’extrusion.
     En aucun cas, vous ne devriez forcer, au risque d’endommager l’imprimante. Dans le doute, demandez de l’aide.
 
 !!! Info "Ressources en ligne"
-    [Prusa Printer: Changing Filament](https://youtu.be/12bYIGgkqIQ)
+    [Prusa Printer: Changing Filament](https://youtu.be/12bYIGgkqIQ){:target="_blank"}
 
 ## Configuration PrusaSlicer
 
@@ -155,8 +155,6 @@ Si vous êtes satisfait de l’aperçu, appuyez sur **Exporter le G-code** en ba
 Avant de lancer l’impression ou de changer le filament, vous devez nettoyer le plateau.
 Pour la Prusa, il faut imbiber une lingette de nettoyant à vitres et nettoyer le plateau avec, en évitant de faire bouger le plateau.  
 
-Si vous voulez changer de filament, [suivez la procédure de changement de filament](https://www.notion.so/Proc-dure-de-changement-de-filament-17802010bb994b74ae2601ceb8027d41). 
-
 ### Lancement de l’impression
 
 - Introduire la carte SD derrière l’écran LCD de l’imprimante.
@@ -166,9 +164,9 @@ Si vous voulez changer de filament, [suivez la procédure de changement de filam
 
 !!! info "Ressources en ligne"
 
-    [Première impression avec PrusaSlicer](https://help.prusa3d.com/fr/article/premiere-impression-avec-prusaslicer_1753)
-    [Prusa Knowledge Base](https://help.prusa3d.com/fr/article/supports_1698)
-    [Menu LCD i3 (pré firmware 3.9.0) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/menu-lcd-i3-pre-firmware-3-9-0_1876)
+    [Première impression avec PrusaSlicer](https://help.prusa3d.com/fr/article/premiere-impression-avec-prusaslicer_1753){:target="_blank"}
+    [Prusa Knowledge Base](https://help.prusa3d.com/fr/article/supports_1698){:target="_blank"}
+    [Menu LCD i3 (pré firmware 3.9.0) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/menu-lcd-i3-pre-firmware-3-9-0_1876){:target="_blank"}
 
 ## Modifier la buse
 
@@ -189,9 +187,9 @@ Si vous voulez changer de filament, [suivez la procédure de changement de filam
 5. Calibrer la première couche (*First layer calibration*). 
 
 !!! info "Ressources en ligne"
-    [Calibration de la première couche (i3) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/calibration-de-la-premiere-couche-i3_112364)
+    [Calibration de la première couche (i3) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/calibration-de-la-premiere-couche-i3_112364){:target="_blank"}
 
-    [Changing or replacing the nozzle](https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069)
+    [Changing or replacing the nozzle](https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069){:target="_blank"}
 
 
 ## Paramètres avancés PrusaSlicer

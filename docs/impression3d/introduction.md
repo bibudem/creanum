@@ -29,11 +29,11 @@ Bien que le PLA dans son état naturel ne soit pas nocif au contact des aliments
 
 !!! tip "Ressource en ligne"
 
-    [Things you should know about PLA](https://www.youtube.com/watch?v=unmvWkfpmRE)
+    [Things you should know about PLA ](https://www.youtube.com/watch?v=unmvWkfpmRE){:target="_blank"}
 
-    [Properties Table](https://www.simplify3d.com/support/materials-guide/properties-table/?highlight=pla)
+    [Properties Table ](https://www.simplify3d.com/support/materials-guide/properties-table/?highlight=pla){:target="_blank"}
 
-    [Materials - Prusa 3D](https://help.prusa3d.com/en/materials)
+    [Materials - Prusa 3D ](https://help.prusa3d.com/en/materials){:target="_blank"}
 
 ### PVA
 
@@ -58,19 +58,19 @@ Lorsqu’une bobine de filament a absorbé trop d’humidité on peut utiliser l
 <figure markdown>
   ![Temps de séchage recommandé](../assets/images/temperature-impression3d.webp){ width="600" }
   <figcaption>temps de séchage recommandé.  </figcaption>
-  [Source](https://www.printdry.com/wp-content/uploads/2020/09/PrintDry_Filament-Dryer_manual_1908_1.pdf)
+  [Source ](https://www.printdry.com/wp-content/uploads/2020/09/PrintDry_Filament-Dryer_manual_1908_1.pdf){:target="_blank"}
 </figure>
 
 !!! question "Ressources en ligne"
-    [Humidité: la grande ennemie des filaments pour l'impression 3D](https://filament2print.com/fr/blog/45_probl%C3%A8mes-humedite-filaments-3d.html)
+    [Humidité: la grande ennemie des filaments pour l'impression 3D ](https://filament2print.com/fr/blog/45_probl%C3%A8mes-humedite-filaments-3d.html){:target="_blank"}
 
-    [WHY you NEED TO DRY your FILAMENTS!](https://www.youtube.com/watch?v=FAXUjZZER5E)
+    [WHY you NEED TO DRY your FILAMENTS! ](https://www.youtube.com/watch?v=FAXUjZZER5E){:target="_blank"}
 
-    [6 filament dryer test - which one dries better? eBox, eBox Lite, Sunlu, Sovol, Creality, Eibos](https://www.youtube.com/watch?v=6VB-pEvSed4)
+    [6 filament dryer test - which one dries better? eBox, eBox Lite, Sunlu, Sovol, Creality, Eibos ](https://www.youtube.com/watch?v=6VB-pEvSed4){:target="_blank"}
 
-    [Printing issues related to humid filament](https://support.bcn3d.com/knowledge/humid-filament-bcn3d)
+    [Printing issues related to humid filament ](https://support.bcn3d.com/knowledge/humid-filament-bcn3d){:target="_blank"}
 
-    [What Effect Does Moisture Have on 3D Printer Filament Storage? (And how to fix it)](https://blog.gotopac.com/2018/03/01/how-3d-printer-filament-storage-cabinets-instantly-improve-3d-print-part-quality/)
+    [What Effect Does Moisture Have on 3D Printer Filament Storage? (And how to fix it) ](https://blog.gotopac.com/2018/03/01/how-3d-printer-filament-storage-cabinets-instantly-improve-3d-print-part-quality/){:target="_blank"}
 
 ## **Les grandes étapes**
 
@@ -91,7 +91,7 @@ La première étape vers l’impression 3D, c’est de chercher un modèle 3D…
 
 Vous pouvez aussi modéliser votre propre modèle 3D en utilisant un logiciel de modélisation. Chaque logiciel a ses points forts et ses faiblesses.
 
-Voici une page expliquant quelques principes de modélisation importants pour l’impression 3D. Les fonctions sont celles d’une ancienne version de Blender, mais elles sont toujours utilisées dans la version actuelle : [https://www.sculpteo.com/fr/tutoriel/tutoriel-blender/](https://www.sculpteo.com/fr/tutoriel/tutoriel-blender/)
+Voici une page expliquant quelques principes de modélisation importants pour l’impression 3D. Les fonctions sont celles d’une ancienne version de Blender, mais elles sont toujours utilisées dans la version actuelle : [Tutoriel Blender ](https://www.sculpteo.com/fr/tutoriel/tutoriel-blender/){:target="_blank"}
 
 ### **Découpe du modèle**
 
@@ -110,15 +110,11 @@ Les entreprises de fabrication d'imprimante 3D proposent leurs propres logiciels
 
 Les profils sont un ensemble de paramètres prédéfinis dans le *Slicer*. Ils peuvent être modifiés à loisir. Des profils par défaut sont configurés, mais il faut tout de même vérifier les paramètres et les mouvements de l’extrudeur avant d’enregistrer le fichier sur le périphérique de stockage.
 
-Pour configurer les logiciels de découpe : 
-
-[Configuration PrusaSlicer](https://www.notion.so/Configuration-PrusaSlicer-7923f4bdf2f24542a53db4be2f83b4b5)
-
 #### **Épaisseur**
 
 <figure markdown>
   ![Une vue macro de trois impressions 3D](../assets/images/epaisseur-impression-3d.webp){ width="600" }
-  <figcaption>de gauche à droite : 0.05mm, 0.20mm et 0.30mm. </figcaption> [Source](https://www.hubs.com/knowledge-base/impact-layer-height-3d-print/)
+  <figcaption>de gauche à droite : 0.05mm, 0.20mm et 0.30mm. </figcaption> [Source ](https://www.hubs.com/knowledge-base/impact-layer-height-3d-print/)
 </figure>
 
 
@@ -141,11 +137,11 @@ Le remplissage agit sur la solidité et, dans une moindre mesure, sur la vitesse
 
 !!! note "Ressources en ligne"
 
-    [Tout ce que vous avez besoin de savoir sur les remplissages - Prusa Printers](https://blog.prusaprinters.org/fr/tout-ce-que-vous-avez-besoin-de-savoir-sur-les-remplissages_43579/)
+    [Tout ce que vous avez besoin de savoir sur les remplissages - Prusa Printers ](https://blog.prusaprinters.org/fr/tout-ce-que-vous-avez-besoin-de-savoir-sur-les-remplissages_43579/){:target="_blank"}
 
-    [Optimisation du remplissage des impressions 3D - Makershop](https://www.makershop.fr/blog/optimisation-remplissage-impressions-3d/)
+    [Optimisation du remplissage des impressions 3D - Makershop ](https://www.makershop.fr/blog/optimisation-remplissage-impressions-3d/){:target="_blank"}
 
-    [Comment optimiser le remplissage de vos impressions 3D ?](https://5d-impression.com/blog/comment-optimiser-le-remplissage-de-vos-impressions-3d-b53.html)
+    [Comment optimiser le remplissage de vos impressions 3D ? ](https://5d-impression.com/blog/comment-optimiser-le-remplissage-de-vos-impressions-3d-b53.html){:target="_blank"}
 
 
 #### **Support**
@@ -164,7 +160,7 @@ Le support est utilisé pour imprimer les porte-à-faux. L’impression doit obl
 
 !!! tip "Ressources en ligne"
 
-    [Peindre du support - Prusa 3D](https://help.prusa3d.com/fr/article/supports-peints_168584)
+    [Peindre du support - Prusa 3D ](https://help.prusa3d.com/fr/article/supports-peints_168584){:target="_blank"}
 
 #### **Adhérence**
 
@@ -222,15 +218,15 @@ Il existe plusieurs méthodes pour peaufiner votre impression. En voici quelques
 - Adhésion : si la pièce se décolle, utiliser un *brim* pour augmenter la surface d’adhésion et nettoyer le plateau avec le produit adapté (voir section [Avant l’impression](https://www.notion.so/Guide-de-l-impression-3D-2dfbdea9ff6f4e8082172534aca77ffb)).
 
 !!! question "Ressources en ligne"
-    [Print Quality Guide](https://www.simplify3d.com/support/print-quality-troubleshooting/)
+    [Print Quality Guide ](https://www.simplify3d.com/support/print-quality-troubleshooting/){:target="_blank"}
 
-    [Ultimate 3D Print Quality Troubleshooting Guide 2018 [All 44 Problems]](https://rigid.ink/pages/ultimate-troubleshooting-guide)
+    [Ultimate 3D Print Quality Troubleshooting Guide 2018 [All 44 Problems] ](https://rigid.ink/pages/ultimate-troubleshooting-guide){:target="_blank"}
 
-    [3.3. Cleaning the PEI spring steel print sheet for proper adhesion](https://projects.ttlexceeded.com/3dprinting_mk3_bed_cleaning.html#bed-cleaning-procedure)
+    [3.3. Cleaning the PEI spring steel print sheet for proper adhesion ](https://projects.ttlexceeded.com/3dprinting_mk3_bed_cleaning.html#bed-cleaning-procedure){:target="_blank"}
 
 !!!info "Livres disponibles aux bibliothèques en lien avec le sujet"
     ![The 3d printing handbook](../assets/images/livre-impression3d-1.webp){ align=left width=200}
-    [Redwood, B., Schöffer Filemon, & Garret, B. (2017). The 3d printing handbook : technologies, design and applications. 3D Hubs B.V.](https://umontreal.on.worldcat.org/v2/oclc/1019921213)
+    [Redwood, B., Schöffer Filemon, & Garret, B. (2017). The 3d printing handbook : technologies, design and applications. 3D Hubs B.V. ](https://umontreal.on.worldcat.org/v2/oclc/1019921213){:target="_blank"}
 
 
 
