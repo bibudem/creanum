@@ -15,6 +15,11 @@
   line-height: 3.25rem;
 }  
 
+/* gras quand item selectionné sur le menu en haut */
+.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
+  -webkit-text-stroke:thin;
+  opacity: 1;
+}
 
 .md-copyright {
     color:white;
@@ -34,7 +39,15 @@ a:hover, a:focus {
   opacity: .8;
 }
 
+/* retour à la ligne dans la navigation gauche */
+.md-ellipsis {
+  white-space: normal;
+}
 
+/* item stroke thin quand sélectionné dans la navigation gauche */
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+-webkit-text-stroke: thin;
+}
 
 /* Couleurs du mode sombre */
 [data-md-color-scheme=slate] {
@@ -71,3 +84,5 @@ a:hover, a:focus {
 {
   display: none !important;
 }
+
+

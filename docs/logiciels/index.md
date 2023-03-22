@@ -1,7 +1,8 @@
 ---
 hide:
-  - navigation
   - toc
+  - toc.follow
+  - navigation
   - footer
 ---
 
@@ -22,12 +23,12 @@ hide:
     ??? Abstract "Audacity :material-open-source-initiative:" 
 
 === "Vidéo"
-    ??? Abstract "OBS"
+    ??? Abstract "OBS :material-open-source-initiative:"
     ??? Abstract "DaVinci Resolve"
     ??? Abstract "Adobe Premiere Pro"
     ??? Abstract "Adobe Rush"
     ??? Abstract "Adobe After Effects"
-    ??? Abstract "ffmpeg"
+    ??? Abstract "ffmpeg :material-open-source-initiative:"
         --8<-- "liste.md:ffmpeg"
 
 === "Modélisation 3D"
@@ -35,8 +36,8 @@ hide:
 === "Animation 2D"
 
 === "Impression 3D"
-    ??? Abstract "PrusaSlicer"
-    ??? Abstract "Cura"
+    ??? Abstract "PrusaSlicer :material-open-source-initiative:"
+    ??? Abstract "Cura :material-open-source-initiative:"
 
 === "Découpe numérique"
 
