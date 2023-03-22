@@ -27,7 +27,7 @@ Contrairement à l’ABS (plastique à base de pétrole), le PLA est moins durab
 
 Bien que le PLA dans son état naturel ne soit pas nocif au contact des aliments, en raison des lacunes microscopiques dans les couches, les bactéries peuvent s’y loger. De plus, les produits utilisés pour la couleur ne sont pas sans danger. Il est donc déconseillé d’imprimer des objets qui vont être en contact avec des aliments.
 
-!!! tip "Ressource en ligne"
+!!! tip "Ressources en ligne"
 
     [Things you should know about PLA ](https://www.youtube.com/watch?v=unmvWkfpmRE){:target="_blank"}
 
