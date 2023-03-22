@@ -23,7 +23,7 @@ hide:
     ??? Abstract "Audacity :material-open-source-initiative:" 
 
 === "Vidéo"
-    ??? Abstract "OBS :material-open-source-initiative:"
+    ??? Abstract "###OBS :material-open-source-initiative:"
     ??? Abstract "DaVinci Resolve"
     ??? Abstract "Adobe Premiere Pro"
     ??? Abstract "Adobe Rush"
