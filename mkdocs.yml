@@ -22,6 +22,7 @@ theme:
     edit: material/pencil 
     view: material/eye
     repo: fontawesome/brands/github
+  palette: default
   
   palette: 
     # light mode

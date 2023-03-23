@@ -4,7 +4,7 @@ hide :
     - footer
 ---
 
-# Contribuer au Wiki
+# Impliquez-vous!
 
 Nous encourageons le partage de connaissances et vos contributions sont les bienvenues! 
 
