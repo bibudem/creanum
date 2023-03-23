@@ -62,9 +62,7 @@ a:hover, a:focus {
   margin: 0.7rem;
 }
 
-/* Affiche une icône pour les liens externes automatiquement, sauf celui menant vers le site des bibs */
-/* Piste de solution pour changer la couleur lors du passage vers le darkmode : https://codepen.io/noahblon/post/coloring-svgs-in-css-background-images?__cf_chl_captcha_tk__=w5G.Y.ZcnRzuGuareocexQKVwODqFuIv.jp9PxYbfKU-1641510101-0-gaNycGzNB30 */
-/* Ou mon approche n'est clairement pas bonne. Emir*/
+/* Lien externe */
 .md-content a[href^="http"]::after,
 .md-content a[href^="https://"]::after
 {
@@ -84,5 +82,3 @@ a:hover, a:focus {
 {
   display: none !important;
 }
-
-
