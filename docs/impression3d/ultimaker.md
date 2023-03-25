@@ -1,5 +1,6 @@
 ---
-
+search:
+  boost: 2
 ---
 
 # Ultimaker

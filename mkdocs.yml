@@ -25,15 +25,15 @@ theme:
   palette: default
   
   palette: 
-    # light mode
+    # mode clair
     - scheme: default
       toggle:
-        icon: material/lightbulb
+        icon: material/eye
         name: Passer en mode sombre
-    # dark mode
+    # mode sombre
     - scheme: slate
       toggle:
-        icon: material/lightbulb-outline
+        icon: material/eye-outline
         name: Passer en mode clair
   
   features:
@@ -71,6 +71,7 @@ markdown_extensions:
   - tables
   - pymdownx.keys
   - footnotes
+  - pymdownx.progressbar
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.emoji:
@@ -102,6 +103,9 @@ extra_javascript:
 
 extra_css:
   - assets/stylesheets/styleudem.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+
+
   
 # Analytics
 
@@ -129,7 +133,7 @@ extra:
 
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/wikicn
+      link: https://github.com/bibudem/wiki
       name: CréaNum sur Github
 
     - icon: fontawesome/brands/twitter 
@@ -149,8 +153,24 @@ extra:
 
 nav:
   - Accueil: index.md
+
   - Documentation: 
     - documentation/index.md
+
+    - Broderie numérique:
+      - Introduction: broderie-numerique/index.md
+
+    - Découpe numérique:
+      - Introduction: découpe-numérique/index.md
+
+    - Électroniques:
+      - Arduino: electroniques/arduino.md
+      - Raspberry Pi: electroniques/raspberrypi.md
+      - Internet des Objets:
+        - Arduino IDE pour l'ESP8266: electroniques/iot/arduino.md
+        - Connecter un ESP à Blynk: electroniques/iot/blynk.md
+        - Les modes de veille du ESP 8266: electroniques/iot/veille.md
+
     - Impression 3D: 
       - Introduction:
         - Guide de l'impression 3D: impression3d/introduction.md
@@ -162,20 +182,10 @@ nav:
       - Prusa i3 Mk3s+: impression3d/prusa.md
       - Ultimaker 2/S3: impression3d/ultimaker.md
       - Zortrax Inkspire: impression3d/zortrax.md
-    - Électroniques:
-      - Arduino: electronique/arduino.md
-      - Raspberry Pi: electronique/raspberrypi.md
-      - Internet des Objets:
-        - Arduino IDE pour l'ESP8266: electronique/iot/arduino.md
-        - Connecter un ESP à Blynk: electronique/iot/blynk.md
-        - Les modes de veille du ESP 8266: electronique/iot/veille.md
-    - Réalité virtuelle:
-      - Mise en garde: vr/mises-en-garde.md
-      - Casque Oculus GO:
-        - Guide d'utilisation: vr/oculus-go.md
-        - Catalogue d'expériences immersives: vr/catalogue.md
-        - FAQ: vr/faq.md
-    - Production Audio/Vidéo:
+
+    
+
+    - Médias numériques:
       - Audio: 
         - Guide Baladodiffusion: production-audio-video/guide-balado.md
         - RodeCaster Pro : production-audio-video/rodecasterpro.md  
@@ -187,6 +197,15 @@ nav:
         - Adobe Premiere Pro : production-audio-video/premierepro.md
         - Audacity : production-audio-video/audacity.md
         - Adobe Audition : production-audio-video/audacity.md
+
+  
+    - Réalité virtuelle:
+      - Mise en garde: vr/mises-en-garde.md
+      - Casque Oculus GO:
+        - Guide d'utilisation: vr/oculus-go.md
+        - Catalogue d'expériences immersives: vr/catalogue.md
+        - FAQ: vr/faq.md
+
   - Projets: 
     - projets/index.md
   - Logiciels: logiciels/index.md

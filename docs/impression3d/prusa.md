@@ -1,3 +1,9 @@
+---
+search:
+  boost: 2
+---
+
+
 # Prusa i3 Mk3s+
 
 !!! note "Votre contribution est la bienvenue!"

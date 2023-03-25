@@ -15,21 +15,26 @@ hide:
 # Logiciels
 
 === "Audio"
-    ??? Abstract "Adobe Audition"
-        --8<-- "liste.md:audition"
-    ??? Abstract "Reaper"
-        --8<-- "liste.md:reaper"
 
-    ??? Abstract "Audacity :material-open-source-initiative:" 
+## Adobe Premiere Pro
+
+### Localisation
+
+### Ressources en ligne
 
 === "Vidéo"
-    ??? Abstract "OBS :material-open-source-initiative:"
-    ??? Abstract "DaVinci Resolve"
-    ??? Abstract "Adobe Premiere Pro"
-    ??? Abstract "Adobe Rush"
-    ??? Abstract "Adobe After Effects"
-    ??? Abstract "ffmpeg :material-open-source-initiative:"
-        --8<-- "liste.md:ffmpeg"
+
+## FFMPEG :material-open-source-initiative:
+FFMPEG est un puissant convertisseur audio/vidéo à code ouvert compatible Linux, Mac et Windows. Il fonctionne en ligne de commande.
+
+### Localisation
+:material-crosshairs-gps: Bibliothèque des sciences - Studio d'édition numérique
+
+### Lien de téléchargement
+[https://ffmpeg.org/](https://ffmpeg.org/)
+
+### sur le wiki
+[Tutoriel ffmpeg](../production-audio-video/ffmpeg.md)
 
 === "Modélisation 3D"
 

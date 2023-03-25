@@ -1,12 +1,16 @@
 ---
 Title: Introduction à l'impression 3D
 Description: Tout apprendre sur l'impression 3D
+
+search:
+  boost: 2
+  
 ---
 
 # Introduction à l'impression 3D
 
 !!! note "Votre contribution est la bienvenue!"
-    Cette page est en constante évolution. Si vous aussi vous voulez contribuer à son amélioration, consultez "[Comment contribuer?](https://www.notion.so/Comment-contribuer-2a3ad7b814524991b288cf91012f1f10)"
+    Cette page est en constante évolution. Si vous aussi vous voulez contribuer à son amélioration, consultez [la section Communauté](../communaute/index.md).
 
 
 ## **Qu’est-ce que l’impression 3D?**
