@@ -7,11 +7,11 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Documentation et projets en création numérique" name="description"/>
 <meta content="Les Bibliothèques UdeM" name="author"/>
-<link href="https://bibudem.github.io/wiki/electronique/raspberrypi/" rel="canonical"/>
+<link href="https://bibudem.github.io/wiki/electroniques/raspberrypi/" rel="canonical"/>
 <link href="../arduino/" rel="prev"/>
-<link href="../../vr/mises-en-garde/" rel="next"/>
+<link href="../../impression3d/introduction/" rel="next"/>
 <link href="../../assets/logo/favicon.ico" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-9.1.3+insiders-4.32.3" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.4+insiders-4.32.4" name="generator"/>
 <title>Raspberry Pi - Wiki CréaNum</title>
 <link href="../../assets/stylesheets/main.f49c7df4.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.6932e648.min.css" rel="stylesheet"/>
@@ -20,6 +20,7 @@
 <style>:root{--md-text-font:"Open Sans";--md-code-font:"JetBrains Mono"}</style>
 <link href="../../css/timeago.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/styleudem.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-45S4QV2SKS"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-45S4QV2SKS",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-45S4QV2SKS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
 <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
@@ -90,11 +91,11 @@
 <form class="md-header__option" data-md-component="palette">
 <input aria-label="Passer en mode sombre" class="md-option" data-md-color-accent="" data-md-color-media="" data-md-color-primary="" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
 <label class="md-header__button md-icon" for="__palette_1" hidden="" title="Passer en mode sombre">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"></path></svg>
 </label>
 <input aria-label="Passer en mode clair" class="md-option" data-md-color-accent="" data-md-color-media="" data-md-color-primary="" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
 <label class="md-header__button md-icon" for="__palette_0" hidden="" title="Passer en mode clair">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 9a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3m0-4.5c5 0 9.27 3.11 11 7.5-1.73 4.39-6 7.5-11 7.5S2.73 16.39 1 12c1.73-4.39 6-7.5 11-7.5M3.18 12a9.821 9.821 0 0 0 17.64 0 9.821 9.821 0 0 0-17.64 0Z"></path></svg>
 </label>
 </form>
 <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -284,7 +285,7 @@
 <span class="md-ellipsis">
     
   
-    Impression 3D
+    Broderie numérique
   
 
     
@@ -293,6 +294,183 @@
 </label>
 <nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Broderie numérique
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../broderie-numerique/index.md">
+<span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Découpe numérique
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Découpe numérique
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../découpe-numérique/index.md">
+<span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Électroniques
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Électroniques
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../arduino/">
+<span class="md-ellipsis">
+    
+  
+    Arduino
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    
+  
+    Raspberry Pi
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    
+  
+    Raspberry Pi
+  
+
+    
+  </span>
+</a>
+<nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#commandes-utiles">
+<span class="md-ellipsis">
+      
+        Commandes utiles
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#connexion-au-reseau-udem-avec-cryptage-sur-raspbian-os">
+<span class="md-ellipsis">
+      
+        Connexion au réseau UdeM avec cryptage sur Raspbian OS
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../iot/arduino.md">
+<span class="md-ellipsis">
+    
+  
+    Internet des Objets
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Impression 3D
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
 <span class="md-nav__icon md-icon"></span>
             
   
@@ -353,140 +531,25 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Électroniques
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="true" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_3">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Électroniques
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../arduino/">
-<span class="md-ellipsis">
-    
-  
-    Arduino
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
-<span class="md-ellipsis">
-    
-  
-    Raspberry Pi
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../iot/arduino.md">
-<span class="md-ellipsis">
-    
-  
-    Internet des Objets
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
 <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
 <span class="md-ellipsis">
     
   
-    Réalité virtuelle
+    Médias numériques
   
 
     
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_4">
+<nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_6">
 <span class="md-nav__icon md-icon"></span>
             
   
-    Réalité virtuelle
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../vr/mises-en-garde/">
-<span class="md-ellipsis">
-    
-  
-    Mise en garde
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../vr/oculus-go/">
-<span class="md-ellipsis">
-    
-  
-    Casque Oculus GO
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Production Audio/Vidéo
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_5">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Production Audio/Vidéo
+    Médias numériques
   
 
           </label>
@@ -523,6 +586,57 @@
     
   
     Édition
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Réalité virtuelle
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_7_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_7">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Réalité virtuelle
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../vr/mises-en-garde/">
+<span class="md-ellipsis">
+    
+  
+    Mise en garde
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../vr/oculus-go/">
+<span class="md-ellipsis">
+    
+  
+    Casque Oculus GO
   
 
     
@@ -609,6 +723,30 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#commandes-utiles">
+<span class="md-ellipsis">
+      
+        Commandes utiles
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#connexion-au-reseau-udem-avec-cryptage-sur-raspbian-os">
+<span class="md-ellipsis">
+      
+        Connexion au réseau UdeM avec cryptage sur Raspbian OS
+      
+    </span>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -640,10 +778,134 @@
 </ol>
 </nav>
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/bibudem/wiki/edit/master/docs/electronique/raspberrypi.md" title="Editer cette page">
+<a class="md-content__button md-icon" href="https://github.com/bibudem/wiki/edit/master/docs/electroniques/raspberrypi.md" title="Editer cette page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
 <div><h1 id="raspberry-pi">Raspberry Pi<a class="headerlink" href="#raspberry-pi" title="Lien permanent vers cette section">¶</a></h1>
+<h2 id="commandes-utiles">Commandes utiles<a class="headerlink" href="#commandes-utiles" title="Lien permanent vers cette section">¶</a></h2>
+<p>Comme le Raspberry Pi s’opère aussi via les lignes de commandes, voici une liste non-exhaustive des commandes les plus utilisées :</p>
+<ul>
+<li><strong>sudo</strong> : utilisé comme préfixe, il permet d’exécuter la commande avec des privilèges élevés.</li>
+<li><strong>apt-get update</strong> : synchronise la liste des paquets du système. À faire avant d’effectuer une mise à jour.</li>
+<li><strong>apt-get upgrade</strong> : met à jour les paquets présents dans le système.</li>
+<li><strong>apt-get dist-upgrade</strong> : fait une mise à jour complète du système Raspbian.</li>
+<li><strong>apt-get install nomdupaquet</strong> : installe un paquet en spécifiant son nom. Exemple : apt-get install vlc</li>
+<li><strong>apt-get remove nomdupaquet</strong> : désinstalle un paquet.</li>
+<li><strong>clear</strong> : efface le contenu texte du terminal.</li>
+<li><strong>date</strong> : affiche la date actuelle.</li>
+<li><strong>find / -name exemple.txt</strong> : cherche le fichier exemple.txt dans tout le système.</li>
+<li><strong>nano exemple.txt</strong> : ouvre le fichier exemple.txt avec l’éditeur nano.</li>
+<li><strong>poweroff</strong> : arrête le système immédiatement.</li>
+<li><strong>raspi-config</strong> : ouvre le menu de configuration de Raspbian.</li>
+<li><strong>reboot</strong> : redémarre le système.</li>
+<li><strong>shutdown -h now</strong> : arrête le système.</li>
+<li><strong>shutdown -h 10:02</strong> : arrête le système à une heure précise.</li>
+<li><strong>startx</strong> : ouvre l’interface graphique de Raspbian.</li>
+<li><strong>flèche du haut</strong> : revient vers la commande précédente.</li>
+</ul>
+<h3 id="commandes-pour-les-fichiers-et-dossiers">Commandes pour les fichiers et dossiers<a class="headerlink" href="#commandes-pour-les-fichiers-et-dossiers" title="Lien permanent vers cette section">¶</a></h3>
+<ul>
+<li><strong>cat exemple.txt</strong> : affiche le contenu du fichier exemple.txt.</li>
+<li><strong>cd /test</strong> : accède au dossier nommé test.</li>
+<li><strong>cd …</strong> : revient en arrière.</li>
+<li><strong>cp exemple.txt /home/pi/test</strong> : copie le fichier exemple.txt vers le dossier spécifié.</li>
+<li><strong>ls -l</strong> : liste les fichiers présents dans le dossier avec la taille, la date de modification et les permissions.</li>
+<li><strong>mkdir test</strong> : crée un nouveau dossier test.</li>
+<li><strong>mv exemple.txt /home/pi/test</strong> : déplace le fichier exemple.txt vers le dossier test.</li>
+<li><strong>mv exemple.txt exemple1.txt</strong> : renomme le fichier.</li>
+<li><strong>rm exemple.txt</strong> : efface le fichier.</li>
+<li><strong>rmdir test</strong> : efface le dossier (uniquement s’il est vide).</li>
+<li><strong>touch exemple.txt</strong> : crée un nouveau fichier exemple.txt vide.</li>
+</ul>
+<h3 id="commandes-reseaux-et-internet">Commandes réseaux et internet<a class="headerlink" href="#commandes-reseaux-et-internet" title="Lien permanent vers cette section">¶</a></h3>
+<ul>
+<li><strong>Ifconfig</strong> : vérifie le statut de la connectivité.</li>
+<li><strong>Iwconfig</strong> : le nom du réseau wifi branché.</li>
+<li><strong>iwlist wlan0 scan</strong> : affiche une liste des réseaux wifi disponibles.</li>
+<li><strong>nmap</strong> : scan le réseau et liste les périphériques connectés, le nombre des ports, les protocoles, adresses MAC., etc.</li>
+<li><strong>ping <a href="http://bib.umontreal.ca/">bib.umontreal.ca</a></strong> : teste la connectivité. Envoie un paquet à l’adresse et attend une réponse.</li>
+<li><strong>wget <a href="http://bib.umontreal.ca/test.txt">bib.umontreal.ca/test.txt</a></strong> : télécharge le fichier test.txt depuis Internet et le sauvegarde dans le dossier courant.</li>
+</ul>
+<h3 id="commandes-information-systeme">Commandes information système<a class="headerlink" href="#commandes-information-systeme" title="Lien permanent vers cette section">¶</a></h3>
+<ul>
+<li><strong>ps aux</strong> : liste des processus qui tournent.</li>
+<li><strong>kill pid</strong> : termine le processus. Exemple : kill terminal.</li>
+<li><strong>cat /proc/meminfo</strong> : affiche les détails sur la mémoire.</li>
+<li><strong>cat /proc/partitions</strong> : affiche la taille et le nombre de partitions de la carte SD ou disque dur.</li>
+<li><strong>cat /proc/version</strong> : affiche la version du Raspberry Pi utilisée.</li>
+<li><strong>df -h</strong> : affiche des informations concernant les disques.</li>
+<li><strong>df /</strong> : affiche combien d’espace libre il reste de disponible.</li>
+<li><strong>free</strong> : affiche combien de mémoire vive il reste de disponible.</li>
+<li><strong>hostname -I</strong> : l’adresse IP du Raspberry Pi.</li>
+<li><strong>lsusb</strong> : affiche la liste des périphériques USB connectés au Raspberry Pi.</li>
+<li><strong>vcgencmd measure_temp</strong> : affiche la température du CPU.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Ressources en ligne</p>
+<p><a href="https://geek-university.com/raspberry-pi/raspberry-pi-online-course/">Raspberry Pi online course</a></p>
+<p><a href="https://magpi.raspberrypi.com/articles/terminal-help">How to open Terminal and use the command line - The MagPi magazine</a></p>
+</div>
+<h2 id="connexion-au-reseau-udem-avec-cryptage-sur-raspbian-os">Connexion au réseau UdeM avec cryptage sur Raspbian OS<a class="headerlink" href="#connexion-au-reseau-udem-avec-cryptage-sur-raspbian-os" title="Lien permanent vers cette section">¶</a></h2>
+<h3 id="etape-1-installer-et-activer-le-network-manager">Étape 1 : Installer et activer le network-manager<a class="headerlink" href="#etape-1-installer-et-activer-le-network-manager" title="Lien permanent vers cette section">¶</a></h3>
+<p>Ouvrez la fenêtre de terminal et exécutez les commandes ci-dessous pour installer le gestionnaire de réseau Linux standard.</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>network-manager<span class="w"> </span>network-manager-gnome
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>disable<span class="w"> </span>--now<span class="w"> </span>dhcpcd<span class="w"> </span>
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>--now<span class="w"> </span>network-manager
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>sudo<span class="w"> </span>reboot
+</code></pre></div>
+<p>La première ligne permet d'installer le gestionnaire de réseau.
+La deuxième ligne permet de désactiver <strong>DHCP</strong>, car il ne fonctionnera pas avec le gestionnaire de réseau.
+La troisième ligne permet d'activer le service de gestionnaire de réseau. 
+La dernière ligne permet de redémarrer l'appareil.</p>
+<p>Si <strong>sudo systemctl enable NetworkManager</strong> ne fonctionne pas, iI existe une autre façon d'activer <strong>NetworkManager</strong> sur Raspberry Pi en utilisant la commande <strong>raspi-config</strong>. Voici les étapes à suivre :</p>
+<ol>
+<li>Ouvrez le gestionnaire de configuration en utilisant la commande :
+<code>sudo raspi-config</code></li>
+<li>Allez à <strong>Interfacing options.</strong></li>
+<li>Sélectionnez <strong>P2 Network.</strong></li>
+<li>Choisir <strong>N1 to enable the SPI interface.</strong></li>
+<li>Redémarrer le système en utilisant la commande :
+<code>sudo reboot</code></li>
+</ol>
+<p><strong>NetworkManager</strong> devrait être activé et vous pourrez gérer vos connexions réseau en utilisant cet outil.</p>
+<p>Il est important de noter que cette méthode n'est valable que pour les versions récentes de Raspbian et qu'il est possible que cette option n'apparaisse pas dans l'interface si vous utilisez une version antérieure.</p>
+<h3 id="etape-2-connexion-a-udem-avec-cryptage">Étape 2 : Connexion à UdeM avec cryptage<a class="headerlink" href="#etape-2-connexion-a-udem-avec-cryptage" title="Lien permanent vers cette section">¶</a></h3>
+<ol>
+<li>Téléchargez le <a href="https://entrust.com/root-certificates/entrust_g2_ca.cer?_ga=2.176382957.952316860.1542655212-1390703555.1542655212">certificat d'authentification</a>.</li>
+<li>Aller dans les paramètres <strong>WI-FI</strong> (habituellement en haut à droite de l'écran)</li>
+<li>Sélectionner le réseau <strong>UdeM avec cryptage</strong></li>
+<li>Appliquez les paramètres suivants :</li>
+<li>Dans le champ <strong>Sécurité</strong>, choisissez <strong>WPA et WPA2 d'entreprise</strong>.</li>
+<li>Dans le champ <strong>Authentification</strong>, sélectionnez <strong>EAP sécurisé (PEAP</strong>).</li>
+<li>Dans le champ <strong>Certificat CA</strong>, indiquez l'emplacement où vous avez sauvegardé la clé de chiffrement.</li>
+<li>Dans le champ <strong>Nom d'utilisateur</strong>, inscrivez votre <strong>code d'accès TI</strong> .</li>
+<li>Dans le champ <strong>Mot de passe</strong>, entrez votre <strong>mot de passe/UNIP</strong> de votre compte.</li>
+</ol>
+<h3 id="pour-aller-plus-loin">Pour aller plus loin<a class="headerlink" href="#pour-aller-plus-loin" title="Lien permanent vers cette section">¶</a></h3>
+<p>Il existe plusieurs autres façons de le faire, si jamais vous n’arrivez toujours pas a vous connecter à un réseau d’entreprise, en voici quelques-unes :</p>
+<h4 id="mode-hotspot">Mode Hotspot<a class="headerlink" href="#mode-hotspot" title="Lien permanent vers cette section">¶</a></h4>
+<p>Activer le mode hotspot sur un portable, voici les étapes à suivre (les étapes peuvent varier légèrement en fonction du système d'exploitation et du modèle de téléphone) :</p>
+<ul>
+<li>Accédez aux paramètres de votre téléphone.</li>
+<li>Recherchez l'option <strong>Partage de connexion, Hotspot personnel, point d'accès mobile</strong> ou <strong>tethering</strong>.</li>
+<li>Activez l'option <strong>Hotspot personnel</strong> ou <strong>partage de connexion</strong>.</li>
+<li>Configurez les paramètres de sécurité pour votre hotspot (par exemple, nom du réseau et mot de passe).</li>
+<li>Connectez les appareils à votre hotspot en utilisant les informations de connexion configurées.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Important</p>
+<p>L'utilisation de la fonctionnalité de partage de connexion peut consommer beaucoup de données et peut entraîner des frais supplémentaires de votre fournisseur de services. Assurez-vous de vérifier les limites de données de votre forfait avant d'utiliser cette fonctionnalité.</p>
+</div>
+<h4 id="connexion-a-un-reseau-filaire">Connexion à un réseau filaire<a class="headerlink" href="#connexion-a-un-reseau-filaire" title="Lien permanent vers cette section">¶</a></h4>
+<p>Si votre Raspberry Pi est équipé d'une carte Ethernet, vous pouvez connecter directement le Raspberry Pi à un réseau câblé d'entreprise en utilisant un câble Ethernet.</p>
+<h4 id="connexion-wifi">Connexion WIFI<a class="headerlink" href="#connexion-wifi" title="Lien permanent vers cette section">¶</a></h4>
+<p>Vous pouvez également connecter votre Raspberry Pi à un réseau WiFi d'entreprise en utilisant une carte WIFI USB ou intégrée. Il vous faudra configurer les paramètres de connexion WiFi en utilisant l'outil de gestion de connexion <strong>Network Manager</strong> ou <strong>wpa_supplicant</strong>.</p>
+<h4 id="connexion-vpn">Connexion VPN<a class="headerlink" href="#connexion-vpn" title="Lien permanent vers cette section">¶</a></h4>
+<p>Si votre réseau d'entreprise utilise un VPN, vous pouvez configurer un client VPN sur votre Raspberry Pi pour vous connecter à ce réseau. Il existe plusieurs clients VPN open-source que vous pouvez installer sur votre Raspberry Pi, tels que <strong>OpenVPN</strong> ou <strong>StrongSwan</strong>.</p>
+<div class="admonition info">
+<p class="admonition-title">Ressources en ligne</p>
+<p><a href="https://wiki.umontreal.ca/display/SIE/FAQ+Linux">Configurer le réseau sans-fil sur un poste Linux</a></p>
+</div>
 <!---#Impression 3D-->
 <!---#3D--></div>
 <aside class="md-source-file">
@@ -651,7 +913,7 @@
 <span class="md-icon" title="Dernière mise à jour">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-17T23:26:27+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-17</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-25T22:49:29+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-25</span>
 </span>
 </aside>
 <form class="md-feedback" hidden="" name="feedback">
@@ -712,13 +974,13 @@
               </div>
 </div>
 </a>
-<a aria-label="Suivant: Mise en garde" class="md-footer__link md-footer__link--next" href="../../vr/mises-en-garde/" rel="next">
+<a aria-label="Suivant: Guide de l'impression 3D" class="md-footer__link md-footer__link--next" href="../../impression3d/introduction/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                   Suivant
                 </span>
-                Mise en garde
+                Guide de l'impression 3D
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -747,7 +1009,7 @@
             Accessibilité</a>
 </div>
 <div class="md-social">
-<a class="md-social__link" href="https://github.com/wikicn" rel="noopener" target="_blank" title="CréaNum sur Github">
+<a class="md-social__link" href="https://github.com/bibudem/wiki" rel="noopener" target="_blank" title="CréaNum sur Github">
 <svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
 </a>
 <a class="md-social__link" href="https://twitter.com/bibudem" rel="noopener" target="_blank" title="Les Bibliothèques UdeM sur Twitter">
@@ -773,7 +1035,7 @@
 <div class="md-dialog__inner md-typeset"></div>
 </div>
 <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.path", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.action.edit", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
-<script src="../../assets/javascripts/bundle.80f82a11.min.js"></script>
+<script src="../../assets/javascripts/bundle.a3190745.min.js"></script>
 <script src="../../js/timeago.min.js"></script>
 <script src="../../js/timeago_mkdocs_material.js"></script>
 <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
