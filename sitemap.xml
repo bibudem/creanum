@@ -2,182 +2,202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bibudem.github.io/wiki/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/a-propos/accessibilite/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/a-propos/equipe/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/a-propos/nous-joindre/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/a-propos/objectifs/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bibudem.github.io/wiki/broderie-numerique/</loc>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/communaute/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/communaute/formations/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/communaute/guide-contribution/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/contribuer/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bibudem.github.io/wiki/decoupe-numerique/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <loc>https://bibudem.github.io/wiki/decoupe-numerique/cameo/</loc>
+         <lastmod>2023-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bibudem.github.io/wiki/decoupe-numerique/cricut/</loc>
+         <lastmod>2023-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bibudem.github.io/wiki/decoupe-numerique/decoupe/</loc>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/documentation/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/electroniques/arduino/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/electroniques/iot/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/electroniques/raspberrypi/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/equipements/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/impression3d/faq/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/impression3d/introduction/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/impression3d/modeles/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/impression3d/prusa/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/impression3d/ultimaker/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/logiciels/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/logiciels/liste/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bibudem.github.io/wiki/production-audio-video/audacity/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <loc>https://bibudem.github.io/wiki/medias-numeriques/audacity/</loc>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bibudem.github.io/wiki/production-audio-video/ffmpeg/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <loc>https://bibudem.github.io/wiki/medias-numeriques/ffmpeg/</loc>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bibudem.github.io/wiki/production-audio-video/guide-balado/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <loc>https://bibudem.github.io/wiki/medias-numeriques/guide-balado/</loc>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bibudem.github.io/wiki/production-audio-video/obs/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <loc>https://bibudem.github.io/wiki/medias-numeriques/guide-video/</loc>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bibudem.github.io/wiki/production-audio-video/premierepro/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <loc>https://bibudem.github.io/wiki/medias-numeriques/obs/</loc>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bibudem.github.io/wiki/production-audio-video/rodecasterpro/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <loc>https://bibudem.github.io/wiki/medias-numeriques/premierepro/</loc>
+         <lastmod>2023-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bibudem.github.io/wiki/medias-numeriques/rodecasterpro/</loc>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/programmation/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/projets/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/projets/arduino/plante-intelligente/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/vr/catalogue/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/vr/faq/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/vr/mises-en-garde/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/vr/oculus-go/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bibudem.github.io/wiki/projets/category/arduino/</loc>
-         <lastmod>2023-03-25</lastmod>
+         <lastmod>2023-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

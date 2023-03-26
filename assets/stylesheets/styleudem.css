@@ -19,7 +19,7 @@
  /* Couleurs du mode clair */
 [data-md-color-scheme=default] {
   /* couleur du fond */
-  --md-default-bg-color:#ffffffee; 
+  --md-default-bg-color:#f8f8f8; 
 }
 
 
@@ -70,10 +70,6 @@ a:hover, a:focus {
 } */
 
 
-
-
-
-
 /* Style du bouton */
 
 
@@ -114,25 +110,20 @@ a:hover, a:focus {
 }
 
 .md-tabs {
-  color: #1d70b8;
-  background-color: #f8f8f8;
-  border-top: 10px solid;
-  border-top-color:  #1d70b8;
-  border-bottom: 1px solid;
-  border-bottom-color:  #b1b4b6;
-
+  color: #f8f8f8 ;
+  background-color: #0057ac;
   line-height: 1;
   font-weight: 600;
   }
 
   
-  .md-tabs__link:hover {
+.md-tabs__link:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 3px;
-  }
+}
   
-  .md-tabs__item--active {
+.md-tabs__item--active {
     border-bottom: 4px solid;
     border-bottom-color:   #1d70b8;
   }

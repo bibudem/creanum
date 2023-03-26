@@ -40,9 +40,6 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#bienvenue-sur-le-wiki-creanum">
-          Aller au contenu
-        </a>
 </div>
 <div data-md-component="announce">
 <aside class="md-banner">
@@ -81,7 +78,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Accueil
+              Home
             
           </span>
 </div>
@@ -151,7 +148,7 @@
   
     
   
-  Accueil
+  Home
 
       </a>
 </li>
@@ -216,9 +213,66 @@
 </ul>
 </div>
 </nav>
+<style>
+
+
+.md-header--shadow {
+    box-shadow:none;
+}
+
+#hero {
+  height: 70vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.850), rgba(0, 87, 172, 0.60)),
+  url(assets/images/hero.webp) no-repeat center bottom / cover;
+  color: whitesmoke;
+}
+.container {
+  width: 90%;
+  height: 90%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /*   text-align: center; */
+}
+#hero .info h1 {
+  font-size: 3rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 1rem;
+}
+#hero .info h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+#hero .info p {
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+main {
+    display: none;
+}
+
+</style>
+<section id="hero">
+<div class="container">
+<div class="info">
+<h1>Wiki CréaNum</h1>
+<h2>Bienvenue sur le wiki dédié aux Espaces de création numérique <br/>
+            des bibliothèques de l'Université de Montréal. </h2>
+<a class="md-button md-button--primary" href="communaute/" title="Envie de contribuer?">
+              Envie de contribuer?
+            </a>
+<p>
+</p>
+</div>
+</div>
+</section>
 <main class="md-main" data-md-component="main">
 <div class="md-main__inner md-grid">
-<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden="">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
@@ -245,7 +299,7 @@
 <span class="md-ellipsis">
     
   
-    Accueil
+    Home
   
 
     
@@ -334,7 +388,7 @@
 </div>
 </div>
 </div>
-<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden="">
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table des matières" class="md-nav md-nav--secondary">
@@ -344,25 +398,6 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/bibudem/wiki/edit/master/docs/index.md" title="Editer cette page">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
-</a>
-<html><head><style>
-  .md-content__button {
-    display: none;
-  }
-</style>
-</head><body><h1 id="bienvenue-sur-le-wiki-creanum">Bienvenue sur le wiki CréaNum<a class="headerlink" href="#bienvenue-sur-le-wiki-creanum" title="Lien permanent vers cette section">¶</a></h1>
-<!---#Impression 3D-->
-<!---#3D--></body></html>
-<aside class="md-source-file">
-<span class="md-source-file__fact">
-<span class="md-icon" title="Dernière mise à jour">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
-</span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-25T22:49:29+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-25</span>
-</span>
-</aside>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
