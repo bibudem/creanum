@@ -6,7 +6,7 @@
 
 # Guide d’utilisation
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/683bf569-1f9c-4d05-900e-96f7bb702e23/image1.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/683bf569-1f9c-4d05-900e-96f7bb702e23/image1.jpg)
+![Casque de réalité virtuelle Oculus GO](../assets/images/oculus1.webp)
 
 ## Présentation du casque
 
@@ -14,17 +14,13 @@ Le casque Oculus Go est un casque de réalité virtuelle autonome. On peut navig
 
 Ce casque offre 3 degrés de liberté (3DoF) : Grâce aux trois capteurs, l'accéléromètre, le gyroscope et le magnétomètre, le casque détecte les mouvements de la tête qui penche de gauche à droite, en arrière et en avant et qui tourne de gauche à droite.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e011f9f1-dbbe-4199-a10b-38363e0430d5/image2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e011f9f1-dbbe-4199-a10b-38363e0430d5/image2.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e354607-157c-4d98-b2f6-8350a1e297fa/image3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e354607-157c-4d98-b2f6-8350a1e297fa/image3.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de9eef68-b503-4724-925b-33c24ebd7ea1/image4.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de9eef68-b503-4724-925b-33c24ebd7ea1/image4.png)
+![Différents degrés de liberté](../assets/images/oculus2.webp)
 
 Contrairement aux casques plus avancés comme le HTC Vive ou Oculus Rift S, qui offrent une plus grande liberté de mouvement, il est recommandé d'utiliser ce casque dans une position assise ou debout. Inutile de bouger dans l'espace : ce casque ne pourra pas suivre votre mouvement.
 
 ## Contenu du boîtier
 
-![image 5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/81621c18-0e0c-49af-88ff-4193f882f851/image_5.png)
+![Contenu du boîtier Oculus GO](../assets/images/oculus3.webp)
 
 1. Une lingette en microfibre
 2. La manette
@@ -36,7 +32,7 @@ Contrairement aux casques plus avancés comme le HTC Vive ou Oculus Rift S, qui 
 
 Veuillez-vous assurer que toutes les pièces se trouvent dans le boîtier avant d'utiliser le casque. Si une pièce est manquante, veuillez aviser sans délai le personnel au comptoir des services de la bibliothèque où vous avez emprunté le casque.
 
-L'Oculus Go dispose aussi d'un écouteur intégré. Pour une meilleure immersion, utiliser un casque d’écoute. Le branchement de vos écouteurs se fait sur le côté du casque Oculus Go ([voir illustration](https://www.notion.so/Guide-d-utilisation-b833cc442e5e4aba95aed52be74cd51e)). Des casques d’écoutes sont aussi disponibles au comptoir des services de votre bibliothèque.
+L'Oculus Go dispose aussi d'un écouteur intégré. Pour une meilleure immersion, utiliser un casque d’écoute. Le branchement de vos écouteurs se fait sur le côté du casque Oculus Go. Des casques d’écoutes sont aussi disponibles au comptoir des services de votre bibliothèque.
 
 ## Durée du prêt
 
@@ -46,7 +42,7 @@ La durée du prêt est de 7 jours renouvelable.
 
 ### Casque
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78b3770d-3ffa-44fb-96d0-f45cfcafc5a8/image6.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78b3770d-3ffa-44fb-96d0-f45cfcafc5a8/image6.jpg)
+![Les boutons du casque de réalité virtuelle Oculus GO](../assets/images/oculus4.webp)
 
 1. Bouton de mise en marche/veille
 2. Boutons de volume
@@ -55,7 +51,7 @@ La durée du prêt est de 7 jours renouvelable.
 
 ### Manette
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/257bc72f-bdfa-4b62-a047-6bd5c454fa38/image7.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/257bc72f-bdfa-4b62-a047-6bd5c454fa38/image7.jpg)
+![La manette du casque de réalité virtuelle Oculus GO](../assets/images/oculus5.webp)
 
 1. Touchpad : à utiliser avec le pouce. Vous pouvez presser dessus comme un bouton. S’utilise comme le trackpad d’un ordinateur.
 2. Bouton de retour en arrière.
@@ -93,7 +89,7 @@ Vous pouvez connecter le casque Oculus Go à n’importe quel WIFI à l’extér
 
 Dans **Paramètres**, sélectionner **WI-FI**. Choisissez la borne de votre choix, ensuite, entrez le mot de passe associé.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/281e5405-fc09-400e-9337-53a1c87d4671/image8.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/281e5405-fc09-400e-9337-53a1c87d4671/image8.jpg)
+![Capture d'écran de l'environnement virtuel d'Oculus GO](../assets/images/oculus6.webp)
 
 ### Changer la position de la manette
 
@@ -103,16 +99,14 @@ Dans **Paramètres**, sélectionner **Tout voir**. Dérouler le menu et sélecti
 
 ### Calibrer la manette
 
-Regardez et pointez la manette devant vous, puis maintenez appuyé le bouton Oculus ([bouton 3](https://www.notion.so/Guide-d-utilisation-b833cc442e5e4aba95aed52be74cd51e)) pour réinitialiser la position de l’écran et le pointeur de la manette.
+Regardez et pointez la manette devant vous, puis maintenez appuyé le bouton Oculus pour réinitialiser la position de l’écran et le pointeur de la manette.
 
 ### Contenu et compte
 
-<aside>
-<img src="/icons/warning_gray.svg" alt="/icons/warning_gray.svg" width="40px" /> **SVP ne pas déconnecter le compte des bibliothèques.**
+!!! warning "Attention"
+    SVP ne pas déconnecter le compte des bibliothèques.
 
-</aside>
-
-Le casque est connecté au compte des bibliothèques qui offre une sélection d’applications (gratuites et payantes). Si vous voulez ajouter une application ou un jeu, nous sommes ouverts aux propositions, simplement [nous envoyer un courriel](https://www.notion.so/Nous-joindre-33f9bd7c0c67457da83396c179ccb487).
+Le casque est connecté au compte des bibliothèques qui offre une sélection d’applications (gratuites et payantes). Si vous voulez ajouter une application ou un jeu, nous sommes ouverts aux propositions, simplement [nous envoyer un courriel](../a-propos/nous-joindre.md).
 
 Le contenu personnel (liens visités, mots-clés, etc.) sera effacé du casque une fois retourné au comptoir de la bibliothèque d’emprunt.
 

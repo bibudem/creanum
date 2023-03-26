@@ -4,7 +4,7 @@ Description: Tout apprendre sur l'impression 3D
 
 search:
   boost: 2
-  
+
 ---
 
 # Introduction à l'impression 3D
@@ -219,7 +219,7 @@ Il existe plusieurs méthodes pour peaufiner votre impression. En voici quelques
 ### **Problèmes courants de l’impression 3D**
 
 - L’imprimante ne peut pas imprimer dans l’air. Les objets avec des parties flottantes nécessiteront un support qui devra être retiré après l’impression.
-- Adhésion : si la pièce se décolle, utiliser un *brim* pour augmenter la surface d’adhésion et nettoyer le plateau avec le produit adapté (voir section [Avant l’impression](https://www.notion.so/Guide-de-l-impression-3D-2dfbdea9ff6f4e8082172534aca77ffb)).
+- Adhésion : si la pièce se décolle, utiliser un *brim* pour augmenter la surface d’adhésion et nettoyer le plateau avec le produit adapté.
 
 !!! question "Ressources en ligne"
     [Print Quality Guide ](https://www.simplify3d.com/support/print-quality-troubleshooting/){:target="_blank"}

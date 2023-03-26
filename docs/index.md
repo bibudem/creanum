@@ -1,14 +1,5 @@
 ---
-hide:
-  - navigation
-  - toc
-  - feedback
+template: home.html
 ---
 
-<style>
-  .md-content__button {
-    display: none;
-  }
-</style>
-
-# Bienvenue sur le wiki CréaNum
+w

@@ -152,16 +152,16 @@ extra:
 # Navigation
 
 nav:
-  - Accueil: index.md
-
+  - Home: index.md
   - Documentation: 
     - documentation/index.md
 
-    - Broderie numérique:
-      - Introduction: broderie-numerique/index.md
-
-    - Découpe numérique:
-      - Introduction: découpe-numérique/index.md
+    - Broderie et découpe:
+      - Broderie numérique: broderie-decoupe/broderie.md
+      - Découpe numérique: 
+        - Introduction : broderie-decoupe/decoupe.md
+        - Silhouette Cameo 4: broderie-decoupe/cameo.md
+        - Cricut Maker: broderie-decoupe/cricut.md
 
     - Électroniques:
       - Arduino: electroniques/arduino.md

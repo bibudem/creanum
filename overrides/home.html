@@ -1,0 +1,67 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+<style>
+
+
+.md-header--shadow {
+    box-shadow:none;
+}
+
+#hero {
+  height: 70vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.850), rgba(0, 87, 172, 0.60)),
+  url(assets/images/hero.webp) no-repeat center bottom / cover;
+  color: whitesmoke;
+}
+.container {
+  width: 90%;
+  height: 90%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /*   text-align: center; */
+}
+#hero .info h1 {
+  font-size: 3rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 1rem;
+}
+#hero .info h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+#hero .info p {
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+main {
+    display: none;
+}
+
+</style>
+
+<section id="hero">
+    <div class="container">
+      <div class="info">
+        <h1>Wiki CréaNum</h1>
+        <h2>Bienvenue sur le wiki dédié aux Espaces de création numérique <br>
+            des bibliothèques de l'Université de Montréal. </h2>
+        <p> 
+            <a href="{{ 'communaute/' | url }}" title="Envie de contribuer?" class="md-button md-button--primary">
+                Envie de contribuer?
+              </a></p>
+      </div>
+    </div>
+  </section>
+
+  
+{% endblock %}
+
+{% block content %}{% endblock %}
