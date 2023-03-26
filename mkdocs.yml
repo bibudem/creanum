@@ -156,12 +156,12 @@ nav:
   - Documentation: 
     - documentation/index.md
 
-    - Broderie et découpe:
-      - Broderie numérique: broderie-decoupe/broderie.md
-      - Découpe numérique: 
-        - Introduction : broderie-decoupe/decoupe.md
-        - Silhouette Cameo 4: broderie-decoupe/cameo.md
-        - Cricut Maker: broderie-decoupe/cricut.md
+    - Broderie numérique:
+      - Introduction: broderie-numerique/index.md
+    - Découpe numérique: 
+        - Introduction : decoupe-numerique/decoupe.md
+        - Silhouette Cameo 4: decoupe-numerique/cameo.md
+        - Cricut Maker: decoupe-numerique/cricut.md
 
     - Électroniques:
       - Arduino: electroniques/arduino.md
@@ -187,16 +187,16 @@ nav:
 
     - Médias numériques:
       - Audio: 
-        - Guide Baladodiffusion: production-audio-video/guide-balado.md
-        - RodeCaster Pro : production-audio-video/rodecasterpro.md  
+        - Guide Baladodiffusion: medias-numeriques/guide-balado.md
+        - RodeCaster Pro : medias-numeriques/rodecasterpro.md  
       - Vidéo:
-        - Guide de l'enregisrement vidéo: production-audio-video/guide-video.md
-        - OBS : production-audio-video/obs.md
+        - Guide de l'enregisrement vidéo: medias-numeriques/guide-video.md
+        - OBS : medias-numeriques/obs.md
       - Édition:
-        - ffmpeg : production-audio-video/ffmpeg.md
-        - Adobe Premiere Pro : production-audio-video/premierepro.md
-        - Audacity : production-audio-video/audacity.md
-        - Adobe Audition : production-audio-video/audacity.md
+        - ffmpeg : medias-numeriques/ffmpeg.md
+        - Adobe Premiere Pro : medias-numeriques/premierepro.md
+        - Audacity : medias-numeriques/audacity.md
+        - Adobe Audition : medias-numeriques/audacity.md
 
   
     - Réalité virtuelle:
