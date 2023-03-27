@@ -22,6 +22,8 @@ theme:
     edit: material/pencil 
     view: material/eye
     repo: fontawesome/brands/github
+    admonition:
+      abstract: material/mouse
   palette: default
   
   palette: 
@@ -152,14 +154,14 @@ extra:
 # Navigation
 
 nav:
-  - Home: index.md
+  - Accueil: index.md
   - Documentation: 
     - documentation/index.md
 
     - Broderie numérique:
       - Introduction: broderie-numerique/index.md
     - Découpe numérique: 
-        - Introduction : decoupe-numerique/decoupe.md
+        - Introduction : decoupe-numerique/index.md
         - Silhouette Cameo 4: decoupe-numerique/cameo.md
         - Cricut Maker: decoupe-numerique/cricut.md
 
@@ -172,22 +174,22 @@ nav:
         - Les modes de veille du ESP 8266: electroniques/iot/veille.md
 
     - Impression 3D: 
-      - Introduction:
-        - Guide de l'impression 3D: impression3d/introduction.md
-        - Trouver des modèles: impression3d/modeles.md
-        - Logiciels de modélisation : impression3d/logiciels.md
-        - Réparer la première couche d'un modèle: impression3d/reparer.md
-        - Créer un modèle 3D à partir d'une image: impression3d/creer-modele-image.md
-        - FAQ: impression3d/faq.md
+      - Introduction : impression3d/index.md
+      - Guide de l'impression 3D: impression3d/introduction.md
+      - Trouver des modèles: impression3d/modeles.md
+      #   - Logiciels de modélisation : impression3d/logiciels.md
+      #   - Réparer la première couche d'un modèle: impression3d/reparer.md
+      #   - Créer un modèle 3D à partir d'une image: impression3d/creer-modele-image.md
       - Prusa i3 Mk3s+: impression3d/prusa.md
-      - Ultimaker 2/S3: impression3d/ultimaker.md
-      - Zortrax Inkspire: impression3d/zortrax.md
+      - FAQ: impression3d/faq.md
+      # - Ultimaker 2/S3: impression3d/ultimaker.md
+      # - Zortrax Inkspire: impression3d/zortrax.md
 
     
 
     - Médias numériques:
       - Audio: 
-        - Guide Baladodiffusion: medias-numeriques/guide-balado.md
+        - Guide baladodiffusion: medias-numeriques/guide-balado.md
         - RodeCaster Pro : medias-numeriques/rodecasterpro.md  
       - Vidéo:
         - Guide de l'enregisrement vidéo: medias-numeriques/guide-video.md

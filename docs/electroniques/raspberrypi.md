@@ -42,8 +42,8 @@ Comme le Raspberry Pi s’opère aussi via les lignes de commandes, voici une li
 - **Iwconfig** : le nom du réseau wifi branché.
 - **iwlist wlan0 scan** : affiche une liste des réseaux wifi disponibles.
 - **nmap** : scan le réseau et liste les périphériques connectés, le nombre des ports, les protocoles, adresses MAC., etc.
-- **ping [bib.umontreal.ca](http://bib.umontreal.ca/)** : teste la connectivité. Envoie un paquet à l’adresse et attend une réponse.
-- **wget [bib.umontreal.ca/test.txt](http://bib.umontreal.ca/test.txt)** : télécharge le fichier test.txt depuis Internet et le sauvegarde dans le dossier courant.
+- **ping bib.umontreal.ca** : teste la connectivité. Envoie un paquet à l’adresse et attend une réponse.
+- **wget bib.umontreal.ca/test.txt** : télécharge le fichier test.txt depuis Internet et le sauvegarde dans le dossier courant.
 
 ### Commandes information système
 

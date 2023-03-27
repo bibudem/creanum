@@ -11,7 +11,7 @@ glightbox: false
   }
 </style>
 
-# Introduction
+# Découpe numérique
 
 ![Illustration pour la découpe numérique](../assets/images/decoupe.webp){ width=300rem align=left } 
 

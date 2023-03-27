@@ -6,6 +6,13 @@ Reaper est un logiciel de traitement audio.
 #### Lien pertinent
 --8<-- [end:reaper]
 
+--8<-- [start:audacity]
+Audacity est un logiciel de traitement audio.
+#### Localisation
+:material-crosshairs-gps: Bibliothèque des sciences - Studio d'édition numérique
+#### Lien pertinent
+--8<-- [end:audacity]
+
 --8<-- [start:audition]
 Adobe Audition fait partie de la suite Adobe Creative Cloud. C'est un logiciel de traitement audio complet.
 #### Localisation
