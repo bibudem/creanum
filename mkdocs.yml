@@ -39,7 +39,7 @@ theme:
         name: Passer en mode clair
   
   features:
-    - navigation.instant
+#    - navigation.instant
     - navigation.tracking
     - navigation.tabs
 #   - navigation.tabs.sticky
@@ -91,7 +91,7 @@ markdown_extensions:
 
   - toc:
       permalink: true
-      permalink_title: Lien permanent vers cette section
+      permalink_title: Permalien vers cette section
       toc_depth: 2
   - pymdownx.tabbed:
       alternate_style: true 
@@ -165,13 +165,14 @@ nav:
         - Silhouette Cameo 4: decoupe-numerique/cameo.md
         - Cricut Maker: decoupe-numerique/cricut.md
 
-    - Électroniques:
-      - Arduino: electroniques/arduino.md
-      - Raspberry Pi: electroniques/raspberrypi.md
+    - Systèmes embarqués:
+      - Introduction: systemes-embarques/index.md
+      - Arduino: systemes-embarques/arduino.md
+      - Raspberry Pi: systemes-embarques/raspberrypi.md
       - Internet des Objets:
-        - Arduino IDE pour l'ESP8266: electroniques/iot/arduino.md
-        - Connecter un ESP à Blynk: electroniques/iot/blynk.md
-        - Les modes de veille du ESP 8266: electroniques/iot/veille.md
+        - Arduino IDE pour l'ESP8266: systemes-embarques/iot/arduino.md
+        - Connecter un ESP à Blynk: systemes-embarques/iot/blynk.md
+        - Les modes de veille du ESP 8266: systemes-embarques/iot/veille.md
 
     - Impression 3D: 
       - Introduction : impression3d/index.md
