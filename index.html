@@ -41,6 +41,9 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
+<a class="md-skip" href="#wiki-creanum">
+          Aller au contenu
+        </a>
 </div>
 <div data-md-component="announce">
 <aside class="md-banner">
@@ -215,17 +218,58 @@
 </div>
 </nav>
 <style>
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+    }
+
+    /* Remove spacing, as we cannot hide it completely */
+    .md-main__inner {
+      margin: 0;
+    }
+
+    /* Hide main content for now */
+    .md-content {
+      display: none;
+    }
+
+
 
 
 .md-header--shadow {
     box-shadow:none;
 }
 
+@media screen and (min-width: 40em){
+.md-sidebar--secondary:not([hidden]) {
+     display: none; 
+}
+}
+
+@media screen and (min-width: 40em){
+.md-sidebar--secondary {
+     display: none; 
+}
+}
+
+
+@media screen and (min-width: 40em){
+.md-sidebar--primary:not([hidden]) {
+     display: none; 
+}
+}
+
+@media screen and (min-width: 40em){
+.md-sidebar--primary {
+     display: none; 
+}
+}
+
 #hero {
   height: 70vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.850), rgba(0, 87, 172, 0.60)),
-  url(assets/images/hero.webp) no-repeat center bottom / cover;
+/* ici, le background est aléatoire, voir random.js */
+  background-color: black;
   color: whitesmoke;
 }
 .container {
@@ -252,11 +296,14 @@
   max-width: 80%;
 }
 
-main {
+/* main {
     display: none;
-}
+} */
 
 </style>
+<!-- script background aléatoire -->
+<script src="assets/js/random.js"></script>
+<body onload="herobg()">
 <section id="hero">
 <div class="container">
 <div class="info">
@@ -264,13 +311,13 @@ main {
 <h2>Bienvenue sur le wiki dédié aux Espaces de création numérique <br/>
             des bibliothèques de l'Université de Montréal. </h2>
 <p>
-<a class="md-button md-button--primary" href="communaute/" title="Envie de contribuer?">
-            Envie de contribuer?
+<a href="communaute/" title="Contribuer au développement du wiki"> Contribuer au développement du wiki
           </a>
 </p>
 </div>
 </div>
 </section>
+</body>
 <main class="md-main" data-md-component="main">
 <div class="md-main__inner md-grid">
 <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
@@ -471,7 +518,7 @@ main {
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.path", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.action.edit", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+<script id="__config" type="application/json">{"base": ".", "features": ["navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.path", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.action.edit", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
 <script src="assets/javascripts/bundle.a3190745.min.js"></script>
 <script src="js/timeago.min.js"></script>
 <script src="js/timeago_mkdocs_material.js"></script>

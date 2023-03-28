@@ -28,7 +28,7 @@
   height: 2.8rem;
   width: auto;
 }
-/* décalage du titre - note : n'est pas ajusté pour le mobile */
+
 .md-header__title {
   line-height: 3.25rem;
 }  
@@ -137,4 +137,10 @@ a:hover, a:focus {
 .md-tabs__item--active {
   border-bottom: 4px solid;
   border-bottom-color:   #1d70b8;
+}
+
+@media screen and (max-width: 76.25em) {
+  .md-header__title {
+    line-height: 2.4rem;
+  }
 }

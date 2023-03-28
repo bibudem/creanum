@@ -521,12 +521,12 @@
 <a class="md-content__button md-icon" href="https://github.com/bibudem/wiki/edit/master/docs/projets/posts/plante-intelligente.md" title="Editer cette page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
-<div><h1 id="plante-intelligente">Plante intelligente<a class="headerlink" href="#plante-intelligente" title="Lien permanent vers cette section">¶</a></h1>
+<div><h1 id="plante-intelligente">Plante intelligente<a class="headerlink" href="#plante-intelligente" title="Permalien vers cette section">¶</a></h1>
 <p>Comment faire ceci. </p>
 <!-- more -->
 <p>Il existe dans le marché une multitude de capteurs pour mesurer l’humidité du sol. Certains, en contact de l’eau, se détériorent très vite, devenant alors inutilisables et <a href="http://kstobbe.dk/2019/01/13/effectively-killing-a-plant/">pouvant présenter un risque pour la plante</a>. <a href="https://www.youtube.com/watch?v=udmJyncDvw0">La vidéo suivante</a> présente un comparatif de différents capteurs. Notre choix se porte sur le capteur <a href="https://fr.aliexpress.com/item/32832538686.html?spm=a2g0s.9042311.0.0.41a86c37TOYxzS">Capacitive Soil Moisture Sensor V 2.0</a>, coutant environ 2$. Afin de mieux le protéger contre la corrosion dû au contact prolongé avec l’eau, on applique une fine couche de vernis uniquement sur les bords. Une fois séché, le vernis va prévenir la détérioration du capteur.</p>
-<h2 id="les-etapes">Les étapes<a class="headerlink" href="#les-etapes" title="Lien permanent vers cette section">¶</a></h2>
-<h3 id="etape-1-connecter-le-capteur-dhumidite">Étape 1 : Connecter le capteur d’humidité<a class="headerlink" href="#etape-1-connecter-le-capteur-dhumidite" title="Lien permanent vers cette section">¶</a></h3>
+<h2 id="les-etapes">Les étapes<a class="headerlink" href="#les-etapes" title="Permalien vers cette section">¶</a></h2>
+<h3 id="etape-1-connecter-le-capteur-dhumidite">Étape 1 : Connecter le capteur d’humidité<a class="headerlink" href="#etape-1-connecter-le-capteur-dhumidite" title="Permalien vers cette section">¶</a></h3>
 <p>Le schéma a été fait avec <a href="https://fritzing.org/">Fritzing</a>, un logiciel libre pour la conception des circuits électroniques.</p>
 <p>Dans la version actuelle du logiciel, le capteur qui a été utilisé n’est pas encore répertorié, d’où l’image d’un autre capteur d’humidité du sol, celui de Sparkfun.</p>
 <p>Le capteur possède trois broches :</p>
@@ -535,7 +535,7 @@
 <li><strong>GND</strong> se connecte dans le <strong>GND</strong> de l’Arduino.</li>
 <li><strong>AUOT</strong> se connecte dans la broche <strong>A0</strong>, ce qui va nous permettre de lire les valeurs.</li>
 </ul>
-<h3 id="etape-2-tester-le-capteur"><strong>Étape 2 : Tester le capteur</strong><a class="headerlink" href="#etape-2-tester-le-capteur" title="Lien permanent vers cette section">¶</a></h3>
+<h3 id="etape-2-tester-le-capteur"><strong>Étape 2 : Tester le capteur</strong><a class="headerlink" href="#etape-2-tester-le-capteur" title="Permalien vers cette section">¶</a></h3>
 <p>Une fois que le capteur est connecté, on branche l’Arduino à l’ordinateur et on lance le logiciel Arduino IDE. Si vous ne l’avez pas encore installé, consultez <a href="https://www.notion.so/fb66bae70ca447598a85efcf454353e8">ce guide de démarrage</a>. C’est aussi une bonne idée d’ouvrir <a href="https://www.arduino.cc/reference/en/">la page référence</a>.</p>
 <p>On veut lire les valeurs envoyées par le capteur. Pour cela, on aura besoin d’un verre rempli à moitié d’eau afin d’y plonger le bout du capteur.</p>
 <p>Notre capteur est <strong>analogique</strong>, c’est-à-dire qu’il va nous donner des valeurs en voltage de <strong>0</strong> à <strong>1023</strong>.</p>
@@ -552,7 +552,7 @@
 <a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="p">}</span>
 </code></pre></div>
 <p>Après le téléversement du code, aller dans <strong>Outils &gt; Moniteur série</strong>. Vous allez voir des valeurs. Si vous mettez le capteur dans le verre d’eau, celui-ci réagit et les valeurs seront à la baisse.</p>
-<h3 id="etape-3-les-valeurs-du-capteur"><strong>Étape 3 : Les valeurs du capteur</strong><a class="headerlink" href="#etape-3-les-valeurs-du-capteur" title="Lien permanent vers cette section">¶</a></h3>
+<h3 id="etape-3-les-valeurs-du-capteur"><strong>Étape 3 : Les valeurs du capteur</strong><a class="headerlink" href="#etape-3-les-valeurs-du-capteur" title="Permalien vers cette section">¶</a></h3>
 <p>On va faire réagir la <strong>DEL 13</strong> en donnant une condition et une valeur à Arduino: La <strong>DEL 13</strong> doit s’allumer si la valeur descend au-dessous de <strong>500</strong>.</p>
 <p>La <strong>DEL 13</strong> est déjà intégrée à la carte Arduino. Elle est encerclée en vert dans le schéma ci-contre.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://i.imgur.com/pA1PLAF.png"><img alt="https://i.imgur.com/pA1PLAF.png" src="https://i.imgur.com/pA1PLAF.png"/></a></p>
@@ -585,10 +585,10 @@
 <p>Pour en savoir plus sur la fonction <code>map()</code>, consultez <a href="https://www.arduino.cc/reference/fr/">la page référence Arduino</a>.
 </p>
 </blockquote>
-<h3 id="etape-4-branchement-des-dels"><strong>Étape 4 : Branchement des DELs</strong><a class="headerlink" href="#etape-4-branchement-des-dels" title="Lien permanent vers cette section">¶</a></h3>
+<h3 id="etape-4-branchement-des-dels"><strong>Étape 4 : Branchement des DELs</strong><a class="headerlink" href="#etape-4-branchement-des-dels" title="Permalien vers cette section">¶</a></h3>
 <p>Connectons les DELs pour avoir une indication en rouge lorsque la plante a soif et en vert lorsqu’elle est suffisamment hydratée. Voici le nouveau schéma :</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://i.imgur.com/pM1ewmv.png"><img alt="https://i.imgur.com/pM1ewmv.png" src="https://i.imgur.com/pM1ewmv.png"/></a></p>
-<h3 id="etape-5-televerser-le-code"><strong>Étape 5 : Téléverser le code</strong><a class="headerlink" href="#etape-5-televerser-le-code" title="Lien permanent vers cette section">¶</a></h3>
+<h3 id="etape-5-televerser-le-code"><strong>Étape 5 : Téléverser le code</strong><a class="headerlink" href="#etape-5-televerser-le-code" title="Permalien vers cette section">¶</a></h3>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="kr">int</span><span class="w"> </span><span class="n">pinSenseur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">A0</span><span class="p">;</span>
 <a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="kr">int</span><span class="w"> </span><span class="n">valeurSenseur</span><span class="p">;</span>
 <a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="kr">int</span><span class="w"> </span><span class="n">limite</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span><span class="p">;</span>
@@ -615,10 +615,10 @@
 <a href="#__codelineno-3-24" id="__codelineno-3-24" name="__codelineno-3-24"></a><span class="w">  </span><span class="p">}</span>
 <a href="#__codelineno-3-25" id="__codelineno-3-25" name="__codelineno-3-25"></a><span class="p">}</span>
 </code></pre></div>
-<h2 id="photos-du-projet"><strong>Photos du projet</strong><a class="headerlink" href="#photos-du-projet" title="Lien permanent vers cette section">¶</a></h2>
+<h2 id="photos-du-projet"><strong>Photos du projet</strong><a class="headerlink" href="#photos-du-projet" title="Permalien vers cette section">¶</a></h2>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg"><img alt="SC_AFN (4).jpg" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg"/></a></p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg"><img alt="SC_AFN (5).jpg" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg"/></a></p>
-<h2 id="pour-aller-plus-loin"><strong>Pour aller plus loin</strong><a class="headerlink" href="#pour-aller-plus-loin" title="Lien permanent vers cette section">¶</a></h2>
+<h2 id="pour-aller-plus-loin"><strong>Pour aller plus loin</strong><a class="headerlink" href="#pour-aller-plus-loin" title="Permalien vers cette section">¶</a></h2>
 <p>Le projet peut être amélioré de plusieurs façons :</p>
 <ul>
 <li>Une DEL : utiliser une seule DEL vert/rouge au lieu de deux DEL.</li>
@@ -741,7 +741,7 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.path", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.action.edit", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.path", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.action.edit", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
 <script src="../../../assets/javascripts/bundle.a3190745.min.js"></script>
 <script src="../../../js/timeago.min.js"></script>
 <script src="../../../js/timeago_mkdocs_material.js"></script>
