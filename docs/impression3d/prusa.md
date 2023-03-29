@@ -7,7 +7,7 @@ search:
 # Prusa i3 Mk3s+
 
 !!! note "Votre contribution est la bienvenue!"
-    Cette page est en constante évolution. Si vous aussi vous voulez contribuer à son amélioration, consultez "[Comment contribuer?](https://www.notion.so/Comment-contribuer-2a3ad7b814524991b288cf91012f1f10)"
+    Cette page est en constante évolution. Si vous aussi vous voulez contribuer à son amélioration, consultez [la section Communauté](../communaute/index.md).
 
 !!! info "Important"
     Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](introduction.md)
@@ -89,8 +89,10 @@ Le *feeder* se trouve directement sur le dessus du bloc d’extrusion.
 ### Logiciel de découpe PrusaSlicer
 
 Lien vers le téléchargement : [https://www.prusa3d.com/page/prusaslicer_424](https://www.prusa3d.com/page/prusaslicer_424/)
+
 Version utilisée dans ce tutoriel : **2.5**
-Compatible avec : Windows, Mac OS, Linux.
+
+Compatible avec : Windows, MacOS et Linux.
 
 ### Assistant configuration
 
@@ -171,8 +173,11 @@ Pour la Prusa, il faut imbiber une lingette de nettoyant à vitres et nettoyer l
 !!! info "Ressources en ligne"
 
     [Première impression avec PrusaSlicer](https://help.prusa3d.com/fr/article/premiere-impression-avec-prusaslicer_1753){:target="_blank"}
+
     [Prusa Knowledge Base](https://help.prusa3d.com/fr/article/supports_1698){:target="_blank"}
+
     [Menu LCD i3 (pré firmware 3.9.0) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/menu-lcd-i3-pre-firmware-3-9-0_1876){:target="_blank"}
+
 
 ## Modifier la buse
 
