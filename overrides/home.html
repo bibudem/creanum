@@ -6,7 +6,28 @@
 
 <style>
 
+.button {
+  font-size:23px;
+  font-weight: bold;
+  border-radius:0px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:14px;
+  padding-bottom:14px;
+  color:#000000;
+  background-color:#ffca40;
+  outline:none;
+  border:none;
+  cursor:pointer;
+  display:inline-block;
+  transition: background-color 200ms;
+}
 
+.button:hover {
+  color:#000000;
+  background-color:#fbbf26;
+  transition: background-color 200ms;
+}
 
 .md-main__inner {
   margin: 0;
@@ -55,16 +76,13 @@
 .container {
   width: 90%;
   height: 90%;
-  /* max-width: 1200px; */
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: left;
-  /*   text-align: center; */
 }
 #hero .info h1 {
   font-size: 3rem;
-  /* text-transform: uppercase; */
   margin-bottom: 1rem;
 }
 #hero .info h2 {
@@ -88,11 +106,10 @@
         <h1>Wiki CréaNum</h1>
         <h2>Bienvenue sur le wiki dédié aux Espaces de création numérique <br>
             des bibliothèques de l'Université de Montréal. </h2>
-            
-        <p>
-          <a href="{{ 'communaute/' | url }}" title="Contribuer au développement du wiki"> Contribuer au développement du wiki
-          </a>
-        </p>
+        <p>Vous trouverez ici des ressources et des outils <br>
+        pour vous aider à créer des projets numériques. </p>
+        <a href="communaute/">
+        <button class="button">Contribuer au développement du wiki</button></a>
       </div>
     </div>
   </section>
