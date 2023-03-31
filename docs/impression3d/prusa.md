@@ -22,10 +22,10 @@ search:
 |Buses disponibles|	0.4mm|
 |Hauteur des couches|	0.05 - 0.35 mm|
 |Diamètre du filament|	1.75 mm|
-|Matériaux supportés|	PLA, PETG, ASA, ABS, PC, CPE, PVA/BVOH, PVB, HIPS, PP, Flex, nGen, Nylon, Carbon filled, Woodfill and other filled materials.|
+|Matériaux supportés|	PLA, PETG, ASA, ABS, PC, CPE, PVA/BVOH, PVB, HIPS, PP, Flex, nGen, Nylon, Carbon filled, Woodfill et autres.|
 |Surface d'impression|	Removable magnetic steel sheets(*) with different surface finishes|
 |Impression multi-filament|	Possible en modifiant le gcode, ou en ajoutant le module MMU2S|
-|Logiciel de découpe (slicer)|	PrusaSlicer|
+|Logiciel de découpe (*slicer*)|	PrusaSlicer|
 
 Chaque imprimante a été montée par l'équipe. Toutes les parties en plastique ont été fabriquées par des imprimantes 3D, de sorte que ces pièces peuvent facilement être remplacées. Ce principe est appelé RepRap. 
 

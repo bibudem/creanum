@@ -1,3 +1,10 @@
+--8<-- [start:exemple]
+Ceci est un exemple
+#### Localisation
+:material-crosshairs-gps: Bibliothèque des sciences - Studio d'édition numérique
+#### Lien pertinent
+--8<-- [end:exemple]
+
 <!-- AUDIO -->
 --8<-- [start:reaper]
 Reaper est un logiciel de traitement audio.
@@ -54,7 +61,7 @@ FFMPEG est un puissant convertisseur audio/vidéo à code ouvert compatible Linu
 [https://ffmpeg.org/](https://ffmpeg.org/)
 
 #### sur le wiki
-[Tutoriel ffmpeg](../production-audio-video/ffmpeg.md)
+
 --8<-- [end:ffmpeg]
 <!-- 3D -->
 

@@ -1,0 +1,78 @@
+INHERIT: mkdocs.yml
+
+# Navigation
+
+nav:
+  - Accueil: index.md
+  - Documentation: 
+    - documentation/index.md
+
+    - Broderie numérique:
+      - Introduction: broderie-numerique/index.md
+    - Découpe numérique: 
+        - Introduction : decoupe-numerique/index.md
+        - Silhouette Cameo 4: decoupe-numerique/cameo.md
+        - Cricut Maker: decoupe-numerique/cricut.md
+
+    - Systèmes embarqués:
+      - Introduction: systemes-embarques/index.md
+      - Arduino: systemes-embarques/arduino.md
+      - Raspberry Pi: systemes-embarques/raspberrypi.md
+      - Internet des Objets:
+        - Arduino IDE pour l'ESP8266: systemes-embarques/iot/arduino.md
+        - Connecter un ESP à Blynk: systemes-embarques/iot/blynk.md
+        - Les modes de veille du ESP 8266: systemes-embarques/iot/veille.md
+
+    - Impression 3D: 
+      - Introduction : impression3d/index.md
+      - Guide de l'impression 3D: impression3d/introduction.md
+      - Trouver des modèles: impression3d/modeles.md
+      #   - Logiciels de modélisation : impression3d/logiciels.md
+      #   - Réparer la première couche d'un modèle: impression3d/reparer.md
+      #   - Créer un modèle 3D à partir d'une image: impression3d/creer-modele-image.md
+      - Prusa i3 Mk3s+: impression3d/prusa.md
+      - FAQ: impression3d/faq.md
+      # - Ultimaker 2/S3: impression3d/ultimaker.md
+      # - Zortrax Inkspire: impression3d/zortrax.md
+
+    
+
+    - Médias numériques:
+      - Introduction : medias-numeriques-index.md
+      - Audio: 
+        - Guide baladodiffusion: medias-numeriques/guide-balado.md
+        - RodeCaster Pro : medias-numeriques/rodecasterpro.md  
+      - Vidéo:
+        - Guide de l'enregisrement vidéo: medias-numeriques/guide-video.md
+        - OBS : medias-numeriques/obs.md
+      - Édition:
+        - ffmpeg : medias-numeriques/ffmpeg.md
+        - Adobe Premiere Pro : medias-numeriques/premierepro.md
+        - Audacity : medias-numeriques/audacity.md
+        - Adobe Audition : medias-numeriques/audacity.md
+
+  
+    - Réalité virtuelle:
+      - Introduction : vr/index.md
+      - Mise en garde: vr/mises-en-garde.md
+      - Casque Oculus GO:
+        - Guide d'utilisation: vr/oculus-go.md
+        - Catalogue d'expériences immersives: vr/catalogue.md
+        - FAQ: vr/faq.md
+
+  - Projets: 
+    - projets/index.md
+  - Logiciels: logiciels/index.md
+  - Équipements: equipements/index.md
+  - Communauté: 
+    - communaute/index.md
+    - Guide des bonnes pratiques : communaute/guide-contribution.md
+    - Formations offertes : communaute/formations.md
+  - À propos:
+    - Objectifs et philosophie: a-propos/objectifs.md
+    - L'équipe CréaNum: a-propos/equipe.md
+    - Nous joindre: a-propos/nous-joindre.md
+    - En savoir plus:
+      - Accessibilité : a-propos/accessibilite.md
+      - Condition d'utilisation : [https://bib.umontreal.ca/conditions-bibliotheques]
+      - Confidentialité : [https://secretariatgeneral.umontreal.ca/protection-et-acces-a-linformation/complement-dinformation-sur-la-confidentialite/]

@@ -1,4 +1,5 @@
 INHERIT: mkdocs.yml
+INHERIT: nav.yml
 
 plugins:
   - search
@@ -34,7 +35,7 @@ plugins:
       mark: "video"
       css_style:
         width: "100%"
-        height: "22.172vw"
+        height: "27.5vw"
       video_autoplay: false
 
 # Paramètres de la date de modification 
