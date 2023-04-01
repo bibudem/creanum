@@ -4,6 +4,13 @@ INHERIT: nav.yml
 plugins:
   - search
   - table-reader #pour lire les tableaux en csv
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
 
 # Configuration du blog
 
