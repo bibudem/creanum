@@ -144,3 +144,8 @@ a:hover, a:focus {
     line-height: 2.4rem;
   }
 }
+
+.md-footer__direction {
+  display:none;
+ }
+ 
