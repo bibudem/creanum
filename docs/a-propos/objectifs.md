@@ -3,7 +3,6 @@ hide:
   - toc
   - footer
   - feedback
-icon: material/progress-star
 ---
 
 <style>

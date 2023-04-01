@@ -38,7 +38,7 @@ nav:
     
 
     - Médias numériques:
-      - Introduction : medias-numeriques-index.md
+      - Introduction : medias-numeriques/index.md
       - Audio: 
         - Guide baladodiffusion: medias-numeriques/guide-balado.md
         - RodeCaster Pro : medias-numeriques/rodecasterpro.md  
