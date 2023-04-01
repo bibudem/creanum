@@ -25,6 +25,7 @@
 
 .button:hover {
   color:#000000;
+<<<<<<< HEAD
   background-color:#d19f21;
 
 }
@@ -33,10 +34,24 @@
   margin: 0;
 }
 
+=======
+  background-color:#ffeec4;
+}
+
+@media only screen and (max-width: 1220px) {
+  .md-header {
+    box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+    transition: color 250ms,background-color 250ms,box-shadow 250ms;
+  }
+}
+
+/* Hide main content for now */
+>>>>>>> 83b4d82 (correction bug background)
 .md-content {
   display: none;
 }
 
+<<<<<<< HEAD
 .md-header--shadow {
     box-shadow:none;
 }
@@ -71,6 +86,35 @@
   width: 100%;
 /* ici, le background est aléatoire, voir random.js */
   background-color: black;
+=======
+/* Hide table of contents */
+@media screen and (min-width: 60em) {
+  .md-sidebar--secondary {
+    display: none;
+  }
+}
+
+/* Hide navigation */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+}
+
+body {
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+  margin:auto;
+  padding: auto;
+}
+
+#hero {
+  height: 66vh;
+  width: 100%;
+/* ici, le background est aléatoire, voir random.js */
+
+>>>>>>> 83b4d82 (correction bug background)
   color: whitesmoke;
 }
 .container {
@@ -81,6 +125,10 @@
   align-items: center;
   justify-content: left;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 83b4d82 (correction bug background)
 #hero .info h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -97,9 +145,14 @@
 </style>
 
 <!-- script background aléatoire -->
+<<<<<<< HEAD
 <script src='assets/js/random.js'></script>
 
 <body onload="herobg()">
+=======
+<script src='assets/js/aleatoire.js'></script>
+
+>>>>>>> 83b4d82 (correction bug background)
 <section id="hero">
     <div class="container">
       <div class="info">
@@ -113,7 +166,11 @@
       </div>
     </div>
   </section>
+<<<<<<< HEAD
 </body>
+=======
+
+>>>>>>> 83b4d82 (correction bug background)
 {% endblock %}
 {% block content %}
 {% endblock %}
