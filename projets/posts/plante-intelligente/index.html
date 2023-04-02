@@ -7,25 +7,23 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Documentation et projets en création numérique" name="description"/>
 <meta content="Les Bibliothèques UdeM" name="author"/>
-<link href="https://bibudem.github.io/creanum/decoupe-numerique/cricut/" rel="canonical"/>
-<link href="../cameo/" rel="prev"/>
-<link href="../../systemes-embarques/" rel="next"/>
-<link href="../../assets/logo/favicon.ico" rel="icon"/>
+<link href="https://bibudem.github.io/creanum/projets/posts/plante-intelligente/" rel="canonical"/>
+<link href="../../../assets/logo/favicon.ico" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.5+insiders-4.32.4" name="generator"/>
-<title>Cricut Maker - Wiki CréaNum</title>
-<link href="../../assets/stylesheets/main.323870f8.min.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/palette.6932e648.min.css" rel="stylesheet"/>
+<title>Plante intelligente - Wiki CréaNum</title>
+<link href="../../../assets/stylesheets/main.323870f8.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.6932e648.min.css" rel="stylesheet"/>
 <style>:root{--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 1.07C7.05 1.56 4 4.92 4 9h7m-7 6a8 8 0 0 0 8 8 8 8 0 0 0 8-8v-4H4m9-9.93V9h7c0-4.08-3.06-7.44-7-7.93Z"/></svg>');}</style>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Open Sans";--md-code-font:"JetBrains Mono"}</style>
-<link href="../../css/timeago.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/styleudem.css" rel="stylesheet"/>
+<link href="../../../css/timeago.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/styleudem.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-45S4QV2SKS"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-45S4QV2SKS",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-45S4QV2SKS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
 <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
-<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -36,13 +34,13 @@
                 body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
                 body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
                 body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+                </style><script src="../../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#cricut-maker">
+<a class="md-skip" href="#plante-intelligente">
           Aller au contenu
         </a>
 </div>
@@ -67,8 +65,8 @@
 </div>
 <header class="md-header" data-md-component="header">
 <nav aria-label="En-tête" class="md-header__inner md-grid">
-<a aria-label="Wiki CréaNum" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Wiki CréaNum">
-<img alt="logo" src="../../assets/logo/logo-web.webp"/>
+<a aria-label="Wiki CréaNum" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Wiki CréaNum">
+<img alt="logo" src="../../../assets/logo/logo-web.webp"/>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -83,7 +81,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Cricut Maker
+              Plante intelligente
             
           </span>
 </div>
@@ -148,7 +146,7 @@
 <div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../..">
+<a class="md-tabs__link" href="../../..">
         
   
     
@@ -158,7 +156,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../../documentation/">
+<a class="md-tabs__link" href="../../../documentation/">
           
   
     
@@ -168,7 +166,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../projets/">
+<a class="md-tabs__link" href="../../">
           
   
     
@@ -178,7 +176,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../logiciels/">
+<a class="md-tabs__link" href="../../../logiciels/">
         
   
     
@@ -188,7 +186,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../equipements/">
+<a class="md-tabs__link" href="../../../equipements/">
         
   
     
@@ -198,7 +196,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../communaute/">
+<a class="md-tabs__link" href="../../../communaute/">
           
   
     
@@ -208,7 +206,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../a-propos/objectifs/">
+<a class="md-tabs__link" href="../../../a-propos/objectifs/">
           
   
   À propos
@@ -225,8 +223,8 @@
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Wiki CréaNum" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Wiki CréaNum">
-<img alt="logo" src="../../assets/logo/logo-web.webp"/>
+<a aria-label="Wiki CréaNum" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Wiki CréaNum">
+<img alt="logo" src="../../../assets/logo/logo-web.webp"/>
 </a>
     Wiki CréaNum
   </label>
@@ -242,7 +240,7 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../..">
+<a class="md-nav__link" href="../../..">
 <span class="md-ellipsis">
     
   
@@ -253,10 +251,8 @@
   </span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../../documentation/">
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../../documentation/">
 <span class="md-ellipsis">
     
   
@@ -265,377 +261,11 @@
 
     
   </span>
-</a>
-<label class="md-nav__link" for="__nav_2">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_2">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Documentation
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_2" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../../broderie-numerique/">
-<span class="md-ellipsis">
-    
-  
-    Broderie numérique
-  
-
-    
-  </span>
-</a>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_2">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Broderie numérique
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../">
-<span class="md-ellipsis">
-    
-  
-    Découpe numérique
-  
-
-    
-  </span>
-</a>
-<label class="md-nav__link" for="__nav_2_3">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="true" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_3">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Découpe numérique
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../cameo/">
-<span class="md-ellipsis">
-    
-  
-    Silhouette Cameo 4
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
-<span class="md-ellipsis">
-    
-  
-    Cricut Maker
-  
-
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_4" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../../systemes-embarques/">
-<span class="md-ellipsis">
-    
-  
-    Systèmes embarqués
-  
-
-    
-  </span>
-</a>
-<label class="md-nav__link" for="__nav_2_4">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_4">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Systèmes embarqués
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../systemes-embarques/arduino/">
-<span class="md-ellipsis">
-    
-  
-    Arduino
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../systemes-embarques/raspberrypi/">
-<span class="md-ellipsis">
-    
-  
-    Raspberry Pi
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../systemes-embarques/iot/arduino.md">
-<span class="md-ellipsis">
-    
-  
-    Internet des Objets
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_5" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../../impression3d/">
-<span class="md-ellipsis">
-    
-  
-    Impression 3D
-  
-
-    
-  </span>
-</a>
-<label class="md-nav__link" for="__nav_2_5">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_5">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Impression 3D
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../impression3d/introduction/">
-<span class="md-ellipsis">
-    
-  
-    Guide de l'impression 3D
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../impression3d/modeles/">
-<span class="md-ellipsis">
-    
-  
-    Trouver des modèles
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../impression3d/prusa/">
-<span class="md-ellipsis">
-    
-  
-    Prusa i3 Mk3s+
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../impression3d/faq/">
-<span class="md-ellipsis">
-    
-  
-    FAQ
-  
-
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_6" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../../medias-numeriques/">
-<span class="md-ellipsis">
-    
-  
-    Médias numériques
-  
-
-    
-  </span>
-</a>
-<label class="md-nav__link" for="__nav_2_6">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_6">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Médias numériques
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../medias-numeriques/guide-balado/">
-<span class="md-ellipsis">
-    
-  
-    Audio
-  
-
-    
-  </span>
 <span class="md-nav__icon md-icon"></span>
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../medias-numeriques/guide-video/">
-<span class="md-ellipsis">
-    
-  
-    Vidéo
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../medias-numeriques/ffmpeg/">
-<span class="md-ellipsis">
-    
-  
-    Édition
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_7" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../../vr/">
-<span class="md-ellipsis">
-    
-  
-    Réalité virtuelle
-  
-
-    
-  </span>
-</a>
-<label class="md-nav__link" for="__nav_2_7">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_2_7_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_7">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Réalité virtuelle
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../vr/mises-en-garde/">
-<span class="md-ellipsis">
-    
-  
-    Mise en garde
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../vr/oculus-go/">
-<span class="md-ellipsis">
-    
-  
-    Casque Oculus GO
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../projets/">
+<a class="md-nav__link" href="../../">
 <span class="md-ellipsis">
     
   
@@ -647,7 +277,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../logiciels/">
+<a class="md-nav__link" href="../../../logiciels/">
 <span class="md-ellipsis">
     
   
@@ -659,7 +289,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../equipements/">
+<a class="md-nav__link" href="../../../equipements/">
 <span class="md-ellipsis">
     
   
@@ -671,7 +301,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../communaute/">
+<a class="md-nav__link" href="../../../communaute/">
 <span class="md-ellipsis">
     
   
@@ -684,7 +314,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../../a-propos/objectifs/">
+<a class="md-nav__link" href="../../../a-propos/objectifs/">
 <span class="md-ellipsis">
     
   
@@ -705,41 +335,153 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#les-etapes">
+<span class="md-ellipsis">
+      
+        Les étapes
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#photos-du-projet">
+<span class="md-ellipsis">
+      
+        Photos du projet
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pour-aller-plus-loin">
+<span class="md-ellipsis">
+      
+        Pour aller plus loin
+      
+    </span>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
-<nav aria-label="Navigation" class="md-path">
-<ol class="md-path__list">
-<li class="md-path__item">
-<a class="md-path__link" href="../..">
-<span class="md-ellipsis">
-    Accueil
-  </span>
-</a>
-</li>
-<li class="md-path__item">
-<a class="md-path__link" href="../../documentation/">
-<span class="md-ellipsis">
-    Documentation
-  </span>
-</a>
-</li>
-<li class="md-path__item">
-<a class="md-path__link" href="../">
-<span class="md-ellipsis">
-    Découpe numérique
-  </span>
-</a>
-</li>
-</ol>
-</nav>
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/bibudem/creanum/edit/main/docs/decoupe-numerique/cricut.md" title="Editer cette page">
+<a class="md-content__button md-icon" href="https://github.com/bibudem/creanum/edit/main/docs/projets/posts/plante-intelligente.md" title="Editer cette page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
-<h1 id="cricut-maker">Cricut Maker<a class="headerlink" href="#cricut-maker" title="Permalien vers cette section">¶</a></h1>
+<h1 id="plante-intelligente">Plante intelligente<a class="headerlink" href="#plante-intelligente" title="Permalien vers cette section">¶</a></h1>
+<p>Comment faire ceci. </p>
+<!-- more -->
+<p>Il existe dans le marché une multitude de capteurs pour mesurer l’humidité du sol. Certains, en contact de l’eau, se détériorent très vite, devenant alors inutilisables et <a href="http://kstobbe.dk/2019/01/13/effectively-killing-a-plant/">pouvant présenter un risque pour la plante</a>. <a href="https://www.youtube.com/watch?v=udmJyncDvw0">La vidéo suivante</a> présente un comparatif de différents capteurs. Notre choix se porte sur le capteur <a href="https://fr.aliexpress.com/item/32832538686.html?spm=a2g0s.9042311.0.0.41a86c37TOYxzS">Capacitive Soil Moisture Sensor V 2.0</a>, coutant environ 2$. Afin de mieux le protéger contre la corrosion dû au contact prolongé avec l’eau, on applique une fine couche de vernis uniquement sur les bords. Une fois séché, le vernis va prévenir la détérioration du capteur.</p>
+<h2 id="les-etapes">Les étapes<a class="headerlink" href="#les-etapes" title="Permalien vers cette section">¶</a></h2>
+<h3 id="etape-1-connecter-le-capteur-dhumidite">Étape 1 : Connecter le capteur d’humidité<a class="headerlink" href="#etape-1-connecter-le-capteur-dhumidite" title="Permalien vers cette section">¶</a></h3>
+<p>Le schéma a été fait avec <a href="https://fritzing.org/">Fritzing</a>, un logiciel libre pour la conception des circuits électroniques.</p>
+<p>Dans la version actuelle du logiciel, le capteur qui a été utilisé n’est pas encore répertorié, d’où l’image d’un autre capteur d’humidité du sol, celui de Sparkfun.</p>
+<p>Le capteur possède trois broches :</p>
+<ul>
+<li><strong>VCC</strong> se connecte à la broche <strong>5V</strong>.</li>
+<li><strong>GND</strong> se connecte dans le <strong>GND</strong> de l’Arduino.</li>
+<li><strong>AUOT</strong> se connecte dans la broche <strong>A0</strong>, ce qui va nous permettre de lire les valeurs.</li>
+</ul>
+<h3 id="etape-2-tester-le-capteur"><strong>Étape 2 : Tester le capteur</strong><a class="headerlink" href="#etape-2-tester-le-capteur" title="Permalien vers cette section">¶</a></h3>
+<p>Une fois que le capteur est connecté, on branche l’Arduino à l’ordinateur et on lance le logiciel Arduino IDE. Si vous ne l’avez pas encore installé, consultez <a href="https://www.notion.so/fb66bae70ca447598a85efcf454353e8">ce guide de démarrage</a>. C’est aussi une bonne idée d’ouvrir <a href="https://www.arduino.cc/reference/en/">la page référence</a>.</p>
+<p>On veut lire les valeurs envoyées par le capteur. Pour cela, on aura besoin d’un verre rempli à moitié d’eau afin d’y plonger le bout du capteur.</p>
+<p>Notre capteur est <strong>analogique</strong>, c’est-à-dire qu’il va nous donner des valeurs en voltage de <strong>0</strong> à <strong>1023</strong>.</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kr">int</span><span class="w"> </span><span class="n">valeurCapteur</span><span class="p">;</span><span class="w"> </span><span class="c1">// on crée une variable pour stocker les valeurs</span>
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span><span class="w"> </span><span class="c1">// initialise la communication en série à 9600bits/s</span>
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="p">}</span>
+<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>
+<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="n">valeurCapteur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">analogRead</span><span class="p">(</span><span class="n">A0</span><span class="p">);</span>
+<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">valeurCapteur</span><span class="p">);</span>
+<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="p">}</span>
+</code></pre></div>
+<p>Après le téléversement du code, aller dans <strong>Outils &gt; Moniteur série</strong>. Vous allez voir des valeurs. Si vous mettez le capteur dans le verre d’eau, celui-ci réagit et les valeurs seront à la baisse.</p>
+<h3 id="etape-3-les-valeurs-du-capteur"><strong>Étape 3 : Les valeurs du capteur</strong><a class="headerlink" href="#etape-3-les-valeurs-du-capteur" title="Permalien vers cette section">¶</a></h3>
+<p>On va faire réagir la <strong>DEL 13</strong> en donnant une condition et une valeur à Arduino: La <strong>DEL 13</strong> doit s’allumer si la valeur descend au-dessous de <strong>500</strong>.</p>
+<p>La <strong>DEL 13</strong> est déjà intégrée à la carte Arduino. Elle est encerclée en vert dans le schéma ci-contre.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://i.imgur.com/pA1PLAF.png"><img alt="https://i.imgur.com/pA1PLAF.png" src="https://i.imgur.com/pA1PLAF.png"/></a></p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kr">int</span><span class="w"> </span><span class="n">valeurCapteur</span><span class="p">;</span>
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="kr">int</span><span class="w"> </span><span class="n">limite</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">500</span><span class="p">;</span><span class="w"> </span><span class="c1">// valeur sous laquelle la LED s’allumera</span>
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>
+<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="nf">pinMode</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">OUTPUT</span><span class="p">);</span><span class="w"> </span><span class="c1">// la connexion 13 doit pouvoir envoyer du courant</span>
+<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="p">}</span>
+<a href="#__codelineno-1-8" id="__codelineno-1-8" name="__codelineno-1-8"></a>
+<a href="#__codelineno-1-9" id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-1-10" id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="n">valeurCapteur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">analogRead</span><span class="p">(</span><span class="n">A0</span><span class="p">);</span>
+<a href="#__codelineno-1-11" id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">valeurCapteur</span><span class="p">);</span>
+<a href="#__codelineno-1-12" id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+<a href="#__codelineno-1-13" id="__codelineno-1-13" name="__codelineno-1-13"></a>
+<a href="#__codelineno-1-14" id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">valeurCapteur</span><span class="o">&gt;</span><span class="n">limite</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-1-15" id="__codelineno-1-15" name="__codelineno-1-15"></a><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="kr">LOW</span><span class="p">);</span><span class="w"> </span><span class="c1">// ne pas envoyer du courant dans la connexion 13, la plante a soif</span>
+<a href="#__codelineno-1-16" id="__codelineno-1-16" name="__codelineno-1-16"></a><span class="p">}</span>
+<a href="#__codelineno-1-17" id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-1-18" id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="kr">HIGH</span><span class="p">);</span><span class="w"> </span><span class="c1">// envoyer du courant dans la connexion 13, la plante n'as plus soif</span>
+<a href="#__codelineno-1-19" id="__codelineno-1-19" name="__codelineno-1-19"></a><span class="p">}</span>
+<a href="#__codelineno-1-20" id="__codelineno-1-20" name="__codelineno-1-20"></a><span class="p">}</span>
+</code></pre></div>
+<p>Si on retire ou on remet le capteur dans le verre d’eau, on va voir la DEL réagir ! N’hésitez pas à surveiller les valeurs via le moniteur série.</p>
+<p>En présence d’eau, le capteur affiche 247 et en son absence, 592. Il est fort probable que vous ayez des valeurs différentes. On utilise la fonction <code>map()</code> pour retranscrire ces valeurs en pourcentage.</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">valeurSenseur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">map</span><span class="p">(</span><span class="n">valeurSenseur</span><span class="p">,</span><span class="mi">592</span><span class="p">,</span><span class="mi">247</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>Pour en savoir plus sur la fonction <code>map()</code>, consultez <a href="https://www.arduino.cc/reference/fr/">la page référence Arduino</a>.
+</p>
+</blockquote>
+<h3 id="etape-4-branchement-des-dels"><strong>Étape 4 : Branchement des DELs</strong><a class="headerlink" href="#etape-4-branchement-des-dels" title="Permalien vers cette section">¶</a></h3>
+<p>Connectons les DELs pour avoir une indication en rouge lorsque la plante a soif et en vert lorsqu’elle est suffisamment hydratée. Voici le nouveau schéma :</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://i.imgur.com/pM1ewmv.png"><img alt="https://i.imgur.com/pM1ewmv.png" src="https://i.imgur.com/pM1ewmv.png"/></a></p>
+<h3 id="etape-5-televerser-le-code"><strong>Étape 5 : Téléverser le code</strong><a class="headerlink" href="#etape-5-televerser-le-code" title="Permalien vers cette section">¶</a></h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="kr">int</span><span class="w"> </span><span class="n">pinSenseur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">A0</span><span class="p">;</span>
+<a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="kr">int</span><span class="w"> </span><span class="n">valeurSenseur</span><span class="p">;</span>
+<a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="kr">int</span><span class="w"> </span><span class="n">limite</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span><span class="p">;</span>
+<a href="#__codelineno-3-4" id="__codelineno-3-4" name="__codelineno-3-4"></a>
+<a href="#__codelineno-3-5" id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-3-6" id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<a href="#__codelineno-3-7" id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="w">  </span><span class="nf">pinMode</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">OUTPUT</span><span class="p">);</span>
+<a href="#__codelineno-3-8" id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="w">  </span><span class="nf">pinMode</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="kr">OUTPUT</span><span class="p">);</span>
+<a href="#__codelineno-3-9" id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="p">}</span>
+<a href="#__codelineno-3-10" id="__codelineno-3-10" name="__codelineno-3-10"></a>
+<a href="#__codelineno-3-11" id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-3-12" id="__codelineno-3-12" name="__codelineno-3-12"></a><span class="w">  </span><span class="n">valeurSenseur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">analogRead</span><span class="p">(</span><span class="n">pinSenseur</span><span class="p">);</span>
+<a href="#__codelineno-3-13" id="__codelineno-3-13" name="__codelineno-3-13"></a><span class="w">  </span><span class="n">valeurSenseur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">map</span><span class="p">(</span><span class="n">valeurSenseur</span><span class="p">,</span><span class="mi">592</span><span class="p">,</span><span class="mi">247</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">);</span>
+<a href="#__codelineno-3-14" id="__codelineno-3-14" name="__codelineno-3-14"></a><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+<a href="#__codelineno-3-15" id="__codelineno-3-15" name="__codelineno-3-15"></a><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">valeurSenseur</span><span class="p">);</span>
+<a href="#__codelineno-3-16" id="__codelineno-3-16" name="__codelineno-3-16"></a>
+<a href="#__codelineno-3-17" id="__codelineno-3-17" name="__codelineno-3-17"></a><span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">valeurSenseur</span><span class="o">&lt;</span><span class="n">limite</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-3-18" id="__codelineno-3-18" name="__codelineno-3-18"></a><span class="w">    </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="kr">LOW</span><span class="p">);</span>
+<a href="#__codelineno-3-19" id="__codelineno-3-19" name="__codelineno-3-19"></a><span class="w">    </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="kr">HIGH</span><span class="p">);</span>
+<a href="#__codelineno-3-20" id="__codelineno-3-20" name="__codelineno-3-20"></a><span class="w">  </span><span class="p">}</span>
+<a href="#__codelineno-3-21" id="__codelineno-3-21" name="__codelineno-3-21"></a><span class="w">  </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a href="#__codelineno-3-22" id="__codelineno-3-22" name="__codelineno-3-22"></a><span class="w">    </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="kr">HIGH</span><span class="p">);</span>
+<a href="#__codelineno-3-23" id="__codelineno-3-23" name="__codelineno-3-23"></a><span class="w">    </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="kr">LOW</span><span class="p">);</span>
+<a href="#__codelineno-3-24" id="__codelineno-3-24" name="__codelineno-3-24"></a><span class="w">  </span><span class="p">}</span>
+<a href="#__codelineno-3-25" id="__codelineno-3-25" name="__codelineno-3-25"></a><span class="p">}</span>
+</code></pre></div>
+<h2 id="photos-du-projet"><strong>Photos du projet</strong><a class="headerlink" href="#photos-du-projet" title="Permalien vers cette section">¶</a></h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg"><img alt="SC_AFN (4).jpg" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg"><img alt="SC_AFN (5).jpg" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg"/></a></p>
+<h2 id="pour-aller-plus-loin"><strong>Pour aller plus loin</strong><a class="headerlink" href="#pour-aller-plus-loin" title="Permalien vers cette section">¶</a></h2>
+<p>Le projet peut être amélioré de plusieurs façons :</p>
+<ul>
+<li>Une DEL : utiliser une seule DEL vert/rouge au lieu de deux DEL.</li>
+<li>Écran LCD : connecter un écran pour afficher l’état, afficher les données relatives à l’humidité en remappant les valeurs en pourcentage ou tout simplement afficher du texte comme “j’ai soif!”.</li>
+<li>Internet des objets : utiliser un autre microcontrôleur, comme l’ESP8266, afin d’envoyer les données à distance et de connaître l’état du sol en temps réel.</li>
+<li>Pompe à eau : contrôler l’arrosage automatiquement, en fonction du niveau d’humidité.</li>
+</ul>
 <!---#Impression 3D-->
 <!---#3D-->
 <aside class="md-source-file">
@@ -747,7 +489,7 @@
 <span class="md-icon" title="Dernière mise à jour">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-26T06:11:32+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-26</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-13T22:48:48+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-13</span>
 </span>
 </aside>
 <form class="md-feedback" hidden="" name="feedback">
@@ -794,38 +536,10 @@
           </button>
 </main>
 <footer class="md-footer">
-<nav aria-label="Pied de page" class="md-footer__inner md-grid">
-<a aria-label="Précédent: Silhouette Cameo 4" class="md-footer__link md-footer__link--prev" href="../cameo/" rel="prev">
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
-</div>
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                  Précédent
-                </span>
-                Silhouette Cameo 4
-              </div>
-</div>
-</a>
-<a aria-label="Suivant: Introduction" class="md-footer__link md-footer__link--next" href="../../systemes-embarques/" rel="next">
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                  Suivant
-                </span>
-                Introduction
-              </div>
-</div>
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
-</div>
-</a>
-</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
-<img alt="CC-BY-4.0" src="../../assets/images/CCBY.png"/>
+<img alt="CC-BY-4.0" src="../../../assets/images/CCBY.png"/>
         Sauf indications contraires, les contenus de ce wiki créé par les 
         <a href="https://www.bib.umontreal.ca" rel="noopener" target="_blank">
             Bibliothèques UdeM</a>
@@ -858,7 +572,7 @@
 </div>
 <div class="md-copyright">
 <a href="https://www.umontreal.ca" rel="noopener" target="_blank">
-<img alt="Site officiel de l'Université de Montréal" src="../../assets/images/logoudem.svg" width="120px;"/>
+<img alt="Site officiel de l'Université de Montréal" src="../../../assets/images/logoudem.svg" width="120px;"/>
 </a>
 </div>
 </div>
@@ -868,11 +582,11 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.path", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.action.edit", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
-<script src="../../assets/javascripts/bundle.a3190745.min.js"></script>
-<script src="../../js/timeago.min.js"></script>
-<script src="../../js/timeago_mkdocs_material.js"></script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.path", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.action.edit", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+<script src="../../../assets/javascripts/bundle.a3190745.min.js"></script>
+<script src="../../../js/timeago.min.js"></script>
+<script src="../../../js/timeago_mkdocs_material.js"></script>
 <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
-<script src="../../assets/javascripts/tablesort.js"></script>
+<script src="../../../assets/javascripts/tablesort.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
