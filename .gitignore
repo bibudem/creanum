@@ -3,5 +3,7 @@ build
 site
 .conda
 .vscode/settings.json
-.vhs
+.venv
+venv
+
 

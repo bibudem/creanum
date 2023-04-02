@@ -4,39 +4,32 @@ INHERIT: nav.yml
 plugins:
   - search
   - table-reader #pour lire les tableaux en csv
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      htmlmin_opts:
-          remove_comments: true
-      cache_safe: true
 
-# Configuration du blog
 
-  - blog:
-      blog_dir: projets
-      blog_toc: true
-      categories_toc: true
-      post_slugify_separator: "-"
-      archive: false
-      post_url_format: "{categories}/{slug}"
-      post_url_max_categories: 2
-      post_excerpt: required
-      authors_file: projets/.authors.yml
-      post_readtime: false
-      categories_allowed:
-        - Réalisation
-        - Impression 3D
-        - Arduino
-        - Raspberry Pi
-        - Baladodiffusions
+# # Configuration du blog
+#   - blog:
+#       blog_dir: projets
+#       blog_toc: true
+#       categories_toc: true
+#       post_slugify_separator: "-"
+#       archive: false
+#       post_url_format: "{categories}/{slug}"
+#       post_url_max_categories: 2
+#       post_excerpt: required
+#       authors_file: projets/.authors.yml
+#       post_readtime: false
+#       categories_allowed:
+#         - Réalisation
+#         - Impression 3D
+#         - Arduino
+#         - Raspberry Pi
+#         - Baladodiffusions
 
-# Plugin zoom image
+# # Plugin zoom image
 
   - glightbox
 
-# Plugin video
+# # Plugin video
 
   - mkdocs-video :
       mark: "video"
@@ -45,7 +38,7 @@ plugins:
         height: "27.5vw"
       video_autoplay: false
 
-# Paramètres de la date de modification 
+# # Paramètres de la date de modification 
 
   - git-revision-date-localized:
       locale: fr

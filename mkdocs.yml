@@ -4,7 +4,6 @@ site_url: https://bibudem.github.io/creanum/
 site_description: Documentation et projets en création numérique
 
 # Github
-
 repo_name: bibudem/creanum
 repo_url: https://github.com/bibudem/creanum
 edit_uri: edit/main/docs/
@@ -136,7 +135,7 @@ extra:
 
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/bibudem/wiki
+      link: https://github.com/bibudem/creanum
       name: CréaNum sur Github
 
     - icon: fontawesome/brands/twitter 
@@ -150,5 +149,3 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:<creanum@bib.umontreal.ca>
       name: Courriel
-
-

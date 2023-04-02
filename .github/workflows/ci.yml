@@ -24,7 +24,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('.cache/**') }}
           path: .cache
 
-      - run: pip install pngquant mkdocs-video mkdocs-glightbox mkdocs-table-reader-plugin mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin
+      - run: pip install -r requirements.txt
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --config-file mkdocs.insiders.yml --force
 env:

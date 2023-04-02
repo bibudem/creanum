@@ -2,16 +2,16 @@
 ## Wiki des espaces de création numérique des Bibliothèques UdeM. 
 **WORK IN PROGRESS**
 
-Le wiki utilise un générateur de site statique Mkdocs avec le thème [Material for Mkdocs](https://github.com/squidfunk/mkdocs-material). Le texte est rédigé en Markdown et les images en WebP (conversion en local pour l'instant). La version Insiders est utilisée ici pour avoir plus de fonctionnalités. [En savoir plus](https://squidfunk.github.io/mkdocs-material/insiders/).
+Le wiki utilise un générateur de site statique Mkdocs avec le thème [Material for Mkdocs](https://github.com/squidfunk/mkdocs-material). Le texte est rédigé en Markdown et les images en WebP (conversion en local pour l'instant). La version *Insiders* est utilisée ici pour avoir plus de fonctionnalités. [En savoir plus](https://squidfunk.github.io/mkdocs-material/insiders/).
 
 ## Installation 
 
-Pour copier le projet : 
+Pour cloner le projet : 
 ``` sh
-git clone https://github.com/bibudem/wiki.git
+git clone https://github.com/bibudem/creanum.git
 ```
 
-Idéalement, c'est de créer un environnement virtuel pour ne pas créer des conflits : 
+Idéalement, c'est de créer un environnement virtuel : 
 ``` sh
 python3 -m venv venv
 ```
@@ -21,9 +21,9 @@ et l'activer :
 . venv/bin/activate 
 ```
 
-Installer les dépendances avec pip : 
+Installer les paquets requis avec pip : 
 ``` sh
-pip install mkdocs-video mkdocs-glightbox mkdocs-table-reader-plugin
+pip install -r requirements.txt
 ```
 
 et enfin Material for Mkdocs :
@@ -46,6 +46,6 @@ mkdocs serve --config-file mkdocs.insiders.yml
 
 ### Note
 À chaque *Push*, le site se génère automatiquement grâçe au *workflow* qui se trouve dans le dossier .github/workflows/ci.yml
-et devient accessible sur Github Pages : [bibudem.github.io/wiki](https://bibudem.github.io/wiki). Le GH_TOKEN est configuré pour générer le site avec la version *Insiders* automatiquement.
+et devient accessible sur Github Pages : [bibudem.github.io/creanum](https://bibudem.github.io/creanum). Le GH_TOKEN est configuré pour générer le site avec la version *Insiders* automatiquement.
 
 
