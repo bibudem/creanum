@@ -1,3 +1,5 @@
+
+
 {% extends "base.html" %}
 <!-- Annonce en haut de la page -->
 {% block announce %}
@@ -14,6 +16,186 @@
 {% endblock %}
 <!-- Fin de l'annonce -->
 
+{% block header %}
+
+<style>
+  .linkback-banner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  max-width: 61rem;
+  }
+  
+  .linkback {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  margin-left: auto;
+  }
+  
+  @media screen and (max-width: 768px){
+  .linkback-banner {
+  display: none;
+  }
+  
+  </style>
+
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+  {% set class = class ~ " md-header--shadow" %}
+{% endif %}
+
+<!-- Header -->
+
+
+<header class="{{ class }}" data-md-component="header">
+  <div class="linkback-banner">
+    <a class="linkback" href="https://bib.umontreal.ca/"> <svg width="15pt" height="15pt" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <g fill="#fff">
+       <path d="m50 94.445c-11.789 0-23.094-4.6836-31.426-13.02-8.3359-8.332-13.02-19.637-13.02-31.426s4.6836-23.094 13.02-31.426c8.332-8.3359 19.637-13.02 31.426-13.02s23.094 4.6836 31.426 13.02c8.3359 8.332 13.02 19.637 13.02 31.426s-4.6836 23.094-13.02 31.426c-8.332 8.3359-19.637 13.02-31.426 13.02zm0-82.973c-10.219 0-20.02 4.0586-27.242 11.285-7.2266 7.2227-11.285 17.023-11.285 27.242s4.0586 20.02 11.285 27.242c7.2227 7.2266 17.023 11.285 27.242 11.285s20.02-4.0586 27.242-11.285c7.2266-7.2227 11.285-17.023 11.285-27.242-0.007813-10.215-4.0703-20.012-11.293-27.234s-17.02-11.285-27.234-11.293z"/>
+       <path d="m52.359 66.918-14.805-14.805v-0.003906c-1.1523-1.1562-1.1523-3.0312 0-4.1914l14.805-14.805 4.1953 4.1953-12.723 12.691 12.723 12.723z"/>
+      </g>
+     </svg>
+       Aller vers le site des bibliothèques</a>
+  </div>  
+  <nav
+    class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+
+    <!-- Link to home -->
+    
+    <a
+      href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+      title="{{ config.site_name | e }}"
+      class="md-header__button md-logo"
+      aria-label="{{ config.site_name }}"
+      data-md-component="logo"
+    >
+      {% include "partials/logo.html" %}
+    </a>
+    
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      {% include ".icons/material/menu" ~ ".svg" %}
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            {{ config.site_name }}
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            {% if page.meta and page.meta.title %}
+              {{ page.meta.title }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    {% if not config.theme.palette is mapping %}
+      <form class="md-header__option" data-md-component="palette">
+        {% for option in config.theme.palette %}
+          {% set scheme = option.scheme | d("default", true) %}
+          <input
+            class="md-option"
+            data-md-color-media="{{ option.media }}"
+            data-md-color-scheme="{{ scheme | replace(' ', '-') }}"
+            data-md-color-primary="{{ option.primary | replace(' ', '-') }}"
+            data-md-color-accent="{{ option.accent | replace(' ', '-') }}"
+            {% if option.toggle %}
+              aria-label="{{ option.toggle.name }}"
+            {% else  %}
+              aria-hidden="true"
+            {% endif %}
+            type="radio"
+            name="__palette"
+            id="__palette_{{ loop.index }}"
+          />
+          {% if option.toggle %}
+            <label
+              class="md-header__button md-icon"
+              title="{{ option.toggle.name }}"
+              for="__palette_{{ loop.index0 or loop.length }}"
+              hidden
+            >
+              {% include ".icons/" ~ option.toggle.icon ~ ".svg" %}
+            </label>
+          {% endif %}
+        {% endfor %}
+      </form>
+    {% endif %}
+
+    <!-- Site language selector -->
+    {% if config.extra.alternate %}
+      <div class="md-header__option">
+        <div class="md-select">
+          {% set icon = config.theme.icon.alternate or "material/translate" %}
+          <button
+            class="md-header__button md-icon"
+            aria-label="{{ lang.t('select.language') }}"
+          >
+            {% include ".icons/" ~ icon ~ ".svg" %}
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              {% for alt in config.extra.alternate %}
+                <li class="md-select__item">
+                  <a
+                    href="{{ alt.link | url }}"
+                    hreflang="{{ alt.lang }}"
+                    class="md-select__link"
+                  >
+                    {{ alt.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Button to open search modal -->
+    {% if "material/search" in config.plugins %}
+      <label class="md-header__button md-icon" for="__search">
+        {% include ".icons/material/magnify.svg" %}
+      </label>
+
+      <!-- Search interface -->
+      {% include "partials/search.html" %}
+    {% endif %}
+
+    <!-- Repository information -->
+    {% if config.repo_url %}
+      <div class="md-header__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
+</header>
+
+
+
+{% endblock %}
 
 
 
@@ -79,7 +261,7 @@
         >
             licence CC BY 4.0.</a>
       <br>
-      </br>
+
         <a
             href="https://bib.umontreal.ca/conditions-bibliotheques"
             target="_blank" rel="noopener"
@@ -112,4 +294,6 @@
     </div>
   </div>
 </footer>
+
 {% endblock %}
+
