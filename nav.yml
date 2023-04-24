@@ -22,6 +22,8 @@ nav:
       #   - Réparer la première couche d'un modèle: impression3d/reparer.md
       #   - Créer un modèle 3D à partir d'une image: impression3d/creer-modele-image.md
       - Prusa i3 Mk3s+: impression3d/prusa.md
+      - Ultimaker 2/S3 : impression3d/ultimaker.md
+      - Zortrax Inkspire : impression3d/zortrax.md
       - FAQ: impression3d/faq.md
       # - Ultimaker 2/S3: impression3d/ultimaker.md
       # - Zortrax Inkspire: impression3d/zortrax.md

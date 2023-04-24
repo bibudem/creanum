@@ -23,7 +23,7 @@ L’impression 3D consiste à reproduire un objet à partir d’un modèle en 3D
 
 ### PLA (acide polylactique)
 
-L’’acide polylactique ou polylactide, est un thermoplastique fabriqué à partir de ressources renouvelables telles que l’amidon de maïs (Amérique du Nord), les racines de tapioca (essentiellement en Asie) ou la canne à sucre. Ce matériau se distingue des autres filaments qui proviennent pour la plupart de la distillation et de la polymérisation de réserves de pétrole non renouvelables.
+L’acide polylactique ou polylactide, est un thermoplastique fabriqué à partir de ressources renouvelables telles que l’amidon de maïs (Amérique du Nord), les racines de tapioca (essentiellement en Asie) ou la canne à sucre. Ce matériau se distingue des autres filaments qui proviennent pour la plupart de la distillation et de la polymérisation de réserves de pétrole non renouvelables.
 
 Ce matériau est devenu populaire dans l’industrie de l’impression 3D en raison de ses origines plus écologiques et de ses propriétés mécaniques. On l’extrude entre 190°C et 230°C. Ce matériau est biodégradable, mais uniquement en compostage industriel.
 
