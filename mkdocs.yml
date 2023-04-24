@@ -52,7 +52,7 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-    - announce.dismiss
+    # - announce.dismiss
     - navigation.footer
     - content.code.copy
     - content.code.select

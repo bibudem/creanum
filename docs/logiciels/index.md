@@ -36,7 +36,7 @@ hide:
 
 === "Modélisation 3D"
     ??? Abstract "Blender :material-open-source-initiative:"
-        ---8<-- "liste.md:exemple"
+        ---8<-- "liste.md:blender"
     ??? Abstract "Openscad :material-open-source-initiative:"
         ---8<-- "liste.md:exemple"
     ??? Abstract "Meshlab :material-open-source-initiative:"

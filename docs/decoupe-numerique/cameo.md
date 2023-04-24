@@ -1,6 +1,7 @@
 
+# Silhouette Studio
 
-## Guide de découpe avec Silhouette Studio
+## Guide de découpe
 
 Ce guide se veut être un rappel de l’utilisation du logiciel Silhouette Studio en vue de découper du vinyle.
 

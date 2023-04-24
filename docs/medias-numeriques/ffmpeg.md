@@ -243,7 +243,7 @@ Dans le même répertoire, inclure un png (un format qui supporte la transparenc
 
 
 ```bash
-ffmpeg -i vid0.mp4 -i udem-logo.png -filter_complex "[0:v][1:v]overlay[out]" -map "[out]" vid1.mp4
+ffmpeg -i vid0.mp4 -i udem-logo.webp -filter_complex "[0:v][1:v]overlay[out]" -map "[out]" vid1.mp4
 ```
 
 Cette commande est bien pratique si jamais on veut faire un *watermark* sur une série de vidéos.
@@ -275,19 +275,19 @@ ffmpeg -i vid0.mp4 -filter:v crop=w=320:h=180:x=160:y=90 vid1.mp4
 Dans cet exemple, on va extraire les deux premières secondes en une série d’image avec des noms qui se suivent :
 
 ```bash
-ffmpeg -i vid0.mp4 -r 24 -t 2 -f image2 img-%04d.png
+ffmpeg -i vid0.mp4 -r 24 -t 2 -f image2 img-%04d.webp
 ```
 
 La valeur **-r 24** correspond au nombre d’images par seconde de la vidéo vid0.mp4 (24fps).
 
 ## Combiner des images pour en faire une vidéo
 
-Il faut que les noms des images se suivent. Dans cet exemple, ça va être 001.jpg, 002 jpg, etc.
+Il faut que les noms des images se suivent. Dans cet exemple, ça va être 001.webp, 002 jpg, etc.
 
-Si jamais il y a un texte avant les numéros, par exemple img-, n’hésitez pas à l’ajouter avant le %03d.jpg, ce qui va donner img-%03d.jpg. Le rendu va être par défaut à 25fps et 200kbps. %03d représente le nombre de chiffres après le texte (%03d = img-001.jpg / %04d = img-0001.jpg et ainsi de suite.)
+Si jamais il y a un texte avant les numéros, par exemple img-, n’hésitez pas à l’ajouter avant le %03d.webp, ce qui va donner img-%03d.webp. Le rendu va être par défaut à 25fps et 200kbps. %03d représente le nombre de chiffres après le texte (%03d = img-001.webp / %04d = img-0001.webp et ainsi de suite.)
 
 ```bash
-ffmpeg -i %03d.jpg test.mp4
+ffmpeg -i %03d.webp test.mp4
 ```
 
 Cette commande est pratique pour créer des animations *stopmotion* ou *timelapse*.
@@ -295,7 +295,7 @@ Cette commande est pratique pour créer des animations *stopmotion* ou *timelaps
 Un autre moyen mais avec plus de personnalisation :
 
 ```bash
-ffmpeg -framerate 60 -i image-%04d.jpg -start_number 1 -r 60 -c:v libx264 -crf 25 -pix_fmt yuv420p pattern60.mp4
+ffmpeg -framerate 60 -i image-%04d.webp -start_number 1 -r 60 -c:v libx264 -crf 25 -pix_fmt yuv420p pattern60.mp4
 
 ```
 
@@ -304,11 +304,11 @@ ffmpeg -framerate 60 -i image-%04d.jpg -start_number 1 -r 60 -c:v libx264 -crf 2
 - **vframes** : combien d’image à utiliser
 - **– r** : combien d’images par seconde
 - **c:v libx264 -crf 25 -pix_fmt yuv420p** : ceci va permettre d’encoder en H264, sans perte de qualité et en 4.2.0.
-- **i image-%04.jpg** : le 04 représente le nombre de chiffres qui suit le texte image- (image-0001, image-0002, etc.)
+- **i image-%04.webp** : le 04 représente le nombre de chiffres qui suit le texte image- (image-0001, image-0002, etc.)
 
-Attention ! Une valeur **img-*.png** doit s’écrire ainsi : **-pattern_type glob -i « image-*.png »**
+Attention ! Une valeur **img-*.webp** doit s’écrire ainsi : **-pattern_type glob -i « image-*.webp »**
 
-**img-*.png** est valable aussi pour les chiffres. 15 vient avant 110 mais parfois, le système met 110 avant 15. Pour être sûr, tapez dans le terminal **echo img-*.png** pour connaître comment votre système liste les numéros.
+**img-*.webp** est valable aussi pour les chiffres. 15 vient avant 110 mais parfois, le système met 110 avant 15. Pour être sûr, tapez dans le terminal **echo img-*.webp** pour connaître comment votre système liste les numéros.
 
 ## Boucle (*loop*)
 

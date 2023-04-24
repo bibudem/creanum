@@ -62,7 +62,7 @@ On va faire réagir la **DEL 13** en donnant une condition et une valeur à Ar
 
 La **DEL 13** est déjà intégrée à la carte Arduino. Elle est encerclée en vert dans le schéma ci-contre.
 
-![https://i.imgur.com/pA1PLAF.png](https://i.imgur.com/pA1PLAF.png)
+![https://i.imgur.com/pA1PLAF.webp](https://i.imgur.com/pA1PLAF.webp)
 
 ```arduino
 int valeurCapteur;
@@ -102,7 +102,7 @@ valeurSenseur = map(valeurSenseur,592,247,0,100);
 
 Connectons les DELs pour avoir une indication en rouge lorsque la plante a soif et en vert lorsqu’elle est suffisamment hydratée. Voici le nouveau schéma :
 
-![https://i.imgur.com/pM1ewmv.png](https://i.imgur.com/pM1ewmv.png)
+![https://i.imgur.com/pM1ewmv.webp](https://i.imgur.com/pM1ewmv.webp)
 
 ### **Étape 5 : Téléverser le code**
 
@@ -136,9 +136,9 @@ void loop() {
 
 ## **Photos du projet**
 
-![SC_AFN (4).jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).jpg)
+![SC_AFN (4).webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9b43f9-b519-49c7-8625-6e982a8f75b1/SC_AFN_(4).webp)
 
-![SC_AFN (5).jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).jpg)
+![SC_AFN (5).webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cb03f77-edfb-4ac1-8dc2-1a11948b9c82/SC_AFN_(5).webp)
 
 ## **Pour aller plus loin**
 
