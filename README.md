@@ -2,7 +2,7 @@
 ## Wiki des espaces de création numérique des Bibliothèques UdeM. 
 **WORK IN PROGRESS**
 
-Le wiki utilise un générateur de site statique Mkdocs avec le thème [Material for Mkdocs](https://github.com/squidfunk/mkdocs-material). Le texte est rédigé en Markdown et les images en WebP (conversion en local pour l'instant). La version *Insiders* est utilisée ici pour avoir plus de fonctionnalités. [En savoir plus](https://squidfunk.github.io/mkdocs-material/insiders/).
+Le wiki utilise un générateur de site statique Mkdocs avec le thème [Material for Mkdocs](https://github.com/squidfunk/mkdocs-material). Le texte est rédigé en Markdown et les images en WebP. La version *Insiders* est utilisée ici pour avoir plus de fonctionnalités. [En savoir plus](https://squidfunk.github.io/mkdocs-material/insiders/).
 
 ## Installation 
 
@@ -44,8 +44,12 @@ Pour lancer un aperçu en local :
 mkdocs serve --config-file mkdocs.insiders.yml
 ```
 
-### Note
-À chaque *Push*, le site se génère automatiquement grâçe au *workflow* qui se trouve dans le dossier .github/workflows/ci.yml
-et devient accessible sur Github Pages : [bibudem.github.io/creanum](https://bibudem.github.io/creanum). Le GH_TOKEN est configuré pour générer le site avec la version *Insiders* automatiquement.
+## Note
+### Github Pages
+À chaque *Push*, le site se génère automatiquement grâce au *workflow* qui se trouve dans le dossier .github/workflows/ci.yml
+et devient accessible sur Github Pages : [bibudem.github.io/creanum](https://bibudem.github.io/creanum). Le GH_TOKEN est configuré pour générer le site avec la version *Insiders* automatiquement. 
 
+### Conversion des images en WebP
+le script webp.py permet de convertir automatiquement en WebP les images qui se trouvent dans le dossier docs/assets/images et ceci à chaque déploiement. Il cherche par la suite toutes mentions de .jpg, .jpeg ou .png dans les fichiers .md et .html et les remplace par .webp. Magique. 
+La conversion vers ce format se fait avec le paquet Pillow.
 
