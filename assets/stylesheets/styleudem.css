@@ -1,27 +1,33 @@
 /* Couleurs UdeM */
 
 :root {
-    --md-primary-fg-color:         #0057ac;
-    --md-accent-fg-color:          #0057ac;
-    --md-primary-fg-color--light:  #0057ac;
-    --md-primary-fg-color--dark:   #0057ac;
-  }
+  --md-default-bg-color:         #f8f8f8; 
+  --md-primary-fg-color:         #0057ac;
+  --md-accent-fg-color:          #0057ac;
+  --md-primary-fg-color--light:  #0057ac;
+  --md-primary-fg-color--dark:   #0057ac;
+}
 
- /* Couleurs du mode sombre */
 [data-md-color-scheme=slate] {
-  --md-typeset-a-color: #ffca40;
-  --md-accent-fg-color: #ffca40;
-  --md-hue: 220; 
-  --md-default-fg-color--light:#ffffff;
-  /* --md-default-fg-color--lighter:#ffca40; */
+  --md-typeset-a-color:          #dde6ef;
+  --md-primary-fg-color:         #0057ac;
+  --md-typeset-a-color--hover:   #fdfdfd;
+  --md-default-fg-color--light:  #fdfdfd;
 }
 
- /* Couleurs du mode clair */
 [data-md-color-scheme=default] {
-  /* couleur du fond */
-  --md-default-bg-color:#f8f8f8; 
-}
+  --md-default-bg-color:         #f8f8f8; 
+  --md-primary-fg-color:         #0057ac;
+  --md-accent-fg-color:          #0057ac;
+  --md-primary-fg-color--light:  #0057ac;
+  --md-primary-fg-color--dark:   #0057ac;
+ 
 
+} 
+
+[data-md-color-scheme=slate][data-md-color-primary=indigo] {
+  --md-typeset-a-color:#09bfdd;
+}
 
 /* taille du logo */
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
