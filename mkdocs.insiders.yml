@@ -3,44 +3,15 @@ INHERIT: nav.yml
 
 plugins:
   - search
-  - table-reader #pour lire les tableaux en csv
-
-
-# # Configuration du blog
-#   - blog:
-#       blog_dir: projets
-#       blog_toc: true
-#       categories_toc: true
-#       post_slugify_separator: "-"
-#       archive: false
-#       post_url_format: "{categories}/{slug}"
-#       post_url_max_categories: 2
-#       post_excerpt: required
-#       authors_file: projets/.authors.yml
-#       post_readtime: false
-#       categories_allowed:
-#         - Réalisation
-#         - Impression 3D
-#         - Arduino
-#         - Raspberry Pi
-#         - Baladodiffusions
-
-# # Plugin zoom image
-
-  - glightbox
-
-# # Plugin video
-
-  - mkdocs-video :
+  - table-reader # Pour lire les tableaux en csv
+  - glightbox # Plugin zoom image
+  - mkdocs-video : # Plugin video
       mark: "video"
       css_style:
         width: "100%"
         height: "27.5vw"
       video_autoplay: false
-
-# # Paramètres de la date de modification 
-
-  - git-revision-date-localized:
+  - git-revision-date-localized: # Paramètres de la date de modification 
       locale: fr
       type: timeago
       fallback_to_build_date: true

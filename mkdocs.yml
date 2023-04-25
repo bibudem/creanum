@@ -24,16 +24,18 @@ theme:
     repo: fontawesome/brands/github
     admonition:
       abstract: material/mouse
-  palette: default
+
   
   palette: 
     # mode clair
     - scheme: default
+
       toggle:
         icon: material/eye
         name: Passer en mode sombre
     # mode sombre
     - scheme: slate
+      accent: yellow
       toggle:
         icon: material/eye-outline
         name: Passer en mode clair
