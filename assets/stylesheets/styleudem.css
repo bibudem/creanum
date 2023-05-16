@@ -21,8 +21,6 @@
   --md-accent-fg-color:          #0057ac;
   --md-primary-fg-color--light:  #0057ac;
   --md-primary-fg-color--dark:   #0057ac;
- 
-
 } 
 
 [data-md-color-scheme=slate][data-md-color-primary=indigo] {
@@ -31,13 +29,13 @@
 
 /* taille du logo */
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
-  height: 2.8rem;
+  height: 2rem;
   width: auto;
 }
 
-.md-header__title {
+/* .md-header__title {
   line-height: 3.25rem;
-}  
+}   */
 
 /* gras quand item sélectionné sur le menu en haut */
 /* .md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
@@ -115,11 +113,17 @@ a:hover, a:focus {
   font-size: .7rem;
 }
 
+.md-tabs__link--active {
+  color: inherit;
+  opacity: 1;
+  font-weight: 600;
+
+}
 .md-tabs {
   color: #f8f8f8 ;
   background-color: #0057ac;
   line-height: 1;
-  font-weight: 600;
+  /* font-weight: 600; */
   }
 
   
@@ -128,6 +132,8 @@ a:hover, a:focus {
     text-decoration-thickness: 3px;
     text-underline-offset: 3px;
 }
+
+
   
 .md-tabs__item--active {
     border-bottom: 4px solid;
@@ -143,6 +149,7 @@ a:hover, a:focus {
 .md-tabs__item--active {
   border-bottom: 4px solid;
   border-bottom-color:   #1d70b8;
+
 }
 
 @media screen and (max-width: 76.25em) {
