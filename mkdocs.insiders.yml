@@ -2,6 +2,8 @@ INHERIT: mkdocs.yml
 INHERIT: nav.yml
 
 plugins:
+  - social:
+      cards_layout: default
   - search
   - table-reader # Pour lire les tableaux en csv
   - glightbox # Plugin zoom image

@@ -4,8 +4,8 @@ site_url: https://bibudem.github.io/creanum/
 site_description: Documentation et projets en création numérique
 
 # Github
-repo_name: bibudem/creanum
-repo_url: https://github.com/bibudem/creanum
+# repo_name: bibudem/creanum
+# repo_url: https://github.com/bibudem/creanum
 edit_uri: edit/main/docs/
 
 theme:
@@ -16,7 +16,7 @@ theme:
     text: Open Sans
     code: JetBrains Mono
     font: false
-  logo: assets/logo/logo-web.webp
+  logo: assets/logo/logocreanum.png
   favicon: assets/logo/favicon.ico
   icon:
     edit: material/pencil 
