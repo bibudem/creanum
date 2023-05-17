@@ -93,7 +93,7 @@ La première étape vers l’impression 3D, c’est de chercher un modèle 3D…
 
 - **Modéliser votre propre pièce**
 
-Vous pouvez aussi modéliser votre propre modèle 3D en utilisant un logiciel de modélisation. Chaque logiciel a ses points forts et ses faiblesses.
+Vous pouvez aussi modéliser vos propres modèles 3D en utilisant un logiciel de modélisation. Chaque logiciel a ses points forts et ses faiblesses.
 
 Voici une page expliquant quelques principes de modélisation importants pour l’impression 3D. Les fonctions sont celles d’une ancienne version de Blender, mais elles sont toujours utilisées dans la version actuelle : [Tutoriel Blender ](https://www.sculpteo.com/fr/tutoriel/tutoriel-blender/){:target="_blank"}
 
