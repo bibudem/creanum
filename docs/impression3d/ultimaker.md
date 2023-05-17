@@ -3,35 +3,60 @@ search:
   boost: 2
 ---
 
+
 # Ultimaker
+
+!!! note "Votre contribution est la bienvenue!"
+    Cette page est en constante évolution. Si vous aussi vous voulez contribuer à son amélioration, consultez [la section Communauté](../communaute/index.md).
+
+!!! info "Important"
+    Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](introduction.md)
 
 ## Présentation de l'imprimante
 
-[Ultimaker S3 ](https://www.notion.so/3d56a063be644e97ae4ae26c0dbb577b)
+![Ultimaker S3 à la Bibliothèque des sciences](../assets/images/ultimakerS3-photo.webp)
 
-L’imprimante Ultimaker S3 est prête à l’emploi aussitôt sortie de sa boite. L’avantage de cette imprimante 3D est qu’elle ne nécessite pas de calibrage poussé : il n’est pas nécessaire de régler la hauteur de la première couche, contrairement à la [Prusa MK3S+](https://www.notion.so/Pr-sentation-de-l-imprimante-521d25a5fad74fb1bbbf7f5e717a5710). Tous ces réglages se font automatiquement par l’imprimante.
+| Ultimaker S3||
+|-----|-----|
+|Volume d'impression|	23×19×20 (9"×7.4"×7.9")|
+|Buses disponibles|	0.4mm|
+|Hauteur des couches|	0.05 - 0.35 mm|
+|Diamètre du filament|	2.85 mm|
+|Matériaux supportés|	PLA, PETG, ASA, ABS, PC, CPE, PVA/BVOH, PVB, HIPS, PP, Flex, nGen, Nylon, Carbon filled, Woodfill et autres.|
+|Surface d'impression|	Vitre|
+|Impression multi-filament|	Possible grâce aux deux extrudeurs|
+|Logiciel de découpe (*slicer*)|	Cura|
 
-Le [bloc d’extrusion](https://www.notion.so/Extrudeur-t-te-d-impression-865ffec9ddf54b81ba4134e3d86f72d5) est monté sur deux axes (X et Y). Le plateau est monté sur l’axe Z. Le volume d’impression est protégé des quatre côtés, ce qui rend l’impression moins sensible aux courants d’air et aux changements de température soudains.
+L’imprimante Ultimaker S3 est prête à l’emploi aussitôt sortie de sa boite. L’avantage de cette imprimante 3D est qu’elle ne nécessite pas de calibrage poussé : il n’est pas nécessaire de régler la hauteur de la première couche, contrairement à la [Prusa MK3S+](prusa.md). Tous ces réglages se font automatiquement par l’imprimante.
+
+Le bloc d’extrusion est monté sur deux axes (X et Y). Le plateau est monté sur l’axe Z. Le volume d’impression est protégé des quatre côtés, ce qui rend l’impression moins sensible aux courants d’air et aux changements de température soudains.
 
 Le plateau d’impression est une vitre, ce qui donne un effet parfaitement lisse et brillant à la première couche des impressions.
 
 Le bloc d’extrusion et doté de deux extrudeurs permettant d’imprimer facilement avec deux filaments différents.
 
-Le *[feeder](https://www.notion.so/Nomenclature-de-l-impression-3D-ae1c1d1de83a4490b33ae8900346ebf1)* se trouve à l’arrière de l’imprimante et le filament passe par un tube pour être acheminé à l’extrudeur.  
+Le *feeder* se trouve à l’arrière de l’imprimante et le filament passe par un tube pour être acheminé à l’extrudeur.  
 
-Suivez les instructions à [cette page](https://www.notion.so/Proc-dure-de-changement-de-filament-3d05fd38103e4e07b83039256f1044c2) ****pour changer de filament.
+!!! info Ressources en ligne
+    [Site officiel Ultimaker](https://ultimaker.com/3d-printers/s-series/ultimaker-s3/){:target="_blank"}
+    
+### Localisation
 
-<aside>
-📌 Avant de lancer une première impression, vous devez lire [le guide de l'impression 3D](https://www.notion.so/Guide-de-l-impression-3D-2dfbdea9ff6f4e8082172534aca77ffb).
+| Bibliothèque | Nombre |
+|---|---|
+|Sciences | 1 |
+|Mathématiques et informatique | 1 |
+|Thérèse-Gouin-Décarie| 1 |
+|Santé| 1 |
 
-</aside>
+## **Changement de filament**
 
-<aside>
-💡 Le logiciel est installé dans les postes informatiques des **Ateliers de fabrication numérique** avec la bonne configuration. Vous pouvez utiliser ces postes pour préparer votre fichier. Si vous préférez le faire avec votre ordinateur, suivez les instructions ci-dessous.
+!!! Warning " "
+    Diamètre des filaments de l'Ultimaker : **2.85mm**
 
-</aside>
+## Configuration Cura
 
-## Logiciel de découpe Ultimaker Cura
+### Logiciel de découpe Ultimaker Cura
 
 Lien vers le téléchargement : [https://ultimaker.com/fr/software/ultimaker-cura](https://ultimaker.com/fr/software/ultimaker-cura)
 
@@ -39,12 +64,10 @@ Version utilisée dans ce tutoriel : 5.1.1
 
 Compatible avec : Windows, Mac OS et Linux
 
-<aside>
-🚨 Le logiciel **n'est pas encore entièrement compatible** avec la puce M1 d'Apple. (nov 2021) [Consultez le support Ultimaker pour en savoir plus.](https://support.ultimaker.com/hc/en-us/articles/360018141480)
+!!! Warning "Compatibilité"
+  Le logiciel **n'est pas encore entièrement compatible** avec la puce M1 d'Apple. (nov 2021) [Consultez le support Ultimaker pour en savoir plus.] (https://support.ultimaker.com/hc/en-us/articles/360018141480)
 
-</aside>
-
-## Instructions
+### Instructions
 
 1. Installez le logiciel **Ultimaker Cura**.
 2. Au lancement du logiciel, cliquez sur **Get Started**.
@@ -53,12 +76,7 @@ Compatible avec : Windows, Mac OS et Linux
 5. Dans Add a printer, cliquez sur **Add a non-networked printer** et sélectionnez **Ultimaker S3**. 
 6. Dans What’s New, cliquez sur **Skip** et enfin dans Release Notes, cliquez sur **Finish**.
 
-# **Première impression avec l’Ultimaker**
-
-<aside>
-📌 Avant de faire votre première impression, lisez le [Guide de l’impression 3D](https://www.notion.so/Guide-de-l-impression-3D-2dfbdea9ff6f4e8082172534aca77ffb) et [Installez le logiciel](https://www.notion.so/Configuration-Cura-495ec46b91744a1b98d8f17e3a98af74) Ultimaker Cura.
-
-</aside>
+## **Première impression avec l’Ultimaker**
 
 Pour changer la langue de l’interface, cliquez sur **Préférences** > **Configurer Cura** et dans l’onglet **Général**, choisir la langue de votre choix. 
 
@@ -119,11 +137,6 @@ Permet de générer manuellement des zones sans support.
 6. **Supports** : Si une partie de votre modèle commence dans les airs et n'est supportée par aucun élément en dessous, vous devez ajouter une structure de support pour réussir une impression. Plusieurs options s’offrent à vous. Si votre modèle n’a pas besoin de support, laissez décoché. Si un support est nécessaire, cochez l’option et sélectionnez **Extruder 1** ou **Extruder 2** selon le filament que vous voulez utiliser pour les supports.
 7. **Adhérence** : en l’activant, on crée une bordure qui augmente la surface d’adhésion de la première couche afin d’augmenter l’adhérence au plateau.
 
-<aside>
-💡 Le plateau de l’Ultimaker est très adhérent, il n’est généralement pas nécessaire d’ajouter l’option de bordure.
-
-</aside>
-
 ### Découpage
 
 Pour découper le modèle, cliquer sur **Découper** en bas à droite de la fenêtre.
@@ -136,38 +149,31 @@ Les couleurs illustrées identifient les différentes parties du modèle (coque,
 
 Avant de lancer l’impression ou de changer le filament, vous devez nettoyer le plateau.
 
-Pour l’Ultimaker, il faut imbiber une lingette de nettoyant à vitres et nettoyer le plateau avec.
-
-Si vous voulez changer de filament, [suivez la procédure de changement de filament](https://www.notion.so/Proc-dure-de-changement-de-filament-3d05fd38103e4e07b83039256f1044c2).
+Pour l’Ultimaker, il faut imbiber une lingette de nettoyant à vitre et nettoyer le plateau avec.
 
 ### Lancement de l’impression
 
 - Introduire la clé USB au devant de l’imprimante.
-- L’imprimante chargera les fichiers. Naviguez vers le nom de votre fichier et appuyez sur le bouton.
+- L’imprimante chargera les fichiers. Naviguez vers le nom de votre fichier et appuyez sur le bouton. Un fichier nouvellement ajouté devrait se trouver en haut de la liste.
 - Il est important de surveiller les premières couches de l’impression afin de s’assurer que le modèle adhère au plateau.
 
 ## Pour en savoir plus
 
-[Ultimaker Cura](https://support.ultimaker.com/hc/en-us/sections/360003548339-Ultimaker-Cura)
+[Ultimaker Cura](https://support.ultimaker.com/hc/en-us/sections/360003548339-Ultimaker-Cura){:target="_blank"}
 
-[Blog sur l'impression 3D | Ultimaker](https://ultimaker.com/fr/learn/blog)
+[Blog sur l'impression 3D | Ultimaker](https://ultimaker.com/fr/learn/blog){:target="_blank"}
 
 Sauf indications contraires, les contenus de ce wiki créé par les [Bibliothèques UdeM](http://bib.umontreal.ca) sont sous [licence CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ![https://i.creativecommons.org/l/by/4.0/88x31.webp](https://i.creativecommons.org/l/by/4.0/88x31.webp)
 
-[Nous joindre](https://www.notion.so/Nous-joindre-33f9bd7c0c67457da83396c179ccb487)
-
-![Bleu-UdeM_monde-RGB.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc389c51-3dde-442e-8e16-7c65c58b4505/Bleu-UdeM_monde-RGB.webp)
 
 # Procédure de changement de filament
 
 ---
 
-<aside>
-💡 Diamètre des filaments de l'Ultimaker S3 : **2.85mm**
-
-</aside>
+!!! Info 
+  Diamètre des filaments de l'Ultimaker S3 : **2.85mm**
 
 Accédez au menu de l’icône imprimante, ensuite, cliquez sur **PLA**.
 
@@ -201,10 +207,8 @@ Confirmez dans l’écran que le filament est en place.
 
 Indiquez quel type de matériel a été mis (dans notre cas, du PLA).
 
-<aside>
-💡 Si vous avez installé une bobine de la marque Ultimaker, cette dernière est équipée d'une puce NFC. L'imprimante détectera automatiquement le type de filament.
-
-</aside>
+!!! Info
+  Si vous avez installé une bobine de la marque Ultimaker, cette dernière est équipée d'une puce NFC. L'imprimante détectera automatiquement le type de filament.
 
 ![https://i.imgur.com/LwhVZGE.webp](https://i.imgur.com/LwhVZGE.webp)
 
@@ -220,14 +224,12 @@ L’imprimante va tirer le filament jusqu’à l’extrudeur et commencer à fai
 
 ## Ressources
 
-[Loading materials on the Ultimaker S5](https://support.ultimaker.com/hc/en-us/articles/360011427140)
+[Loading materials on the Ultimaker S5](https://support.ultimaker.com/hc/en-us/articles/360011427140){:target="_blank"}
 
-[Change the Ultimaker S5 configuration](https://support.ultimaker.com/hc/en-us/articles/360011544619-Change-the-Ultimaker-S5-configuration)
+[Change the Ultimaker S5 configuration](https://support.ultimaker.com/hc/en-us/articles/360011544619-Change-the-Ultimaker-S5-configuration){:target="_blank"}
 
 Sauf indications contraires, les contenus de ce wiki créé par les [Bibliothèques UdeM](http://bib.umontreal.ca) sont sous [licence CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ![https://i.creativecommons.org/l/by/4.0/88x31.webp](https://i.creativecommons.org/l/by/4.0/88x31.webp)
-
-[Nous joindre](https://www.notion.so/Nous-joindre-33f9bd7c0c67457da83396c179ccb487)
 
 ![Bleu-UdeM_monde-RGB.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc389c51-3dde-442e-8e16-7c65c58b4505/Bleu-UdeM_monde-RGB.webp)
