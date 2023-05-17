@@ -3,6 +3,7 @@ hide:
   - toc
   - footer
   - feedback
+icon : material/target
 ---
 
 <style>

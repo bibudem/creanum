@@ -1,6 +1,7 @@
 ---
 hide :
     - toc
+glightbox: false
 ---
 
 

@@ -88,6 +88,11 @@ markdown_extensions:
       auto_append: 
       - includes/abbreviations.md
       check_paths: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 # Paramètres de la table des matières
 

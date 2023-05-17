@@ -24,7 +24,7 @@
   "assets/images/social/medias-numeriques/ffmpeg.png": "7ac3216ee96bd9a3608a94351bbb2591b3a54286",
   "assets/images/social/medias-numeriques/audacity.png": "e8ad2943a3d1b0e1e53dfe95b1bb4f7bb02aa757",
   "assets/images/social/medias-numeriques/guide-balado.png": "0e15ef3600ee15addfa222df7e437cd6244c8b99",
-  "assets/images/social/medias-numeriques/guide-video.png": "3972c3953c324d432f47285c9fd02649c25d64c5",
+  "assets/images/social/medias-numeriques/guide-video.png": "d432a044e82aeba2ca0c3bb51c8d949e061f4be8",
   "assets/images/social/medias-numeriques/obs.png": "9e43a04b25bab7d700c775c5867e9c118e9876a3",
   "assets/images/social/medias-numeriques/premierepro.png": "982c5d6c3bd566d5b27f9ccab56c9003f5ca2e64",
   "assets/images/social/medias-numeriques/kamvaspro.png": "fe8c66fc89a8f2434b9f4ec2b2ca01af81cf2c55",
@@ -45,5 +45,8 @@
   "assets/images/social/vr/oculus-go.png": "57f4232bc05c13bd59dca3a34a777f64549267d0",
   "assets/images/social/a-propos/equipe.png": "6a916c9d0bd7812d10fe1f682720e0f933fca2c8",
   "assets/images/social/a-propos/objectifs.png": "c82059fc077ac2139da7e04c3ef8ead33927544f",
-  "assets/images/social/a-propos/nous-joindre.png": "d707641d8d9326685f1023c228f70542f561b968"
+  "assets/images/social/a-propos/nous-joindre.png": "d707641d8d9326685f1023c228f70542f561b968",
+  "assets/images/social/medias-numeriques/premierepro%20copy.png": "982c5d6c3bd566d5b27f9ccab56c9003f5ca2e64",
+  "assets/images/social/medias-numeriques/Studio%20d%27enregistrement%20vid%C3%A9o.png": "982c5d6c3bd566d5b27f9ccab56c9003f5ca2e64",
+  "assets/images/social/medias-numeriques/studiovideo.png": "3972c3953c324d432f47285c9fd02649c25d64c5"
 }
