@@ -84,13 +84,13 @@ Notion permet de créer des blocs qui vous aideront à structurer l’informatio
 - Les champs, onglets, dossiers et fichiers utilisent le style normal, avec majuscule au besoin.
 Exemples :
     - Remplir le champ Titre.
-    - Sélectionner le fichier image.webp
+    - Sélectionner le fichier image.jpg
 - Les menus, boutons et icônes sont en gras.
 Exemple :
     - Cliquer sur **Envoyer**.
 - Les variables (les éléments qui diffèrent selon l’utilisateur) sont en italique.
 Exemple :
-    - Copier *votre-image*.webp dans le dossier.
+    - Copier *votre-image*.jpg dans le dossier.
 - Les séquences de tâche ou de navigation sont en gras et indiquées par des chevrons ( > ) en plaçant le verbe d’action avant la séquence.
 Exemple :
     - Cliquer sur **Tool > Online Search > New Search**
