@@ -65,7 +65,7 @@ Version utilisée dans ce tutoriel : 5.1.1
 Compatible avec : Windows, Mac OS et Linux
 
 !!! Warning "Compatibilité"
-  Le logiciel **n'est pas encore entièrement compatible** avec la puce M1 d'Apple. (nov 2021) [Consultez le support Ultimaker pour en savoir plus.] (https://support.ultimaker.com/hc/en-us/articles/360018141480)
+    Le logiciel **n'est pas encore entièrement compatible** avec la puce M1 d'Apple. (nov 2021) [Consultez le support Ultimaker pour en savoir plus.] (https://support.ultimaker.com/hc/en-us/articles/360018141480)
 
 ### Instructions
 
