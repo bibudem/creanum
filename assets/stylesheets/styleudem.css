@@ -92,7 +92,8 @@ a:hover, a:focus {
 }
 
 .md-content a[href^="https://bib.umontreal.ca"]::after,
-.md-content a[href^="https://calendrier.bib.umontreal.ca"]::after
+.md-content a[href^="https://calendrier.bib.umontreal.ca"]::after,
+.md-content a[href^="https://github.com/"]::after
 {
   display: none !important;
 }
