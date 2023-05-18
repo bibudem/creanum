@@ -1,0 +1,153 @@
+﻿Id.,Noms,Catégories,Photos,Descriptions,Q. Bib. Maths-Info,Q. Bib. Sciences,Q. Bib. Thérèse-Gouin-Décarie,Liens,Notes
+1,"Raspberry pi 3 B+
+",Raspberry Pi,https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6339/6339655_sd.jpg,,0,1,,,
+2,"Raspberry Pi 4 - 2 Go
+",Raspberry Pi,https://5.imimg.com/data5/HN/MH/VA/SELLER-8716310/raspberry-pi-4-model-b-with-2-gb-ram-500x500.png,,4,4,5,,avec dissipateur de chaleur
+3,"Raspberry Pi 4 - 4 Go
+",Raspberry Pi,https://www.canakit.com/Media/400/1436.jpg,,5,5,,,avec dissipateur de chaleur
+4,"Power supply USB-C 3.5 A pour Raspberry
+",Raspberry Pi,,,9,9,,,
+5,Power supply USB-C 2.5A pour Raspberry zéro,Raspberry Pi,,,1,1,,,
+6,Raspberry Pi Zero W,Raspberry Pi,,,1,1,,,
+7,Raspberry Cam,Raspberry Pi,,,1,1,,,
+8,"Câble mini-HDMIxHDMI
+",Raspberry Pi,,,10,10,,,
+9,"Carte mémoire 32go
+",Raspberry Pi,,,5,6,,,
+10,"Carte mémoire 16go
+",Raspberry Pi,,,4,4,,,
+11,Ventilateur pour Raspberry Pi,Raspberry Pi,,,9,9,,,
+12,"Arduino Uno (générique)
+",Arduino,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/800px-Arduino-uno-perspective-whitw.jpg,"Une carte Arduino est une petite (5,33 x 6,85 cm) carte électronique équipée d'un micro-contrôleur. Le micro-contrôleur permet, à partir d'événements détectés par des capteurs, de programmer et commander des actionneurs ; la carte Arduino est donc une interface programmable. http://www.techmania.fr/arduino/Decouverte_arduino.pdf.",40,41,,https://www.arduino.cc/,
+13,"Arduino Nano (générique)
+",Arduino,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/development-board-nano-v3-atmega328.jpg,,15,16,,,
+14,"Anneau LED RGB 8.5mm
+",Actionneurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-09_092952.jpg,"24bit - WS2812
+",5,5,,,
+15,"Anneau LED RGB 6.8mm
+",Actionneurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-09_093034.jpg,"16bit - WS2812
+",5,5,,,
+16,"Anneau LED RGB 3.2mm
+",Actionneurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-09_093109.jpg,"8bit - WS2812
+",5,5,,,
+17,Anneau LED RGB 2.5mm,Actionneurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-09_093139.jpg,7bit - WS2812,5,5,,,
+18,"Câble USBxminiUSB (pour Arduino Nano)
+","Accessoires, Arduino",,,15,15,,,
+19,Câble USBxUSB-A (Pour Arduino Uno),"Accessoires, Arduino",,câble court bleu,41,25,,,
+20,"Câble Dupont 10cm
+",Accessoires,,mâle-mâle ; femelle-mâle ; femelle-femelle,,,,,
+21,"Grand breadboard + -
+",Accessoires,,,5,5,5,,
+22,"Petit breadboard
+",Accessoires,,,61,62,,,
+23,"Heat shrinkable sleeve
+",Accessoires,,,,,,,
+24,"HC-SR04
+",Capteurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/ori-module-de-detection-us-hc-sr04-20912.jpg,mesure la distance avec de l'ultrason,12,12,,,
+25,HW-390,Capteurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/original.jpg,capteur d'humidité du sol,14,13,,,
+26,"Fil pour soudure rouge
+",Accessoires,,,,,,,
+27,"Potentiomètre avec bouton blanc/noir
+",Capteurs,,,15,15,11,,
+28,"micro servo 90
+",Actionneurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-09_092558.jpg,,36,35,,,
+29,"Haut-parleur 8ohm 25w
+",Actionneurs,,,15,10,,,
+30,"capteur de son
+",Capteurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-09_093238.jpg,bleu avec bout,5,5,,,
+31,"LED 8x8
+",Actionneurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/max7219-led-driver-kit-assembled-800x800.jpg,,7,7,,,
+32,"ESP32 CAM
+",IoT,,,2,2,,,
+33,"Senseur PIR
+",Capteurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Meccanismo-Complesso-PIR-motion-sensor-SR501.jpg,vert,15,15,,,
+34,"MH MQ sensor
+",Capteurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/tlchargement.jpg,“Flying fish” Capteur de gaz MQ 135,5,9,,,
+35,LED 4 broches,Actionneurs,,,100,100,,,
+36,"Alimentation 3xAA (pour ESP8266)
+",IoT,,,15,15,,,
+37,"Adaptateur pile 9V pour Arduino
+",Arduino,,,10,10,,,
+38,"Matrix LED Shield Wemos
+","Actionneurs, IoT",,,4,4,,,
+39,"Ecran LED carré Shield Wemos
+","Actionneurs, IoT",,,2,1,,,
+40,"PIR sensor Shield Wemos
+","Capteurs, IoT",,,2,2,,,
+41,"0.91 inch OLED écran
+",Afficheurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/original_(1).jpg,,15,6,,,
+42,"Capteur Humditié température DHT11
+",Capteurs,,,15,15,,,
+43,"Capteur de pression barométrique Shield Wemos
+","Capteurs, IoT",,,3,2,,,
+44,"touch sensor
+",Capteurs,,,9,10,,,
+45,"buzzer shield wemos
+","Capteurs, IoT",Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/buzzer_v1.0.0_2_16x16.jpg,,3,6,,,
+46,"Relay Shield Wemos
+",IoT,,,8,11,,,
+47,"Capteur cardiaque
+",Capteurs,,,3,2,,,
+48,capteur de pression Arduino à double canal HX711,Capteurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-09_092706.jpg,,6,6,,,
+49,"SHT-30 Shield Wemos
+","Capteurs, IoT",Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/sht30_v2.1.0_1_16x16.jpg,https://www.wemos.cc/en/latest/d1_mini_shield/sht30.html,3,12,,,
+50,"RGB Led Shield wemos
+","Actionneurs, IoT",,,5,5,,,
+51,ESP8266,IoT,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/image.jpg,,23,22,,https://docs.wemos.cc/en/latest/d1/d1_mini.html,
+53,"Plaque en PCB - Marron
+",Accessoires,,,50,,,,Quantité importante
+54,"IR receiver
+",Capteurs,,,6,6,,,
+55,"IR transmitter
+",Capteurs,,,12,6,,,
+56,"Module de buzzer actif
+",Actionneurs,,,5,5,,,avec collant blanc
+57,"Module de buzzer passif
+",Actionneurs,,,5,5,,,
+58,Module LCD 1602,Afficheurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Hot-Selling-LCD1602-I2c-LCD-1602-Module-Blue-Screen-Iic-I2c-for-Arduino-Display-LCD1602-Adapter-Plate.jpg,"écran bleu/jaune vert, 16x2 caractères, Interface IIC I2C 5V",8,8,,,
+59,"Interrupteur de moteur de Vibration PWM
+",Actionneurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/cgyant.jpg,,6,6,,,
+60,"piézoélectrique en cuivre 27mm
+",Capteurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-09_092524.jpg,,50,50,,,
+61,"Module d'affichage 4 chiffres 7 Segments
+",Actionneurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/0c419ec3-7613-4b05-97ab-f618a510e940.8876b405d4e5188df7c007eeca76387c.jpeg,TM1637,5,5,,,
+62,"double-axe XY Joystick, contrôle levier capteur KY-023",Capteurs,https://arduinomodules.info/wp-content/uploads/KY-023_dual_axis_joystick_module_arduino.jpg,,20,20,,,
+63,DS18B20,Capteurs,https://electropeak.com/pub/media/catalog/product/cache/fa232c603e0403143aafcf902b42df2f/_/s/_s_e_sen-10-012-1.jpg,Capteur de température,10,10,,,
+64,SW420,Capteurs,https://components101.com/sites/default/files/components/SW420-Vibration-Sensor-Module.jpg,Capteur de vibration,10,10,,,
+65,"Diode LED ",Actionneurs,,"verte, bleue, rouge, jaune et blanche",100,100,350,,
+66,bouton tactile TTP223,Capteurs,https://ae01.alicdn.com/kf/HTB1pTO_lCMmBKNjSZTEq6ysKpXa3/TTP223-interrupteur-cl-tactile-Module-bouton-tactile-commutateurs-capacitifs-autobloquants-sans-verrouillage-Reconstruction-canal-unique.jpg_q50.jpg,,300,300,,,
+67,MPU-6500,Capteurs,https://img.joomcdn.net/1d496cb65311ebd2121498dde74120779224b2dd_original.jpeg,"Module de capteur Gyroscope 3 axes, accéléromètre 3 axes",5,5,,,
+68,Interrupteur à bascule KCD11 3A/250V,Capteurs,https://www.electromike.com/media/catalog/product/cache/3ef1ee8ffa2972002974d382ea9cf432/u/-/u-16.png,,70,70,,,Quantité importante
+69,"Platine PCB simple face, 6.5x14.5cm",Accessoires,https://ae01.alicdn.com/kf/HTB1iPUWONnaK1RjSZFBq6AW7VXaJ/1pcs-DIY-6-5x14-5-6-5-14-5CM-Prototype-Paper-PCB-Universal-Experiment-Matrix-Circuit.jpg_q50.jpg,,5,5,,,
+70,Capteur de mouvement infrarouge,Capteurs,https://ae01.alicdn.com/kf/HLB1E8RSVjDpK1RjSZFrq6y78VXa9/Capteur-de-mouvement-infrarouge-photo-lectrique-pour-bricolage-Arduino-module-de-d-tection-IR-pr-vention.jpg,module de détection IR prévention d'obstacles,10,10,,,
+71,"Ensemble de condensateur électrolytique en aluminium ",Accessoires,,12 valeurs 0.22UF - 470UF,240,240,,,
+72,Photorésistance,Capteurs,https://centronik.ci/wp-content/uploads/2018/04/ldr.png,LDR 5528,,,,,Quantité importante
+73,Module Relay,Actionneurs,https://aws1.discourse-cdn.com/arduino/original/4X/3/9/6/396edf9efda0b0051a98ec6ce5b640a300490a92.jpeg,,5,5,,,
+74,Rotary Encoders,Capteurs,https://sc04.alicdn.com/kf/HTB1VsSFSXXXXXasapXXq6xXFXXXw.jpg,KY-040,5,5,,,
+75,Analog knob module,Capteurs,https://ae01.alicdn.com/kf/HTB1v9eRSXXXXXXzXVXXq6xXFXXXO/5pcs-Rrotary-potentiometer-analog-knob-module-For-Raspberry-Pi-For-Arduino-20K-Resistance.jpg,Rotation sensor potentiometre,10,10,,,
+76,moteur,Actionneurs,,,25,25,,https://www.tutorialspoint.com/arduino/arduino_dc_motor.htm,
+77,Plaque PCB rangée unique,Accessoires,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-25_163508.jpg,,20,20,,,
+78,0.96 inch IIC Serial Yellow Blue OLED Display Module 128X64,Afficheurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-25_164155.jpg,Écran OLED GME12864,5,5,,,
+79,Module de détection et contrôle de sons MAX4466,Capteurs,Inventaire%20des%20pie%CC%80ces%20e%CC%81lectroniques%20dff4713aec3b4f988fea599610af796e/Capture_dcran_2021-11-25_164450.jpg,,5,5,,,
+,,,,,,,,,
+80,Arduino Science kit Physics Lab,Arduino,,"9 Projets guidés
+2 utilisateurs par kit
+Avec plateforme d’apprentissage
+2 domaines",,,5,https://www.arduino.cc/education,
+81,Arduino Education starter kit,Arduino,,"11 Projets guidés
+8 utilisateurs par kit
+2 groupes de projet
+Avec plateforme d’apprentissage",,,5,https://www.arduino.cc/education,
+83,kit amusant de composants électroniques,"Accessoires, Actionneurs, Afficheurs, Capteurs, LED",,,,,5,https://github.com/wayintop,
+84,Kitronik kit de decouverte pour Raspberry pi pico,"Accessoires, Actionneurs, Afficheurs, Capteurs, LED, Raspberry Pi",,7 Projets guidés,,,5,https://kitronik.co.uk/products/5325-the-kitronik-discovery-kit-for-raspberry-pi-pico-included,
+85,Trousse de resistance,Accessoires,,525 pieces/boite,,,5,,
+86,Ensemble de capteurs v.2.0,Accessoires,,"37 capteurs Photo interrupter, RGB light, TWO color, Avoidance, Big sound, Temp and humidity, tilt switch, IR receiver, Tracking,small sound, active buzzer, button,photo resistor, linear hall, metal touch, relay, magnetic spring, ultrasonic sensor, Hc-sr501 pir motion sensor, rotary encoder, flame, ds-1307 RTC module, LCD 1602 module, membrane switch, digital temperature, joystick.«",,,1,https://spot.pcc.edu/~dgoldman/labs/37SENSORKIT.pdf,A utiliser avec Raspberry pi ou Arduino
+88,Kit de démarrage Arduino officiel,,,15 projets différents en utilisant des composants qui vous permettent de contrôler le monde physique avec différents types de capteurs et d'actionneurs,,,5,https://www.youtube.com/playlist?list=PLT6rF_I5kknPf2qlVFlvH47qHvqvzkknd,
+89,"Freenove Kit de demarrage  pour Raspberry pi ","Accessoires, Actionneurs, Afficheurs, Capteurs, LED, Raspberry Pi",,104 projets intéressants,,,5,https://freenove.com/fnk0020/,"4 langages de programmation -> Python (compatible avec 2&3), C, Java et Scratch"
+90,Kitronik kit de decouverte pour Raspberry pi pico,"Accessoires, Actionneurs, Afficheurs, Arduino, Capteurs, LED",,10 projets différents en utilisant des composants qui vous permettent de contrôler le monde physique avec différents types de capteurs et d'actionneurs,,,5,https://kitronik.co.uk/products/inventors-kit-for-arduino,
+92,"Makey Makey ",,,,,,10,https://makeymakey.com/blogs/how-to-instructions/first-time-set-up-basic-how-to-guide,
+93,Carte Micro SD 64GB,,,,,,10,,
+94,Carte Micro SD avec Raspberry Pi OS (Raspbian) 32 GB,,,,,,10,,
+95,Carte Micro SD pre-programmé avec NOOBS 16GB,,,,,,10,,
+96,"Boutton Switch tactile ",,,,,,30,,
+97,"9 V dc battery snap ",,,,,,5,,

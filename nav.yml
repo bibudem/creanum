@@ -68,7 +68,9 @@ nav:
   - Projets: 
     - projets/index.md
   - Logiciels: logiciels/index.md
-  - Équipements: equipements/index.md
+  - Matériel : 
+    - Équipements : materiel/equipements.md
+    - Électroniques : materiel/electroniques.md
   - Communauté: 
     - communaute/index.md
     - Guide des bonnes pratiques : communaute/guide-contribution.md

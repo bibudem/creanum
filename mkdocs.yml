@@ -6,7 +6,7 @@ site_description: Documentation et projets en création numérique
 # Github
 # repo_name: bibudem/creanum
 # repo_url: https://github.com/bibudem/creanum
-edit_uri: edit/main/docs/
+edit_uri: https://github.com/bibudem/creanum/edit/main/docs/
 
 theme:
   language: fr

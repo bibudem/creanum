@@ -1,7 +1,8 @@
 ---
 hide:
-  - navigation
   - toc
+  - toc.follow
+  - footer
 ---
 
 <style>
@@ -10,6 +11,6 @@ hide:
   }
 </style>
 
-# Équipements
+# Électroniques
 
-
+{{ read_csv('electroniques.csv') }}
