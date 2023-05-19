@@ -49,11 +49,6 @@ Le *feeder* se trouve à l’arrière de l’imprimante et le filament passe par
 |Thérèse-Gouin-Décarie| 1 |
 |Santé| 1 |
 
-## **Changement de filament**
-
-!!! Warning " "
-    Diamètre des filaments de l'Ultimaker : **2.85mm**
-
 ## Configuration Cura
 
 ### Logiciel de découpe Ultimaker Cura
@@ -75,6 +70,46 @@ Compatible avec : Windows, Mac OS et Linux
 4. Cliquez sur **Skip** dans la section Sign in. 
 5. Dans Add a printer, cliquez sur **Add a non-networked printer** et sélectionnez **Ultimaker S3**. 
 6. Dans What’s New, cliquez sur **Skip** et enfin dans Release Notes, cliquez sur **Finish**.
+
+## **Changement de filament**
+
+!!! Warning " "
+    Diamètre des filaments de l'Ultimaker : **2.85mm**
+
+### Accéder au menu
+
+Accédez au menu de l’icône imprimante, ensuite, cliquez sur PLA.
+![Menu de changement de filament](../asset/images/ultimaker_filament01.jpg)
+![Menu de changement de filament suite](../asset/images/ultimaker_filament02.jpg)
+
+Choisissez **Modifier** s’il y a une bobine déjà installée, ou Insérer s’il n’y a aucune bobine.
+![Changement de filament étape 1](../asset/images/ultimaker_filament03.jpg)
+
+La buse chauffe afin d’atteindre la température de fusion et extraire facilement le filament. Soyez prêt à guider la sortie du filament et de l'enrouler sur la bobine pour éviter la formation de nœuds.
+![Changement de filament étape 2](../asset/images/ultimaker_filament04.jpg)
+
+Si en tirant délicatement le filament, il reste coincé, soulevez la languette afin de le libérer du mécanisme du (*)feeder(*). N'oubliez pas de remettre la languette à sa place par la suite.
+![Changement de filament étape 2 suite](../asset/images/ultimaker_filament05.jpg)
+
+Retirez la bobine et s'assurant de mettre le filament dans un trou de la bobine pour qu'il n'y ai pas de noeud. 
+Placez la bobine dans sac ziplock avec un sachet de gel de silica, puis mettez le sac dans sa boite correspondante.
+![Changement de filament étape 2 fin](../asset/images/ultimaker_filament06.jpg)
+
+Installez la nouvelle bobine, l’extrémité du filament doit venir d’en bas. Coupez l'extrémité du filament en biseau si ce n'est pas déjà fait. Mettez le filament dans le trou prévu à cet effet et poussez légèrement. L’imprimante va détecter le filament et le tirer très lentement vers le tube. Si l’imprimante ne détecte pas le filament, levez la languette vers le haut et poussez le filament jusqu’à ce que vous le voyiez au début du tube, puis rabaissez la languette.
+![Changement de filament étape 3](../asset/images/ultimaker_filament07.jpg)
+
+Confirmez dans l’écran que le filament est en place.
+![Changement de filament étape 3 suite](../asset/images/ultimaker_filament08.jpg)
+![Changement de filament étape 3 fin](../asset/images/ultimaker_filament09.jpg)
+
+Indiquez quel type de matériel a été mis (dans notre cas, du PLA).
+![Changement de filament étape 4](../asset/images/ultimaker_filament10.jpg)
+![Changement de filament étape 4 suite](../asset/images/ultimaker_filament11.jpg)
+
+L’imprimante va tirer le filament jusqu’à l’extrudeur et commencer à faire une purge de la couleur précédente. Une fois que la couleur change, confirmez sur l’écran.
+![Changement de filament étape 5](../asset/images/ultimaker_filament12.jpg)
+![Changement de filament étape 5 suite](../asset/images/ultimaker_filament13.jpg)
+![Changement de filament étape 5 fin](../asset/images/ultimaker_filament14.jpg)
 
 ## **Première impression avec l’Ultimaker**
 
