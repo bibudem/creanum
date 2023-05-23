@@ -196,61 +196,6 @@ Sauf indications contraires, les contenus de ce wiki créé par les [Bibliothèq
 
 ![https://i.creativecommons.org/l/by/4.0/88x31.webp](https://i.creativecommons.org/l/by/4.0/88x31.webp)
 
-
-# Procédure de changement de filament
-
----
-
-!!! Info 
-  Diamètre des filaments de l'Ultimaker S3 : **2.85mm**
-
-Accédez au menu de l’icône imprimante, ensuite, cliquez sur **PLA**.
-
-![https://i.imgur.com/7VfL7kR.webp](https://i.imgur.com/7VfL7kR.webp)
-
-![https://i.imgur.com/XpNaRsD.webp](https://i.imgur.com/XpNaRsD.webp)
-
-Choisissez **Modifier** s’il y a une bobine déjà installée, ou **Insérer** s’il n’y a aucune bobine.
-
-![https://i.imgur.com/hRFwQmg.webp](https://i.imgur.com/hRFwQmg.webp)
-
-La buse se chauffe afin d’atteindre la température de fusion et extraire facilement le filament. Soyez prêt à guider la sortie du filament et de le faire suivre sur la bobine pour éviter la formation de nœuds.
-
-![https://i.imgur.com/G3ZaVlD.webp](https://i.imgur.com/G3ZaVlD.webp)
-
-Si, en tirant délicatement le filament, ça reste coincé, soulevez la languette afin de le faire libérer du mécanisme du *feeder*. N'oubliez pas de remettre la languette à sa place par la suite.
-
-![https://i.imgur.com/xRQXMsd.webp](https://i.imgur.com/xRQXMsd.webp)
-
-![https://i.imgur.com/R1dVh0t.webp](https://i.imgur.com/R1dVh0t.webp)
-
-Installez la nouvelle bobine de 2.85mm, l’extrémité du filament doit venir d’en bas. Mettez le bout du filament dans le trou prévu à cet effet et poussez légèrement. L’imprimante va détecter le filament et le tirer **très lentement** vers le tube. Si l’imprimante ne détecte pas le filament, levez la languette vers le haut et poussez le filament jusqu’à ce que vous le voyiez au début du tube.
-
-![https://i.imgur.com/s6DrjRc.webp](https://i.imgur.com/s6DrjRc.webp)
-
-Confirmez dans l’écran que le filament est en place.
-
-![https://i.imgur.com/4XTzcvC.webp](https://i.imgur.com/4XTzcvC.webp)
-
-![https://i.imgur.com/G9thYzg.webp](https://i.imgur.com/G9thYzg.webp)
-
-Indiquez quel type de matériel a été mis (dans notre cas, du PLA).
-
-!!! Info
-  Si vous avez installé une bobine de la marque Ultimaker, cette dernière est équipée d'une puce NFC. L'imprimante détectera automatiquement le type de filament.
-
-![https://i.imgur.com/LwhVZGE.webp](https://i.imgur.com/LwhVZGE.webp)
-
-![https://i.imgur.com/G93J6SD.webp](https://i.imgur.com/G93J6SD.webp)
-
-L’imprimante va tirer le filament jusqu’à l’extrudeur et commencer à faire une purge de la couleur précédente. Une fois que la couleur change, confirmez sur l’écran.
-
-![https://i.imgur.com/PgMAJAb.webp](https://i.imgur.com/PgMAJAb.webp)
-
-![https://i.imgur.com/lUtsJvc.webp](https://i.imgur.com/lUtsJvc.webp)
-
-![https://i.imgur.com/NGvvFFG.webp](https://i.imgur.com/NGvvFFG.webp)
-
 ## Ressources
 
 [Loading materials on the Ultimaker S5](https://support.ultimaker.com/hc/en-us/articles/360011427140){:target="_blank"}
