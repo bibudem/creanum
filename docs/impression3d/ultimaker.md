@@ -136,33 +136,27 @@ Pour ajouter un modèle .STL, il existe plusieurs moyens :
 
 ### Échelle et taille
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0ab91e55-2b72-4fe7-9901-cd690e6175ef/Untitled.webp)
-
+![Icône déplacement de Cura](../asset/images/ultimaker_move.png)
 Permet de déplacer les objets sur le plateau d’impression.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37354a0a-7385-44ed-a224-fc075c361792/Untitled.webp)
-
+![Icône échelle de Cura](../asset/images/ultimaker_scale.png)
 Permet de modifier l’échelle du modèle selon un axe précis ou dans son entièreté.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d62b93d-1eec-43d5-b72e-3778cab18a53/Untitled.webp)
-
+![Icône rotation de Cura](../asset/images/ultimaker_rotation.png)
 Permet d’effectuer une rotation du modèle.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0978560-001e-43f3-8413-403b6ecf85d7/Untitled.webp)
-
+![Icône symétrie de Cura](../asset/images/ultimaker_symetrie.png)
 Permet de permuter le modèle de manière symétrique (effet miroir).
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/99b14798-c785-43c0-b971-9dcfe5b34d1d/Untitled.webp)
-
+![Icône avancé de Cura](../asset/images/ultimaker_avance.png)
 Permet l’utilisation de paramètres avancés.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/321d2193-d26d-4596-afff-b7475af418fe/Untitled.webp)
-
+![Icône support de Cura](../asset/images/ultimaker_support.png)
 Permet de générer manuellement des zones sans support.
 
 ### Réglages
 
-![ultimaker.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1a73287-c6f2-4b97-beb5-fe1e82cfc02c/ultimaker.webp)
+![ultimaker.webp](../asset/images/ultimaker_reglages.png)
 
 1. **Imprimante** : Assurez-vous que le bon modèle est sélectionné. Dans les ateliers de l’Université de Montréal, on retrouve généralement des Ultimaker S3. ([voir la liste des équipements par bibliothèque ici](https://www.notion.so/fada784ac8a648128846afe7c75818cc)). 
 2. **Filament** (extrudeur 1) : Sélectionnez **Generic PLA***.* Cette configuration contient les valeurs de température de l’extrudeur et du plateau (par défaut : 215°C pour l’extrudeur, 60°C pour le plateau).
