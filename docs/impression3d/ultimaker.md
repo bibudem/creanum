@@ -79,37 +79,37 @@ Compatible avec : Windows, Mac OS et Linux
 ### Accéder au menu
 
 Accédez au menu de l’icône imprimante, ensuite, cliquez sur PLA.
-![Menu de changement de filament](../asset/images/ultimaker_filament01.jpg)
-![Menu de changement de filament suite](../asset/images/ultimaker_filament02.jpg)
+![Menu de changement de filament](../assets/images/ultimaker_filament01.jpg)
+![Menu de changement de filament suite](../assets/images/ultimaker_filament02.jpg)
 
 Choisissez **Modifier** s’il y a une bobine déjà installée, ou Insérer s’il n’y a aucune bobine.
-![Changement de filament étape 1](../asset/images/ultimaker_filament03.jpg)
+![Changement de filament étape 1](../assets/images/ultimaker_filament03.jpg)
 
 La buse chauffe afin d’atteindre la température de fusion et extraire facilement le filament. Soyez prêt à guider la sortie du filament et de l'enrouler sur la bobine pour éviter la formation de nœuds.
-![Changement de filament étape 2](../asset/images/ultimaker_filament04.jpg)
+![Changement de filament étape 2](../assets/images/ultimaker_filament04.jpg)
 
 Si en tirant délicatement le filament, il reste coincé, soulevez la languette afin de le libérer du mécanisme du (*)feeder(*). N'oubliez pas de remettre la languette à sa place par la suite.
-![Changement de filament étape 2 suite](../asset/images/ultimaker_filament05.jpg)
+![Changement de filament étape 2 suite](../assets/images/ultimaker_filament05.jpg)
 
 Retirez la bobine et s'assurant de mettre le filament dans un trou de la bobine pour qu'il n'y ai pas de noeud. 
 Placez la bobine dans sac ziplock avec un sachet de gel de silica, puis mettez le sac dans sa boite correspondante.
-![Changement de filament étape 2 fin](../asset/images/ultimaker_filament06.jpg)
+![Changement de filament étape 2 fin](../assets/images/ultimaker_filament06.jpg)
 
 Installez la nouvelle bobine, l’extrémité du filament doit venir d’en bas. Coupez l'extrémité du filament en biseau si ce n'est pas déjà fait. Mettez le filament dans le trou prévu à cet effet et poussez légèrement. L’imprimante va détecter le filament et le tirer très lentement vers le tube. Si l’imprimante ne détecte pas le filament, levez la languette vers le haut et poussez le filament jusqu’à ce que vous le voyiez au début du tube, puis rabaissez la languette.
-![Changement de filament étape 3](../asset/images/ultimaker_filament07.jpg)
+![Changement de filament étape 3](../assets/images/ultimaker_filament07.jpg)
 
 Confirmez dans l’écran que le filament est en place.
-![Changement de filament étape 3 suite](../asset/images/ultimaker_filament08.jpg)
-![Changement de filament étape 3 fin](../asset/images/ultimaker_filament09.jpg)
+![Changement de filament étape 3 suite](../assets/images/ultimaker_filament08.jpg)
+![Changement de filament étape 3 fin](../assets/images/ultimaker_filament09.jpg)
 
 Indiquez quel type de matériel a été mis (dans notre cas, du PLA).
-![Changement de filament étape 4](../asset/images/ultimaker_filament10.jpg)
-![Changement de filament étape 4 suite](../asset/images/ultimaker_filament11.jpg)
+![Changement de filament étape 4](../assets/images/ultimaker_filament10.jpg)
+![Changement de filament étape 4 suite](../assets/images/ultimaker_filament11.jpg)
 
 L’imprimante va tirer le filament jusqu’à l’extrudeur et commencer à faire une purge de la couleur précédente. Une fois que la couleur change, confirmez sur l’écran.
-![Changement de filament étape 5](../asset/images/ultimaker_filament12.jpg)
-![Changement de filament étape 5 suite](../asset/images/ultimaker_filament13.jpg)
-![Changement de filament étape 5 fin](../asset/images/ultimaker_filament14.jpg)
+![Changement de filament étape 5](../assets/images/ultimaker_filament12.jpg)
+![Changement de filament étape 5 suite](../assets/images/ultimaker_filament13.jpg)
+![Changement de filament étape 5 fin](../assets/images/ultimaker_filament14.jpg)
 
 ## **Première impression avec l’Ultimaker**
 
@@ -136,27 +136,27 @@ Pour ajouter un modèle .STL, il existe plusieurs moyens :
 
 ### Échelle et taille
 
-![Icône déplacement de Cura](../asset/images/ultimaker_move.png)
+![Icône déplacement de Cura](../assets/images/ultimaker_move.png)
 Permet de déplacer les objets sur le plateau d’impression.
 
-![Icône échelle de Cura](../asset/images/ultimaker_scale.png)
+![Icône échelle de Cura](../assets/images/ultimaker_scale.png)
 Permet de modifier l’échelle du modèle selon un axe précis ou dans son entièreté.
 
-![Icône rotation de Cura](../asset/images/ultimaker_rotation.png)
+![Icône rotation de Cura](../assets/images/ultimaker_rotation.png)
 Permet d’effectuer une rotation du modèle.
 
-![Icône symétrie de Cura](../asset/images/ultimaker_symetrie.png)
+![Icône symétrie de Cura](../assets/images/ultimaker_symetrie.png)
 Permet de permuter le modèle de manière symétrique (effet miroir).
 
-![Icône avancé de Cura](../asset/images/ultimaker_avance.png)
+![Icône avancé de Cura](../assets/images/ultimaker_avance.png)
 Permet l’utilisation de paramètres avancés.
 
-![Icône support de Cura](../asset/images/ultimaker_support.png)
+![Icône support de Cura](../assets/images/ultimaker_support.png)
 Permet de générer manuellement des zones sans support.
 
 ### Réglages
 
-![ultimaker.webp](../asset/images/ultimaker_reglages.png)
+![ultimaker.webp](../assets/images/ultimaker_reglages.png)
 
 1. **Imprimante** : Assurez-vous que le bon modèle est sélectionné. Dans les ateliers de l’Université de Montréal, on retrouve généralement des Ultimaker S3. ([voir la liste des équipements par bibliothèque ici](https://www.notion.so/fada784ac8a648128846afe7c75818cc)). 
 2. **Filament** (extrudeur 1) : Sélectionnez **Generic PLA***.* Cette configuration contient les valeurs de température de l’extrudeur et du plateau (par défaut : 215°C pour l’extrudeur, 60°C pour le plateau).
