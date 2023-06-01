@@ -3,42 +3,67 @@ Les Studios d’enregistrement vidéo de la Bibliothèque des lettres et science
 
 Pour en savoir plus, visitez la page dédié aux Studios sur [le site web des bibliothèques](https://bib.umontreal.ca/travailler/espaces/creation-numerique/studio-enregistrement). 
 
-## Présentation standard sur fond noir (bouton source 1)
+## Instructions
 
-=== "Studio LSH"
-    ### 1. À votre arrivée
-    * Allumer les lumières à l’entrée du studio.
-    * Le tableau vitré devrait être rangé à votre droite.
-    * L’écran télé devrait être rangé dans le petit local à votre gauche.
-    * Bien étirer le rideau noir au fond du studio.
-    ### 2. Préparer votre enregistrement
-    * Sur le bureau, insérer votre clé USB sur le module noir.
-    * Au bout de 15 secondes, l’éclairage et les équipements audiovisuels s’allument.
-    * On entend quelques bips électroniques.
-    * Le bouton **Source 1** est allumé au mur.
-    * Retourner éteindre les lumières à l’entrée du studio.
-    * Le cadrage de la caméra est déjà présélectionné.
-    * Le seul ajustement nécessaire et autorisé est au niveau du zoom afin de recadrer l’image.
+- Insérer une clé USB dans le module noir. Les disques externes ne sont pas supportés. 
+- Le système se déclenchera au bout de quelques secondes. 
+- Sélectionner la source désirée. 
+- Au besoin, placer le mobilier (écran mobile, tableau lumineux, etc) selon les repères au sol.
+- Appuyer sur le bouton Record du module. 
+- Pour arrêter l'enregistrement, appuyer sur STOP. 
+- Laissez du temps au module pour faire le transfert sur la clé USB, jusqu'à ce que la lumière verte ne clignote plus. 
 
-=== "Studio TGD"
-    - Allumer les lumières à l’entrée du studio.
-    - Le tableau vitré devrait être rangé à votre gauche.
-    - L’écran télé devrait être rangé dans le petit local à votre droite.
-    - Bien étirer le rideau noir au fond du studio.
+## Source 1 : Présentation standard avec ou sans écran mobile.
+
+=== "Sans écran mobile"
+    ![Disposition du studio avec la source 1 et uniquement un fond noir](../assets/images/source1.png) 
+
+=== "Avec écran mobile"
+    ![Disposition du studio avec la source 1 et un écran mobile](../assets/images/source1ecran.png)
+
+!!! info "Bon à savoir"
+    Un ordinateur relié à l'écran mobile est mis à votre disposition pour diffuser des images.
+
+## Source 2 : Présentation avec tableau lumineux transparent. 
+![Disposition du studio avec la source 2](../assets/images/source2.png)
+
+!!! warning "Important"
+    N'oubliez pas de brancher la prise électrique du tableau et de suivre les instructions indiqués sur le tableau pour l'allumer.
+
+## Source 3 : Présentation sur fond vert
+Plan - Cadrage
+![Disposition du studio avec la source 3](../assets/images/source3.png "source3.png")
+
+=== "Bibliothèque Thérèse-Gouin-Décarie"
+    Tirer le rideau noir pour faire apparaître le fond vert.
+
+=== "Bibliothèque Lettres et sciences humaines"
+    Tirer le rideau noir pour faire apparaître un fond gris, qui se transforme en vert à la caméra. 
+
+## Source 4 : Présentation sur table (uniquement à la Bibliothèque Thérèse-Gouin-Décarie)
+![source4.png](../assets/images/source4.png)Plan - Cadrage
+
+## Bon à savoir
+- Vous pouvez ajuster le cadrage en utilisant le zoom de la caméra.
+
+=== "Bibliothèque Thérèse-Gouin-Décarie"
+    Utiliser la télécommande pour changer la focale. 
+    ![Commande pour ajuster la focale de la caméra](../assets/images/commandetgd.png) 
+    
+=== "Bibliothèque Lettres et sciences humaines"
+    Ajuster la focale en utilisant les boutons sur la caméra.
+    ![Emplacement des boutons pour ajuster la focale de la caméra](../assets/images/commandelsh.png)
+
+!!! warning "Important"
+    N'oubliez pas d'éteindre la lumière du plafond lors de l'enregistrement pour avoir une lumière optimale. 
+
+## Avant de quitter
+SVP, replacer tout mobilier qui a été déplacé au cours de la session. 
+
+## Édition
+Des ordinateurs sont mis à votre disposition avec une suite de logiciel pour faire du montage.
+[Consultez la liste des logiciels et leurs emplacements](../../logiciels/#vidéo). Vous trouverez aussi des tutoriels pour vous aider à utiliser ces logiciels.
 
 
-IMPORTANT : (Ne pas utiliser un disque externe). Le système ne pourra démarrer.
-
-## Présentation standard avec grand écran (bouton source 1)
-
-=== "Studio LSH"
-    - Allumer les lumières à l’entrée du studio.
-    - Le tableau vitré devrait être rangé à votre droite.
-    - L’écran télé devrait être rangé dans le petit local à votre gauche.
-    - Bien étirer le rideau noir au fond du studio.
-  
-=== "Studio TGD"
-    - Allumer les lumières à l’entrée du studio.
-    - Le tableau vitré devrait être rangé à votre gauche.
-    - L’écran télé devrait être rangé dans le petit local à votre droite.
-    - Bien étirer le rideau noir au fond du studio.
+## Besoin d'aide?
+N'hésitez pas à réserver une plage horaire avec un membre de notre équipe si vous avez besoin de soutien pendant ou après l'enregistrement. Vous pouvez aussi nous joindre par courriel : creanum@bib.umontreal.ca
